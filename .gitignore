@@ -1,0 +1,31 @@
+# Ignore IDE files and directories
+/src/web/.idea/
+/.pytest_cache/
+
+# Ignore corrections directory
+/src/web/corrections/
+
+# Ignore generated output files
+/src/web/out.csv
+/src/web/out.json
+/src/web/final.csv
+/src/web/final.zip
+
+# Ignore images and model files
+*.jpg
+*.webp
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tif
+*.tiff
+*.svg
+*.eps
+*.pdf
+*.model
+*.h5
+*.ckpt
+*.pb
+*.onnx
+*.pth
