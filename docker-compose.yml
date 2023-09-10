@@ -1,0 +1,11 @@
+version: "3.9"
+services:
+  webapp:
+    build: .
+    volumes:
+      - ./src:/app/src
+      - ./model:/app/model
+      - ./logs:/app/logs
+    restart: always
+    ports:
+      - "8888:8888"

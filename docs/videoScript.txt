@@ -1,0 +1,121 @@
+## Key points
+
+Office setting
+
+Team working on a project
+
+Angry boss asks if there is a scratch or a dent on an image
+
+Main character asks his friends for help. Introduction of every member with action music and funny descriptions.
+
+## Script
+
+### Scene 1
+
+(MC) gets off of the u-bahn (Theresienstraße) and starts walking (in a fast manner) towards the main building of TUM.
+
+### Scene 2
+
+(MC) enters the building and goes to the boss’s office.
+
+### Dialog 1
+
+> Boss: You are late! Again!
+MC: I am sorry, sir, it won’t happen again.
+Boss: Don’t apologize. The project that I gave you 3 months ago is due on Tuesday and you are nowhere near finishing it! (Throws 2 pictures, one with a dent and one with a scratch) Do you even know the (goddamn) difference between a dent and a scratch?
+MC: Yes, sir, I do.
+Boss: Then get yourself together and finish the project on time or you will be fired!
+MC: Yes, sir. (nodding anxiously)
+> 
+
+Dialog 2 Version 2
+
+Boss: You are late! Again!
+
+MC: I am sorry, sir, it won't happen again.
+
+Boss: Don't apologize, (MC). I'm really not satisfied with your work lately. That's why I'm going to give you a project which you have to finish in 4 months. I don't care how you will make it happen, but if you don't, you are fired.
+
+### Scene 3
+
+(MC) calls their friends on the phone for support. (shot with different angle for every person)
+
+### Dialog 2
+
+> MC: Hi, I have a big problem. (to friend 1)
+MC: Are you free this week? (to friend 2)
+MC: I really need your help. (to friend 3)
+MC: Thank you, you are saving my life. (to friend 4)
+> 
+
+### Scene 4
+
+The team is sitting together in one room.
+
+### Dialog 3
+
+> MC: Hello everyone! Thank you all for coming, I really appreciate it. Before we start, let me first introduce everybody. We have (friend 1), (friend 2)…
+> 
+
+(Everyone is introduced with a frozen frame with blurred background and text next to the person)
+(Maybe the introduction is done, while (MC) explains the project structure)
+
+### Friend format
+
+- real info 1 (real contribution to the project)
+- real info 2 (real contribution to the project)
+- fake funny info
+
+### Scene 5
+
+Continuation of Scene 4, everyone is now looking at the board. (MC) describes the project outline. (shot from different angles, no speech, only music)
+
+### Dialog 4
+
+(in short sections during the no speech shots):
+
+> MC: So basically, we need to go from here (shows raw data) to here (shows website).
+friend 5: Why are there images with no cars?
+MC: Well, that’s what we have.
+friend 6: What is the connection between the cubes and the nets again?
+MC: Uhhmmm, Kubernetes? We deploy our model there.
+> 
+
+### Scene 6
+
+Everyone starts working. There is a time-lapse of everyone working
+
+### Scene 7
+
+The project is almost finished. Final bugs are fixed. Some people express their uncertainty.
+
+### Dialog 5
+
+> friend 3: Are we sure we implemented (active learning) correctly?
+… more dialog where some challenges are mentioned.
+> 
+
+### Scene 8
+
+(MC) goes in the boss’s office and is going to present the final product of the project. They, however, invite everyone from the team. The boss is surprised.
+
+### Dialog 6
+
+> Boss: Who are these people, (MC)?
+MC: Well, this is the team that I managed to construct and we finished the project together.
+> 
+
+Boss: Ok. You have my attention.
+
+### Scene 9
+
+Everyone says I few words about the project, while the webapp is shown on the multimedia.
+
+### Dialog 7
+
+Boss: I can see that you put a lot of work in the project. The question now is, was it enough. So, (MC), you are going to…
+
+Video stops:
+
+- There is a black screen that says “connection lost” and another one “to be continued”
+- If the video is long enough, it just ends there.

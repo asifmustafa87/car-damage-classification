@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<!--[if lt IE 9 ]><html class="no-js oldie" lang="en"> <![endif]-->
+<!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+
+<head>
+
+    <!--- basic page needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <title>Group 5</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- mobile specific metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="/static/css/base.css">
+    <link rel="stylesheet" href="/static/css/vendor.css">
+    <link rel="stylesheet" href="/static/css/main.css">
+
+    <!-- script
+    ================================================== -->
+    <script src="/static/js/modernizr.js"></script>
+    <script src="/static/js/pace.min.js"></script>
+
+</head>
+
+<body id="top">
+
+    <!-- header
+    ================================================== -->
+    <header class="s-header">
+
+        <div class="header-logo">
+            <a class="site-logo" href="/">
+                <img src="static/assets/logo.png" alt="Homepage">
+            </a>
+        </div>
+
+        <nav class="header-nav">
+
+            <a href="#0" class="header-nav__close" title="close"><span>Close</span></a>
+
+            <div class="header-nav__content">
+                <h3>Navigation</h3>
+
+                <ul class="header-nav__list">
+                    <li class="current"><a   href="/" title="home">Home</a></li>
+                    <li><a   href="{{url_for('main')}}" title="Detect Damage">Classify Damage</a></li>
+                    <li><a   href="{{url_for('basiclabel')}}" title="Labelling">Label Damage</a></li>
+                    <li><a   href="{{url_for('about')}}" title="about">About us</a></li>
+                </ul>
+
+
+            </div> <!-- end header-nav__content -->
+
+        </nav>  <!-- end header-nav -->
+
+        <a class="header-menu-toggle" href="#0">
+            <span class="header-menu-text">Menu</span>
+            <span class="header-menu-icon"></span>
+        </a>
+
+    </header> <!-- end s-header -->
+
+
+ <section id="contact" class="s-contact">
+
+        <div class="intro-wrap">
+
+            <div class="row section-header has-bottom-sep light-sep" data-aos="fade-up">
+                <div class="col-full">
+                    <h3 class="subhead">Group 5</h3>
+                    <h1 class="display-2 display-2--light">Meet the Team</h1>
+                </div>
+            </div> <!-- end section-header -->
+
+        </div> <!-- end intro-wrap -->
+
+        <div class="row works-content">
+            <div class="col-full masonry-wrap">
+                <div class="masonry">
+
+                    <div class="masonry__brick" data-aos="fade-up">
+                        <div class="item-folio">
+
+                            <div class="item-folio__thumb" style="width: 300px;height: 300px">
+                                <a href="static/group/JPEG image 2.jpeg"  class="thumb-link" title="Shutterbug" data-size="1050x700">
+                                    <img src="static/group/JPEG image 2.jpeg" style="width: 300px;height: 300px" alt="" >
+                                </a>
+                            </div>
+                            <div class="item-folio__text">
+                                <h3 class="item-folio__title">
+                                    Hristo Hriskov
+                                </h3>
+                                <p class="item-folio__cat">
+                                     I study electrical engineering. I love sports, machine learning and playing the guitar.
+                                </p>
+                            </div>
+
+                        </div>
+                    </div> <!-- end masonry__brick -->
+
+                     <div class="masonry__brick" data-aos="fade-up">
+                        <div class="item-folio">
+
+                            <div class="item-folio__thumb" style="width: 300px;height: 300px" >
+                                <a href="static/group/JPEG image 4.jpeg" class="thumb-link" title="Shutterbug" data-size="1050x700">
+                                    <img src="static/group/JPEG image 4.jpeg" style="width: 300px;height: 300px" alt="" >
+                                </a>
+                            </div>
+
+                            <div class="item-folio__text">
+                                <h3 class="item-folio__title">
+                                    Malek Ben Alaya
+                                </h3>
+                                <p class="item-folio__cat">
+                                    studies electrical engineering. loves playing tennis and enjoys techno music.
+                                </p>
+                            </div>
+
+                        </div>
+                    </div> <!-- end masonry__brick -->
+
+                     <div class="masonry__brick" data-aos="fade-up">
+                        <div class="item-folio">
+
+                            <div class="item-folio__thumb" style="width: 300px;height: 300px" >
+                                <a href="static/group/JPEG image 9.jpeg"  class="thumb-link" title="Shutterbug" data-size="1050x700">
+                                    <img src="static/group/JPEG image 9.jpeg" style="width: 300px;height: 300px;" alt="" >
+                                </a>
+                            </div>
+
+                            <div class="item-folio__text">
+                                <h3 class="item-folio__title">
+                                    Moncef Ben Hadj Salem
+                                </h3>
+                                <p class="item-folio__cat">
+                                    Moncef studies electrical engineering. He loves everything sci-fi related  and enjoys gaming.
+                                </p>
+                            </div>
+
+                        </div>
+                    </div> <!-- end masonry__brick -->
+
+                    <div class="masonry__brick" data-aos="fade-up">
+                        <div class="item-folio">
+
+                            <div class="item-folio__thumb" style="width: 300px;height: 300px">
+                                <a href="static/group/JPEG image.jpeg" style="width: 300px;height: 300px" class="thumb-link" title="Shutterbug" data-size="1050x700">
+                                    <img src="static/group/JPEG image.jpeg" alt="" >
+                                </a>
+                            </div>
+
+                            <div class="item-folio__text">
+                                <h3 class="item-folio__title">
+                                    Melvin Mathew
+                                </h3>
+                                <p class="item-folio__cat">
+                                    Jack of all trades, master of none. Studies MSc in Communications Engineering, loves to experiment with AI and observe how YouTube's algorithm learns more about his tastes.
+                                </p>
+                            </div>
+
+                        </div>
+                    </div> <!-- end masonry__brick -->
+
+
+                     <div class="masonry__brick" data-aos="fade-up">
+                        <div class="item-folio">
+
+                            <div class="item-folio__thumb" style="width: 300px;height: 300px">
+                                <a href="static/group/JPEG image 3.jpeg" style="width: 300px;height: 300px" class="thumb-link" title="Shutterbug" data-size="1050x700">
+                                    <img src="static/group/JPEG image 3.jpeg" alt="" >
+                                </a>
+                            </div>
+
+                            <div class="item-folio__text">
+                                <h3 class="item-folio__title">
+                                    Sai Thejeshwar
+                                </h3>
+                                <p class="item-folio__cat">
+                                    I am studying Neuroengineering. Ardent follower of F1 and love to work around AI.
+                                </p>
+                            </div>
+
+                        </div>
+                    </div> <!-- end masonry__brick -->
+
+                     <div class="masonry__brick" data-aos="fade-up">
+                        <div class="item-folio">
+
+                            <div class="item-folio__thumb" style="width: 300px;height: 300px">
+                                <a href="static/group/JPEG image 5.jpeg" style="width: 300px;height: 300px" class="thumb-link" title="Shutterbug" data-size="1050x700">
+                                    <img src="static/group/JPEG image 5.jpeg" alt="" >
+                                </a>
+                            </div>
+
+                            <div class="item-folio__text">
+                                <h3 class="item-folio__title">
+                                    Christian Adumatta Gyampomah
+                                </h3>
+                                <p class="item-folio__cat">
+                                    Communication engineering student. Friends tease me for playing FIFA with a keyboard but they're yet to beat me with their controllers.
+                                </p>
+                            </div>
+
+                        </div>
+                    </div> <!-- end masonry__brick -->
+                    <div class="masonry__brick" data-aos="fade-up">
+                        <div class="item-folio">
+
+                            <div class="item-folio__thumb" style="width: 300px;height: 300px">
+                                <a href="static/group/JPEG image 8.jpeg" style="width: 300px;height: 300px" class="thumb-link" title="Shutterbug" data-size="1050x700">
+                                    <img src="static/group/JPEG image 8.jpeg" alt="" >
+                                </a>
+                            </div>
+
+                            <div class="item-folio__text">
+                                <h3 class="item-folio__title">
+                                    Sagor Saha
+                                </h3>
+                                <p class="item-folio__cat">
+                                    Hi! I am a  self-taught deep learning and AI practitioner, currently studying masters in communication engineering. I love travelling and playing with AI.
+                                </p>
+                            </div>
+
+                        </div>
+                    </div> <!-- end masonry__brick -->
+                    <div class="masonry__brick" data-aos="fade-up">
+                        <div class="item-folio">
+
+                            <div class="item-folio__thumb" style="width: 300px;height: 300px">
+                                <a href="static/group/JPEG image 6.jpeg" style="width: 300px;height: 300px" class="thumb-link" title="Shutterbug" data-size="1050x700">
+                                    <img src="static/group/JPEG image 6.jpeg" alt="" >
+                                </a>
+                            </div>
+
+                            <div class="item-folio__text">
+                                <h3 class="item-folio__title">
+                                    Tayyab Rehman
+                                </h3>
+                                <p class="item-folio__cat">
+                                    Studies communication engineering. Has been doing machine learning since bachelor degree. Loves playing table tennis and cycling.
+                                </p>
+                            </div>
+
+                        </div>
+                    </div> <!-- end masonry__brick -->
+                    <div class="masonry__brick" data-aos="fade-up">
+                        <div class="item-folio">
+
+                            <div class="item-folio__thumb" style="width: 300px;height: 300px">
+                                <a href="static/group/JPEG image 7.jpeg" style="width: 300px;height: 300px" class="thumb-link" title="Shutterbug" data-size="1050x700">
+                                    <img src="static/group/JPEG image 7.jpeg" alt="" >
+                                </a>
+                            </div>
+
+                            <div class="item-folio__text">
+                                <h3 class="item-folio__title">
+                                    Mohammad Asif Ibna Mustafa
+                                </h3>
+                                <p class="item-folio__cat">
+                                    I study  communications engineering. I love travelling and playing football.
+                                </p>
+                            </div>
+
+                        </div>
+                    </div> <!-- end masonry__brick -->
+                </div> <!-- end masonry -->
+            </div> <!-- end col-full -->
+        </div> <!-- end works-content -->
+
+    </section> <!-- end s-works -->
+
+
+   <!-- Java Script
+    ================================================== -->
+    <script src="/static/js/jquery-3.2.1.min.js"></script>
+    <script src="/static/js/plugins.js"></script>
+    <script src="/static/js/main.js"></script>
+</body>
+</html>

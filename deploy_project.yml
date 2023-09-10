@@ -1,0 +1,46 @@
+# Define the pods that should be running. In this case, a nginx webserver is started.
+# For a more extensive explanation see https://kubernetes.io/docs/concepts/overview/working-with-objects/kubernetes-objects/
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: nginx
+  namespace: group05
+  labels:
+    app: nginx
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: nginx
+  template:
+    metadata:
+      labels:
+        app: nginx
+    spec:
+      containers:
+        - name: nginx
+          image: gitlab.ldv.ei.tum.de:5005/ami2022/group05/web_app:latest
+          ports:
+            - containerPort: 80
+      imagePullSecrets: 
+        - name: registry-credentials
+
+---
+# A service enables us to access our webserver from outside of the k8s cluster.
+# See https://kubernetes.io/docs/concepts/services-networking/service/
+
+# Here, we define that our webserver should be accessable on port 80 of all nodes in the cluster.
+apiVersion: v1
+kind: Service
+metadata:
+  name: ngnix-service
+spec:
+  selector:
+    app: nginx
+  type: NodePort
+  ports:
+    - protocol: TCP
+      port: 80
+      nodePort: 30589
+
+

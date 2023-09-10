@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<!--[if lt IE 9 ]><html class="no-js oldie" lang="en"> <![endif]-->
+<!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+
+<head>
+
+    <!--- basic page needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <title>Group 5</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- mobile specific metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="/static/css/base.css">
+    <link rel="stylesheet" href="/static/css/vendor.css">
+    <link rel="stylesheet" href="/static/css/main.css">
+
+    <!-- script
+    ================================================== -->
+    <script src="/static/js/modernizr.js"></script>
+    <script src="/static/js/pace.min.js"></script>
+
+
+</head>
+
+<body id="top">
+
+    <!-- header
+    ================================================== -->
+    <header class="s-header">
+
+        <div class="header-logo">
+            <a class="site-logo" href="/">
+                <img src="static/assets/logo.png" alt="Homepage">
+            </a>
+        </div>
+
+        <nav class="header-nav">
+
+            <a href="#0" class="header-nav__close" title="close"><span>Close</span></a>
+
+            <div class="header-nav__content">
+                <h3>Navigation</h3>
+
+                <ul class="header-nav__list">
+                    <li class="current"><a   href="/" title="home">Home</a></li>
+                    <li><a   href="{{url_for('main')}}" title="Detect Damage"> Classify Damage</a></li>
+                    <li><a   href="{{url_for('basiclabel')}}" title="Labelling">Label Damage</a></li>
+                    <li><a   href="{{url_for('about')}}" title="about">About us</a></li>
+                </ul>
+
+
+            </div> <!-- end header-nav__content -->
+
+        </nav>  <!-- end header-nav -->
+
+        <a class="header-menu-toggle" href="#0">
+            <span class="header-menu-text">Menu</span>
+            <span class="header-menu-icon"></span>
+        </a>
+
+    </header> <!-- end s-header -->
+
+
+
+<div class="container">
+  <section id="clients" class="s-clients">
+    <div class="row section-header">
+                <div class="col-full">
+                <h3 class="subhead">Hello there!</h3>
+                <h1 class="display-2">Please upload your images for labelling</h1>
+                </div>
+    </div>
+  <br><br>
+      <div class="row clients-outer" data-aos="fade-up">
+  <form class="form-horizontal" action="/basic" method="post" enctype="multipart/form-data">
+
+    <div class="form-group">
+      <label class="control-label col-sm-2" for="pwd">Upload Your Image(s) :</label>
+      <div class="col-sm-10">
+        <input type="file" class="form-control" name="files[]" multiple="true" id="pwd">
+      </div>
+    </div>
+        <br><br>
+    <div class="form-group">
+      <div class="col-sm-offset-2 col-sm-10 ">
+        <button type="submit" name="form1" class="btn btn--stroke btn--pill" >Submit</button>
+      </div>
+    </div>
+  </form>
+{% if error %}
+  <p class=error><strong>Error:</strong> {{ error }}</p>
+{% endif %}
+{% if leng %}
+  {% for i in range(leng) %}
+    <br><br><br>
+  <img src="{{img_path[i]}}" style="width: 350px; height: 300px;">
+
+    <form id="forms" method="post">
+      <h2><i>Please label the damage:</i></h2>
+     <input hidden name={{'Image'+ loop.index0|string }} value="{{img_name[i]}}">
+      <input type="radio" id="scratch" name={{'Damage'+ loop.index0|string }} value="scratch" style="margin:0px 10px 0px 30px;" >
+      <label for="scratch" style="display: inline-block;">Scratch</label>
+      <input type="radio" id="dent"  name={{'Damage'+ loop.index0|string }} value="dent" style="margin:0px 10px 0px 30px;">
+      <label for="dent" style="display: inline-block;">Dent</label>
+      <input type="radio" id="rim"  name={{'Damage'+ loop.index0|string }} value="rim" style="margin:0px 10px 0px 30px;">
+      <label for="rim" style="display: inline-block;">Rim</label>
+      <input type="radio" id="other"  name={{'Damage'+ loop.index0|string }} value="other" style="margin:0px 10px 0px 30px;">
+      <label for="other" style="display: inline-block;">Other</label><br>
+        <hr class="rounded" style=" border-top: 3px solid #010507; border-radius: 5px;">
+    {% endfor %}
+      <button type="submit" name="form2">Submit</button>
+    </form>
+  {% endif %}
+      </div>
+</section>
+</div>
+    <!-- Java Script
+    ================================================== -->
+    <script src="/static/js/jquery-3.2.1.min.js"></script>
+    <script src="/static/js/plugins.js"></script>
+    <script src="/static/js/main.js"></script>
+
+</body>
+</html>
+

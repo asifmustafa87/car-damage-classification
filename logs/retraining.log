@@ -1,0 +1,1143 @@
+2022-09-02 18:52:22,962 - matplotlib - DEBUG - CACHEDIR=C:\Users\sugiy\.matplotlib
+2022-09-02 18:52:22,965 - matplotlib.font_manager - DEBUG - Using fontManager instance from C:\Users\sugiy\.matplotlib\fontlist-v330.json
+2022-09-02 18:52:25,907 - tensorflow - DEBUG - Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2022-09-02 18:52:26,341 - h5py._conv - DEBUG - Creating converter from 7 to 5
+2022-09-02 18:52:26,341 - h5py._conv - DEBUG - Creating converter from 5 to 7
+2022-09-02 18:52:26,341 - h5py._conv - DEBUG - Creating converter from 7 to 5
+2022-09-02 18:52:26,342 - h5py._conv - DEBUG - Creating converter from 5 to 7
+2022-09-02 18:52:29,113 - src.ml.handle_prediction - INFO - Creating new model instance <src.ml.handle_prediction.ProductionModels object at 0x000001D8B6EF3D60>
+2022-09-02 18:52:29,113 - src.ml.handle_prediction - INFO - Loading model at path C:\Users\sugiy\Desktop\New folder (19)\Group05\model\model.h5
+2022-09-02 18:52:29,138 - h5py._conv - DEBUG - Creating converter from 3 to 5
+2022-09-02 18:52:32,609 - root - INFO - Starting execution of webapp from __main__
+2022-09-02 18:52:32,609 - src.ml.handle_prediction - INFO - b" * Serving Flask app 'src.web.main' (lazy loading)"
+2022-09-02 18:52:32,609 - src.ml.handle_prediction - INFO - b' * Environment: production'
+2022-09-02 18:52:32,609 - src.ml.handle_prediction - INFO - b'   WARNING: This is a development server. Do not use it in a production deployment.'
+2022-09-02 18:52:32,609 - src.ml.handle_prediction - INFO - b'   Use a production WSGI server instead.'
+2022-09-02 18:52:32,609 - src.ml.handle_prediction - INFO - b' * Debug mode: on'
+2022-09-02 18:52:32,615 - werkzeug - INFO -  * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:8888
+ * Running on http://192.168.0.107:8888 (Press CTRL+C to quit)
+2022-09-02 18:52:32,616 - werkzeug - INFO -  * Restarting with stat
+2022-09-02 18:52:32,959 - matplotlib - DEBUG - CACHEDIR=C:\Users\sugiy\.matplotlib
+2022-09-02 18:52:32,961 - matplotlib.font_manager - DEBUG - Using fontManager instance from C:\Users\sugiy\.matplotlib\fontlist-v330.json
+2022-09-02 18:52:34,154 - tensorflow - DEBUG - Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2022-09-02 18:52:34,342 - h5py._conv - DEBUG - Creating converter from 7 to 5
+2022-09-02 18:52:34,342 - h5py._conv - DEBUG - Creating converter from 5 to 7
+2022-09-02 18:52:34,342 - h5py._conv - DEBUG - Creating converter from 7 to 5
+2022-09-02 18:52:34,342 - h5py._conv - DEBUG - Creating converter from 5 to 7
+2022-09-02 18:52:35,801 - src.ml.handle_prediction - INFO - Creating new model instance <src.ml.handle_prediction.ProductionModels object at 0x00000155EE2F7DF0>
+2022-09-02 18:52:35,802 - src.ml.handle_prediction - INFO - Loading model at path C:\Users\sugiy\Desktop\New folder (19)\Group05\model\model.h5
+2022-09-02 18:52:35,804 - h5py._conv - DEBUG - Creating converter from 3 to 5
+2022-09-02 18:52:38,500 - root - INFO - Starting execution of webapp from __main__
+2022-09-02 18:52:38,504 - werkzeug - WARNING -  * Debugger is active!
+2022-09-02 18:52:38,507 - werkzeug - INFO -  * Debugger PIN: 619-699-038
+2022-09-02 18:52:45,119 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 18:52:45] "GET / HTTP/1.1" 200 -
+2022-09-02 18:52:45,221 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 18:52:45] "GET /static/css/base.css HTTP/1.1" 200 -
+2022-09-02 18:52:45,221 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 18:52:45] "GET /static/css/vendor.css HTTP/1.1" 200 -
+2022-09-02 18:52:45,222 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 18:52:45] "GET /static/css/main.css HTTP/1.1" 200 -
+2022-09-02 18:52:45,224 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 18:52:45] "GET /static/js/modernizr.js HTTP/1.1" 200 -
+2022-09-02 18:52:45,225 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 18:52:45] "GET /static/js/pace.min.js HTTP/1.1" 200 -
+2022-09-02 18:52:45,229 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 18:52:45] "GET /static/css/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+2022-09-02 18:52:45,230 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 18:52:45] "GET /static/css/micons/micons.css HTTP/1.1" 200 -
+2022-09-02 18:52:45,231 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 18:52:45] "GET /static/css/fonts.css HTTP/1.1" 200 -
+2022-09-02 18:52:45,235 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 18:52:45] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 200 -
+2022-09-02 18:52:45,236 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 18:52:45] "GET /static/js/plugins.js HTTP/1.1" 200 -
+2022-09-02 18:52:45,257 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 18:52:45] "GET /static/js/main.js HTTP/1.1" 200 -
+2022-09-02 18:52:45,262 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 18:52:45] "GET /static/assets/logo.png HTTP/1.1" 200 -
+2022-09-02 18:52:45,293 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 18:52:45] "GET /static/fonts/montserrat/montserrat-semibold-webfont.woff2 HTTP/1.1" 200 -
+2022-09-02 18:52:45,295 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 18:52:45] "GET /static/fonts/montserrat/montserrat-regular-webfont.woff2 HTTP/1.1" 200 -
+2022-09-02 18:52:45,297 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 18:52:45] "GET /static/fonts/montserrat/montserrat-medium-webfont.woff2 HTTP/1.1" 200 -
+2022-09-02 18:52:45,299 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 18:52:45] "GET /static/fonts/lora/lora-regular-webfont.woff2 HTTP/1.1" 200 -
+2022-09-02 18:52:45,332 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 18:52:45] "GET /static/assets/Car2.jpg HTTP/1.1" 200 -
+2022-09-02 18:52:48,755 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 18:52:48] "GET /damage HTTP/1.1" 200 -
+2022-09-02 18:52:48,775 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 18:52:48] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-09-02 18:52:48,776 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 18:52:48] "[36mGET /static/css/vendor.css HTTP/1.1[0m" 304 -
+2022-09-02 18:52:48,777 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 18:52:48] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2022-09-02 18:52:48,779 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 18:52:48] "[36mGET /static/js/modernizr.js HTTP/1.1[0m" 304 -
+2022-09-02 18:52:48,781 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 18:52:48] "[36mGET /static/js/pace.min.js HTTP/1.1[0m" 304 -
+2022-09-02 18:52:48,782 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 18:52:48] "[36mGET /static/assets/logo.png HTTP/1.1[0m" 304 -
+2022-09-02 18:52:48,801 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 18:52:48] "[36mGET /static/css/font-awesome/css/font-awesome.min.css HTTP/1.1[0m" 304 -
+2022-09-02 18:52:48,803 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 18:52:48] "[36mGET /static/css/micons/micons.css HTTP/1.1[0m" 304 -
+2022-09-02 18:52:48,804 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 18:52:48] "[36mGET /static/css/fonts.css HTTP/1.1[0m" 304 -
+2022-09-02 18:52:48,809 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 18:52:48] "[36mGET /static/js/jquery-3.2.1.min.js HTTP/1.1[0m" 304 -
+2022-09-02 18:52:48,810 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 18:52:48] "[36mGET /static/js/plugins.js HTTP/1.1[0m" 304 -
+2022-09-02 18:52:48,827 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 18:52:48] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2022-09-02 18:52:48,838 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 18:52:48] "[36mGET /static/fonts/montserrat/montserrat-semibold-webfont.woff2 HTTP/1.1[0m" 304 -
+2022-09-02 18:52:48,840 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 18:52:48] "[36mGET /static/fonts/montserrat/montserrat-regular-webfont.woff2 HTTP/1.1[0m" 304 -
+2022-09-02 18:52:48,841 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 18:52:48] "[36mGET /static/fonts/montserrat/montserrat-medium-webfont.woff2 HTTP/1.1[0m" 304 -
+2022-09-02 18:52:48,842 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 18:52:48] "[36mGET /static/fonts/lora/lora-regular-webfont.woff2 HTTP/1.1[0m" 304 -
+2022-09-02 18:52:48,850 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 18:52:48] "GET /static/fonts/montserrat/montserrat-bold-webfont.woff2 HTTP/1.1" 200 -
+2022-09-02 18:52:53,230 - src.web.main - INFO - Model processing image: 3ab29178-11af-470c-a691-3cc46e105439_AS62305_1630568724_0_43.jpeg
+2022-09-02 18:52:53,239 - src.ml.handle_prediction - INFO - Running prediction with explainability on image on image with src.ml.handle_prediction.predict_with_explain
+2022-09-02 18:52:53,240 - src.ml.handle_prediction - INFO - Running prediction on image with src.ml.handle_prediction.predict
+2022-09-02 18:52:54,222 - src.ml.handle_prediction - INFO - 
+2022-09-02 18:52:54,222 - src.ml.handle_prediction - INFO - 1/1 [==============================] - ETA: 0s
+2022-09-02 18:52:54,224 - src.ml.handle_prediction - INFO - 
+2022-09-02 18:52:54,224 - src.ml.handle_prediction - INFO - 1/1 [==============================] - 1s 906ms/step
+2022-09-02 18:52:54,228 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 18:52:54] "POST /submit HTTP/1.1" 200 -
+2022-09-02 18:52:54,241 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 18:52:54] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-09-02 18:52:54,243 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 18:52:54] "[36mGET /static/css/vendor.css HTTP/1.1[0m" 304 -
+2022-09-02 18:52:54,244 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 18:52:54] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2022-09-02 18:52:54,246 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 18:52:54] "[36mGET /static/js/modernizr.js HTTP/1.1[0m" 304 -
+2022-09-02 18:52:54,247 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 18:52:54] "[36mGET /static/js/pace.min.js HTTP/1.1[0m" 304 -
+2022-09-02 18:52:54,268 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 18:52:54] "[36mGET /static/css/font-awesome/css/font-awesome.min.css HTTP/1.1[0m" 304 -
+2022-09-02 18:52:54,268 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 18:52:54] "[36mGET /static/css/micons/micons.css HTTP/1.1[0m" 304 -
+2022-09-02 18:52:54,269 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 18:52:54] "[36mGET /static/css/fonts.css HTTP/1.1[0m" 304 -
+2022-09-02 18:52:54,273 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 18:52:54] "[36mGET /static/js/jquery-3.2.1.min.js HTTP/1.1[0m" 304 -
+2022-09-02 18:52:54,274 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 18:52:54] "[36mGET /static/js/plugins.js HTTP/1.1[0m" 304 -
+2022-09-02 18:52:54,285 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 18:52:54] "[36mGET /static/assets/logo.png HTTP/1.1[0m" 304 -
+2022-09-02 18:52:54,290 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 18:52:54] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2022-09-02 18:52:54,291 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 18:52:54] "GET /static/3ab29178-11af-470c-a691-3cc46e105439_AS62305_1630568724_0_43.jpeg HTTP/1.1" 200 -
+2022-09-02 18:52:54,296 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 18:52:54] "[36mGET /static/fonts/montserrat/montserrat-semibold-webfont.woff2 HTTP/1.1[0m" 304 -
+2022-09-02 18:52:54,297 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 18:52:54] "[36mGET /static/fonts/montserrat/montserrat-regular-webfont.woff2 HTTP/1.1[0m" 304 -
+2022-09-02 18:52:54,299 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 18:52:54] "[36mGET /static/fonts/montserrat/montserrat-medium-webfont.woff2 HTTP/1.1[0m" 304 -
+2022-09-02 18:52:54,300 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 18:52:54] "[36mGET /static/fonts/montserrat/montserrat-bold-webfont.woff2 HTTP/1.1[0m" 304 -
+2022-09-02 18:52:54,302 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 18:52:54] "[36mGET /static/fonts/lora/lora-regular-webfont.woff2 HTTP/1.1[0m" 304 -
+2022-09-02 18:52:54,303 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 18:52:54] "GET /static/fonts/lora/lora-italic-webfont.woff2 HTTP/1.1" 200 -
+2022-09-02 18:52:58,496 - src.ml.handle_prediction - INFO - {'Damage0': 'rim', 'Image0': '3ab29178-11af-470c-a691-3cc46e105439_AS62305_1630568724_0_43.jpeg'}
+2022-09-02 18:52:58,502 - src.ml.handle_prediction - INFO - Running model retraining, correction label with src.ml.handle_prediction.correct_model_on_images: 2, augment images? False
+2022-09-02 18:52:59,974 - src.ml.handle_prediction - INFO - 
+2022-09-02 18:52:59,974 - src.ml.handle_prediction - INFO - 1/1 [==============================] - ETA: 0s - loss: 0.0000e+00 - accuracy: 1.0000
+2022-09-02 18:52:59,975 - src.ml.handle_prediction - INFO - 
+2022-09-02 18:52:59,975 - src.ml.handle_prediction - INFO - 1/1 [==============================] - 1s 1s/step - loss: 0.0000e+00 - accuracy: 1.0000
+2022-09-02 18:53:00,008 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 18:53:00] "POST /submit HTTP/1.1" 200 -
+2022-09-02 18:53:00,024 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 18:53:00] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-09-02 18:53:00,027 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 18:53:00] "[36mGET /static/css/vendor.css HTTP/1.1[0m" 304 -
+2022-09-02 18:53:00,030 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 18:53:00] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2022-09-02 18:53:00,032 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 18:53:00] "[36mGET /static/js/modernizr.js HTTP/1.1[0m" 304 -
+2022-09-02 18:53:00,033 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 18:53:00] "[36mGET /static/js/pace.min.js HTTP/1.1[0m" 304 -
+2022-09-02 18:53:00,055 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 18:53:00] "[36mGET /static/css/font-awesome/css/font-awesome.min.css HTTP/1.1[0m" 304 -
+2022-09-02 18:53:00,055 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 18:53:00] "[36mGET /static/css/micons/micons.css HTTP/1.1[0m" 304 -
+2022-09-02 18:53:00,056 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 18:53:00] "[36mGET /static/css/fonts.css HTTP/1.1[0m" 304 -
+2022-09-02 18:53:00,060 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 18:53:00] "[36mGET /static/js/jquery-3.2.1.min.js HTTP/1.1[0m" 304 -
+2022-09-02 18:53:00,061 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 18:53:00] "[36mGET /static/js/plugins.js HTTP/1.1[0m" 304 -
+2022-09-02 18:53:00,071 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 18:53:00] "[36mGET /static/assets/logo.png HTTP/1.1[0m" 304 -
+2022-09-02 18:53:00,076 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 18:53:00] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2022-09-02 18:53:00,085 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 18:53:00] "[36mGET /static/fonts/montserrat/montserrat-semibold-webfont.woff2 HTTP/1.1[0m" 304 -
+2022-09-02 18:53:00,086 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 18:53:00] "[36mGET /static/fonts/montserrat/montserrat-regular-webfont.woff2 HTTP/1.1[0m" 304 -
+2022-09-02 18:53:00,087 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 18:53:00] "[36mGET /static/fonts/montserrat/montserrat-medium-webfont.woff2 HTTP/1.1[0m" 304 -
+2022-09-02 18:53:00,089 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 18:53:00] "[36mGET /static/fonts/montserrat/montserrat-bold-webfont.woff2 HTTP/1.1[0m" 304 -
+2022-09-02 18:53:00,090 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 18:53:00] "[36mGET /static/fonts/lora/lora-regular-webfont.woff2 HTTP/1.1[0m" 304 -
+2022-09-02 18:53:01,659 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 18:53:01] "GET /log HTTP/1.1" 200 -
+2022-09-02 19:28:11,957 - matplotlib - DEBUG - CACHEDIR=C:\Users\sugiy\.matplotlib
+2022-09-02 19:28:11,958 - matplotlib.font_manager - DEBUG - Using fontManager instance from C:\Users\sugiy\.matplotlib\fontlist-v330.json
+2022-09-02 19:28:13,160 - tensorflow - DEBUG - Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2022-09-02 19:28:13,345 - h5py._conv - DEBUG - Creating converter from 7 to 5
+2022-09-02 19:28:13,345 - h5py._conv - DEBUG - Creating converter from 5 to 7
+2022-09-02 19:28:13,345 - h5py._conv - DEBUG - Creating converter from 7 to 5
+2022-09-02 19:28:13,345 - h5py._conv - DEBUG - Creating converter from 5 to 7
+2022-09-02 19:28:14,771 - src.ml.handle_prediction - INFO - Creating new model instance <src.ml.handle_prediction.ProductionModels object at 0x000002B6CA793F10>
+2022-09-02 19:28:14,771 - src.ml.handle_prediction - INFO - Loading model at path C:\Users\sugiy\Desktop\New folder (19)\Group05\model\model.h5
+2022-09-02 19:28:14,774 - h5py._conv - DEBUG - Creating converter from 3 to 5
+2022-09-02 19:28:18,023 - root - INFO - Starting execution of webapp from __main__
+2022-09-02 19:28:18,024 - src.ml.handle_prediction - INFO - b" * Serving Flask app 'src.web.main' (lazy loading)"
+2022-09-02 19:28:18,024 - src.ml.handle_prediction - INFO - b' * Environment: production'
+2022-09-02 19:28:18,024 - src.ml.handle_prediction - INFO - b'   WARNING: This is a development server. Do not use it in a production deployment.'
+2022-09-02 19:28:18,024 - src.ml.handle_prediction - INFO - b'   Use a production WSGI server instead.'
+2022-09-02 19:28:18,024 - src.ml.handle_prediction - INFO - b' * Debug mode: on'
+2022-09-02 19:28:18,028 - werkzeug - INFO -  * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:8888
+ * Running on http://192.168.0.107:8888 (Press CTRL+C to quit)
+2022-09-02 19:28:18,029 - werkzeug - INFO -  * Restarting with stat
+2022-09-02 19:28:18,351 - matplotlib - DEBUG - CACHEDIR=C:\Users\sugiy\.matplotlib
+2022-09-02 19:28:18,353 - matplotlib.font_manager - DEBUG - Using fontManager instance from C:\Users\sugiy\.matplotlib\fontlist-v330.json
+2022-09-02 19:28:19,499 - tensorflow - DEBUG - Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2022-09-02 19:28:19,682 - h5py._conv - DEBUG - Creating converter from 7 to 5
+2022-09-02 19:28:19,682 - h5py._conv - DEBUG - Creating converter from 5 to 7
+2022-09-02 19:28:19,682 - h5py._conv - DEBUG - Creating converter from 7 to 5
+2022-09-02 19:28:19,682 - h5py._conv - DEBUG - Creating converter from 5 to 7
+2022-09-02 19:28:21,113 - src.ml.handle_prediction - INFO - Creating new model instance <src.ml.handle_prediction.ProductionModels object at 0x00000264CC303E20>
+2022-09-02 19:28:21,113 - src.ml.handle_prediction - INFO - Loading model at path C:\Users\sugiy\Desktop\New folder (19)\Group05\model\model.h5
+2022-09-02 19:28:21,116 - h5py._conv - DEBUG - Creating converter from 3 to 5
+2022-09-02 19:28:23,861 - root - INFO - Starting execution of webapp from __main__
+2022-09-02 19:28:23,864 - werkzeug - WARNING -  * Debugger is active!
+2022-09-02 19:28:23,867 - werkzeug - INFO -  * Debugger PIN: 619-699-038
+2022-09-02 19:28:36,111 - werkzeug - INFO -  * Detected change in 'C:\\Users\\sugiy\\Desktop\\New folder (19)\\Group05\\src\\web\\main.py', reloading
+2022-09-02 19:28:40,638 - matplotlib - DEBUG - CACHEDIR=C:\Users\sugiy\.matplotlib
+2022-09-02 19:28:40,640 - matplotlib.font_manager - DEBUG - Using fontManager instance from C:\Users\sugiy\.matplotlib\fontlist-v330.json
+2022-09-02 19:28:41,895 - tensorflow - DEBUG - Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2022-09-02 19:28:42,085 - h5py._conv - DEBUG - Creating converter from 7 to 5
+2022-09-02 19:28:42,085 - h5py._conv - DEBUG - Creating converter from 5 to 7
+2022-09-02 19:28:42,085 - h5py._conv - DEBUG - Creating converter from 7 to 5
+2022-09-02 19:28:42,085 - h5py._conv - DEBUG - Creating converter from 5 to 7
+2022-09-02 19:28:43,530 - src.ml.handle_prediction - INFO - Creating new model instance <src.ml.handle_prediction.ProductionModels object at 0x00000208166DBEB0>
+2022-09-02 19:28:43,530 - src.ml.handle_prediction - INFO - Loading model at path C:\Users\sugiy\Desktop\New folder (19)\Group05\model\model.h5
+2022-09-02 19:28:43,533 - h5py._conv - DEBUG - Creating converter from 3 to 5
+2022-09-02 19:28:46,191 - root - INFO - Starting execution of webapp from __main__
+2022-09-02 19:28:46,192 - src.ml.handle_prediction - INFO - b" * Serving Flask app 'src.web.main' (lazy loading)"
+2022-09-02 19:28:46,192 - src.ml.handle_prediction - INFO - b' * Environment: production'
+2022-09-02 19:28:46,192 - src.ml.handle_prediction - INFO - b'   WARNING: This is a development server. Do not use it in a production deployment.'
+2022-09-02 19:28:46,192 - src.ml.handle_prediction - INFO - b'   Use a production WSGI server instead.'
+2022-09-02 19:28:46,192 - src.ml.handle_prediction - INFO - b' * Debug mode: on'
+2022-09-02 19:28:46,197 - werkzeug - INFO -  * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:8888
+ * Running on http://192.168.0.107:8888 (Press CTRL+C to quit)
+2022-09-02 19:28:46,198 - werkzeug - INFO -  * Restarting with stat
+2022-09-02 19:28:46,512 - matplotlib - DEBUG - CACHEDIR=C:\Users\sugiy\.matplotlib
+2022-09-02 19:28:46,514 - matplotlib.font_manager - DEBUG - Using fontManager instance from C:\Users\sugiy\.matplotlib\fontlist-v330.json
+2022-09-02 19:28:47,657 - tensorflow - DEBUG - Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2022-09-02 19:28:47,836 - h5py._conv - DEBUG - Creating converter from 7 to 5
+2022-09-02 19:28:47,836 - h5py._conv - DEBUG - Creating converter from 5 to 7
+2022-09-02 19:28:47,836 - h5py._conv - DEBUG - Creating converter from 7 to 5
+2022-09-02 19:28:47,836 - h5py._conv - DEBUG - Creating converter from 5 to 7
+2022-09-02 19:28:49,246 - src.ml.handle_prediction - INFO - Creating new model instance <src.ml.handle_prediction.ProductionModels object at 0x000001DFE3CA3E20>
+2022-09-02 19:28:49,246 - src.ml.handle_prediction - INFO - Loading model at path C:\Users\sugiy\Desktop\New folder (19)\Group05\model\model.h5
+2022-09-02 19:28:49,248 - h5py._conv - DEBUG - Creating converter from 3 to 5
+2022-09-02 19:28:51,905 - root - INFO - Starting execution of webapp from __main__
+2022-09-02 19:28:51,909 - werkzeug - WARNING -  * Debugger is active!
+2022-09-02 19:28:51,912 - werkzeug - INFO -  * Debugger PIN: 619-699-038
+2022-09-02 19:30:55,536 - matplotlib - DEBUG - CACHEDIR=C:\Users\sugiy\.matplotlib
+2022-09-02 19:30:55,538 - matplotlib.font_manager - DEBUG - Using fontManager instance from C:\Users\sugiy\.matplotlib\fontlist-v330.json
+2022-09-02 19:30:56,877 - tensorflow - DEBUG - Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2022-09-02 19:30:57,095 - h5py._conv - DEBUG - Creating converter from 7 to 5
+2022-09-02 19:30:57,095 - h5py._conv - DEBUG - Creating converter from 5 to 7
+2022-09-02 19:30:57,095 - h5py._conv - DEBUG - Creating converter from 7 to 5
+2022-09-02 19:30:57,095 - h5py._conv - DEBUG - Creating converter from 5 to 7
+2022-09-02 19:30:58,778 - src.ml.handle_prediction - INFO - Creating new model instance <src.ml.handle_prediction.ProductionModels object at 0x00000200ABF97E80>
+2022-09-02 19:30:58,778 - src.ml.handle_prediction - INFO - Loading model at path C:\Users\sugiy\Desktop\New folder (19)\Group05\model\model.h5
+2022-09-02 19:30:58,782 - h5py._conv - DEBUG - Creating converter from 3 to 5
+2022-09-02 19:31:02,201 - root - INFO - Starting execution of webapp from __main__
+2022-09-02 19:31:02,201 - src.ml.handle_prediction - INFO - b" * Serving Flask app 'src.web.main' (lazy loading)"
+2022-09-02 19:31:02,201 - src.ml.handle_prediction - INFO - b' * Environment: production'
+2022-09-02 19:31:02,201 - src.ml.handle_prediction - INFO - b'   WARNING: This is a development server. Do not use it in a production deployment.'
+2022-09-02 19:31:02,201 - src.ml.handle_prediction - INFO - b'   Use a production WSGI server instead.'
+2022-09-02 19:31:02,201 - src.ml.handle_prediction - INFO - b' * Debug mode: on'
+2022-09-02 19:31:02,206 - werkzeug - INFO -  * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:8888
+ * Running on http://192.168.0.107:8888 (Press CTRL+C to quit)
+2022-09-02 19:31:02,207 - werkzeug - INFO -  * Restarting with stat
+2022-09-02 19:31:02,537 - matplotlib - DEBUG - CACHEDIR=C:\Users\sugiy\.matplotlib
+2022-09-02 19:31:02,539 - matplotlib.font_manager - DEBUG - Using fontManager instance from C:\Users\sugiy\.matplotlib\fontlist-v330.json
+2022-09-02 19:31:03,718 - tensorflow - DEBUG - Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2022-09-02 19:31:03,903 - h5py._conv - DEBUG - Creating converter from 7 to 5
+2022-09-02 19:31:03,903 - h5py._conv - DEBUG - Creating converter from 5 to 7
+2022-09-02 19:31:03,903 - h5py._conv - DEBUG - Creating converter from 7 to 5
+2022-09-02 19:31:03,903 - h5py._conv - DEBUG - Creating converter from 5 to 7
+2022-09-02 19:31:05,325 - src.ml.handle_prediction - INFO - Creating new model instance <src.ml.handle_prediction.ProductionModels object at 0x000001B761D43E20>
+2022-09-02 19:31:05,325 - src.ml.handle_prediction - INFO - Loading model at path C:\Users\sugiy\Desktop\New folder (19)\Group05\model\model.h5
+2022-09-02 19:31:05,327 - h5py._conv - DEBUG - Creating converter from 3 to 5
+2022-09-02 19:31:08,000 - root - INFO - Starting execution of webapp from __main__
+2022-09-02 19:31:08,005 - werkzeug - WARNING -  * Debugger is active!
+2022-09-02 19:31:08,007 - werkzeug - INFO -  * Debugger PIN: 619-699-038
+2022-09-02 19:32:41,032 - matplotlib - DEBUG - CACHEDIR=C:\Users\sugiy\.matplotlib
+2022-09-02 19:32:41,033 - matplotlib.font_manager - DEBUG - Using fontManager instance from C:\Users\sugiy\.matplotlib\fontlist-v330.json
+2022-09-02 19:32:42,249 - tensorflow - DEBUG - Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2022-09-02 19:32:42,448 - h5py._conv - DEBUG - Creating converter from 7 to 5
+2022-09-02 19:32:42,448 - h5py._conv - DEBUG - Creating converter from 5 to 7
+2022-09-02 19:32:42,448 - h5py._conv - DEBUG - Creating converter from 7 to 5
+2022-09-02 19:32:42,448 - h5py._conv - DEBUG - Creating converter from 5 to 7
+2022-09-02 19:32:43,896 - src.ml.handle_prediction - INFO - Creating new model instance <src.ml.handle_prediction.ProductionModels object at 0x000001C8DC107EB0>
+2022-09-02 19:32:43,896 - src.ml.handle_prediction - INFO - Loading model at path C:\Users\sugiy\Desktop\New folder (19)\Group05\model\model.h5
+2022-09-02 19:32:43,899 - h5py._conv - DEBUG - Creating converter from 3 to 5
+2022-09-02 19:32:47,051 - root - INFO - Starting execution of webapp from __main__
+2022-09-02 19:32:47,051 - src.ml.handle_prediction - INFO - b" * Serving Flask app 'src.web.main' (lazy loading)"
+2022-09-02 19:32:47,051 - src.ml.handle_prediction - INFO - b' * Environment: production'
+2022-09-02 19:32:47,051 - src.ml.handle_prediction - INFO - b'   WARNING: This is a development server. Do not use it in a production deployment.'
+2022-09-02 19:32:47,051 - src.ml.handle_prediction - INFO - b'   Use a production WSGI server instead.'
+2022-09-02 19:32:47,052 - src.ml.handle_prediction - INFO - b' * Debug mode: on'
+2022-09-02 19:32:47,057 - werkzeug - INFO -  * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:8888
+ * Running on http://192.168.0.107:8888 (Press CTRL+C to quit)
+2022-09-02 19:32:47,058 - werkzeug - INFO -  * Restarting with stat
+2022-09-02 19:32:47,374 - matplotlib - DEBUG - CACHEDIR=C:\Users\sugiy\.matplotlib
+2022-09-02 19:32:47,375 - matplotlib.font_manager - DEBUG - Using fontManager instance from C:\Users\sugiy\.matplotlib\fontlist-v330.json
+2022-09-02 19:32:48,531 - tensorflow - DEBUG - Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2022-09-02 19:32:48,713 - h5py._conv - DEBUG - Creating converter from 7 to 5
+2022-09-02 19:32:48,713 - h5py._conv - DEBUG - Creating converter from 5 to 7
+2022-09-02 19:32:48,713 - h5py._conv - DEBUG - Creating converter from 7 to 5
+2022-09-02 19:32:48,713 - h5py._conv - DEBUG - Creating converter from 5 to 7
+2022-09-02 19:32:50,161 - src.ml.handle_prediction - INFO - Creating new model instance <src.ml.handle_prediction.ProductionModels object at 0x000001D9A95B3E20>
+2022-09-02 19:32:50,162 - src.ml.handle_prediction - INFO - Loading model at path C:\Users\sugiy\Desktop\New folder (19)\Group05\model\model.h5
+2022-09-02 19:32:50,166 - h5py._conv - DEBUG - Creating converter from 3 to 5
+2022-09-02 19:32:52,968 - root - INFO - Starting execution of webapp from __main__
+2022-09-02 19:32:52,973 - werkzeug - WARNING -  * Debugger is active!
+2022-09-02 19:32:52,976 - werkzeug - INFO -  * Debugger PIN: 619-699-038
+2022-09-02 19:38:14,363 - matplotlib - DEBUG - CACHEDIR=C:\Users\sugiy\.matplotlib
+2022-09-02 19:38:14,365 - matplotlib.font_manager - DEBUG - Using fontManager instance from C:\Users\sugiy\.matplotlib\fontlist-v330.json
+2022-09-02 19:38:15,512 - tensorflow - DEBUG - Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2022-09-02 19:38:15,693 - h5py._conv - DEBUG - Creating converter from 7 to 5
+2022-09-02 19:38:15,693 - h5py._conv - DEBUG - Creating converter from 5 to 7
+2022-09-02 19:38:15,693 - h5py._conv - DEBUG - Creating converter from 7 to 5
+2022-09-02 19:38:15,693 - h5py._conv - DEBUG - Creating converter from 5 to 7
+2022-09-02 19:38:17,103 - Group05.src.ml.handle_prediction - INFO - Creating new model instance <Group05.src.ml.handle_prediction.ProductionModels object at 0x00000255F24FC1F0>
+2022-09-02 19:38:17,103 - Group05.src.ml.handle_prediction - INFO - Loading model at path C:\Users\sugiy\Desktop\New folder (19)\Group05\model\model.h5
+2022-09-02 19:38:17,105 - h5py._conv - DEBUG - Creating converter from 3 to 5
+2022-09-02 19:38:20,313 - root - INFO - Starting execution of webapp from __main__
+2022-09-02 19:38:20,313 - Group05.src.ml.handle_prediction - INFO - b" * Serving Flask app 'src.web.main' (lazy loading)"
+2022-09-02 19:38:20,313 - Group05.src.ml.handle_prediction - INFO - b' * Environment: production'
+2022-09-02 19:38:20,313 - Group05.src.ml.handle_prediction - INFO - b'   WARNING: This is a development server. Do not use it in a production deployment.'
+2022-09-02 19:38:20,313 - Group05.src.ml.handle_prediction - INFO - b'   Use a production WSGI server instead.'
+2022-09-02 19:38:20,313 - Group05.src.ml.handle_prediction - INFO - b' * Debug mode: on'
+2022-09-02 19:38:20,317 - werkzeug - INFO -  * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:8888
+ * Running on http://192.168.0.107:8888 (Press CTRL+C to quit)
+2022-09-02 19:38:20,319 - werkzeug - INFO -  * Restarting with stat
+2022-09-02 19:38:20,636 - matplotlib - DEBUG - CACHEDIR=C:\Users\sugiy\.matplotlib
+2022-09-02 19:38:20,637 - matplotlib.font_manager - DEBUG - Using fontManager instance from C:\Users\sugiy\.matplotlib\fontlist-v330.json
+2022-09-02 19:38:21,805 - tensorflow - DEBUG - Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2022-09-02 19:38:21,994 - h5py._conv - DEBUG - Creating converter from 7 to 5
+2022-09-02 19:38:21,994 - h5py._conv - DEBUG - Creating converter from 5 to 7
+2022-09-02 19:38:21,994 - h5py._conv - DEBUG - Creating converter from 7 to 5
+2022-09-02 19:38:21,995 - h5py._conv - DEBUG - Creating converter from 5 to 7
+2022-09-02 19:38:23,480 - Group05.src.ml.handle_prediction - INFO - Creating new model instance <Group05.src.ml.handle_prediction.ProductionModels object at 0x00000270A70EC160>
+2022-09-02 19:38:23,480 - Group05.src.ml.handle_prediction - INFO - Loading model at path C:\Users\sugiy\Desktop\New folder (19)\Group05\model\model.h5
+2022-09-02 19:38:23,483 - h5py._conv - DEBUG - Creating converter from 3 to 5
+2022-09-02 19:38:26,286 - root - INFO - Starting execution of webapp from __main__
+2022-09-02 19:38:26,290 - werkzeug - WARNING -  * Debugger is active!
+2022-09-02 19:38:26,293 - werkzeug - INFO -  * Debugger PIN: 619-699-038
+2022-09-02 19:40:24,709 - werkzeug - INFO -  * Detected change in 'C:\\Users\\sugiy\\Desktop\\New folder (19)\\Group05\\src\\web\\main.py', reloading
+2022-09-02 19:40:26,625 - werkzeug - INFO -  * Restarting with stat
+2022-09-02 19:40:26,961 - matplotlib - DEBUG - CACHEDIR=C:\Users\sugiy\.matplotlib
+2022-09-02 19:40:26,962 - matplotlib.font_manager - DEBUG - Using fontManager instance from C:\Users\sugiy\.matplotlib\fontlist-v330.json
+2022-09-02 19:40:28,309 - tensorflow - DEBUG - Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2022-09-02 19:40:28,491 - h5py._conv - DEBUG - Creating converter from 7 to 5
+2022-09-02 19:40:28,491 - h5py._conv - DEBUG - Creating converter from 5 to 7
+2022-09-02 19:40:28,491 - h5py._conv - DEBUG - Creating converter from 7 to 5
+2022-09-02 19:40:28,491 - h5py._conv - DEBUG - Creating converter from 5 to 7
+2022-09-02 19:40:30,101 - src.ml.handle_prediction - INFO - Creating new model instance <src.ml.handle_prediction.ProductionModels object at 0x0000022361783E50>
+2022-09-02 19:40:30,101 - src.ml.handle_prediction - INFO - Loading model at path C:\Users\sugiy\Desktop\New folder (19)\Group05\model\model.h5
+2022-09-02 19:40:30,104 - h5py._conv - DEBUG - Creating converter from 3 to 5
+2022-09-02 19:40:33,384 - root - INFO - Starting execution of webapp from __main__
+2022-09-02 19:40:33,404 - werkzeug - WARNING -  * Debugger is active!
+2022-09-02 19:40:33,414 - werkzeug - INFO -  * Debugger PIN: 619-699-038
+2022-09-02 19:40:42,675 - werkzeug - INFO -  * Detected change in 'C:\\Users\\sugiy\\Desktop\\New folder (19)\\Group05\\src\\web\\main.py', reloading
+2022-09-02 19:40:44,599 - werkzeug - INFO -  * Restarting with stat
+2022-09-02 19:40:44,927 - matplotlib - DEBUG - CACHEDIR=C:\Users\sugiy\.matplotlib
+2022-09-02 19:40:44,928 - matplotlib.font_manager - DEBUG - Using fontManager instance from C:\Users\sugiy\.matplotlib\fontlist-v330.json
+2022-09-02 19:40:46,447 - tensorflow - DEBUG - Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2022-09-02 19:40:46,654 - h5py._conv - DEBUG - Creating converter from 7 to 5
+2022-09-02 19:40:46,654 - h5py._conv - DEBUG - Creating converter from 5 to 7
+2022-09-02 19:40:46,654 - h5py._conv - DEBUG - Creating converter from 7 to 5
+2022-09-02 19:40:46,654 - h5py._conv - DEBUG - Creating converter from 5 to 7
+2022-09-02 19:40:48,184 - Group05.src.ml.handle_prediction - INFO - Creating new model instance <Group05.src.ml.handle_prediction.ProductionModels object at 0x00000110EF7FC190>
+2022-09-02 19:40:48,184 - Group05.src.ml.handle_prediction - INFO - Loading model at path C:\Users\sugiy\Desktop\New folder (19)\Group05\model\model.h5
+2022-09-02 19:40:48,187 - h5py._conv - DEBUG - Creating converter from 3 to 5
+2022-09-02 19:40:50,918 - root - INFO - Starting execution of webapp from __main__
+2022-09-02 19:40:50,922 - werkzeug - WARNING -  * Debugger is active!
+2022-09-02 19:40:50,925 - werkzeug - INFO -  * Debugger PIN: 619-699-038
+2022-09-02 19:42:43,167 - werkzeug - INFO -  * Detected change in 'C:\\Users\\sugiy\\Desktop\\New folder (19)\\Group05\\src\\web\\main.py', reloading
+2022-09-02 19:42:45,004 - werkzeug - INFO -  * Restarting with stat
+2022-09-02 19:42:45,342 - matplotlib - DEBUG - CACHEDIR=C:\Users\sugiy\.matplotlib
+2022-09-02 19:42:45,343 - matplotlib.font_manager - DEBUG - Using fontManager instance from C:\Users\sugiy\.matplotlib\fontlist-v330.json
+2022-09-02 19:42:46,557 - tensorflow - DEBUG - Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2022-09-02 19:42:46,768 - h5py._conv - DEBUG - Creating converter from 7 to 5
+2022-09-02 19:42:46,768 - h5py._conv - DEBUG - Creating converter from 5 to 7
+2022-09-02 19:42:46,768 - h5py._conv - DEBUG - Creating converter from 7 to 5
+2022-09-02 19:42:46,768 - h5py._conv - DEBUG - Creating converter from 5 to 7
+2022-09-02 19:42:48,265 - src.ml.handle_prediction - INFO - Creating new model instance <src.ml.handle_prediction.ProductionModels object at 0x000001E07C093E50>
+2022-09-02 19:42:48,265 - src.ml.handle_prediction - INFO - Loading model at path C:\Users\sugiy\Desktop\New folder (19)\Group05\model\model.h5
+2022-09-02 19:42:48,267 - h5py._conv - DEBUG - Creating converter from 3 to 5
+2022-09-02 19:42:49,414 - src.ml.handle_prediction - ERROR - Traceback (most recent call last):
+2022-09-02 19:42:49,414 - src.ml.handle_prediction - ERROR -   File "C:\Users\sugiy\Desktop\New folder (19)\Group05\main.py", line 15, in <module>
+2022-09-02 19:42:49,414 - src.ml.handle_prediction - ERROR - import src.web.main
+2022-09-02 19:42:49,414 - src.ml.handle_prediction - ERROR -   File "C:\Users\sugiy\Desktop\New folder (19)\Group05\src\web\main.py", line 25, in <module>
+2022-09-02 19:42:49,414 - src.ml.handle_prediction - ERROR - from src.ml.handle_prediction import (
+2022-09-02 19:42:49,414 - src.ml.handle_prediction - ERROR -   File "C:\Users\sugiy\Desktop\New folder (19)\Group05\src\ml\handle_prediction.py", line 121, in <module>
+2022-09-02 19:42:49,414 - src.ml.handle_prediction - ERROR - prod_models = ProductionModels(
+2022-09-02 19:42:49,414 - src.ml.handle_prediction - ERROR -   File "C:\Users\sugiy\Desktop\New folder (19)\Group05\src\ml\handle_prediction.py", line 47, in __init__
+2022-09-02 19:42:49,414 - src.ml.handle_prediction - ERROR - self.tensorflow_model: Functional = keras.models.load_model(
+2022-09-02 19:42:49,415 - src.ml.handle_prediction - ERROR -   File "C:\Users\sugiy\AppData\Local\Programs\Python\Python310\lib\site-packages\keras\utils\traceback_utils.py", line 64, in error_handler
+2022-09-02 19:42:49,432 - src.ml.handle_prediction - ERROR - return fn(*args, **kwargs)
+2022-09-02 19:42:49,432 - src.ml.handle_prediction - ERROR -   File "C:\Users\sugiy\AppData\Local\Programs\Python\Python310\lib\site-packages\keras\saving\save.py", line 215, in load_model
+2022-09-02 19:42:49,437 - src.ml.handle_prediction - ERROR - return hdf5_format.load_model_from_hdf5(
+2022-09-02 19:42:49,437 - src.ml.handle_prediction - ERROR -   File "C:\Users\sugiy\AppData\Local\Programs\Python\Python310\lib\site-packages\keras\saving\hdf5_format.py", line 186, in load_model_from_hdf5
+2022-09-02 19:42:49,439 - src.ml.handle_prediction - ERROR - model = model_config_lib.model_from_config(model_config,
+2022-09-02 19:42:49,439 - src.ml.handle_prediction - ERROR -   File "C:\Users\sugiy\AppData\Local\Programs\Python\Python310\lib\site-packages\keras\saving\model_config.py", line 51, in model_from_config
+2022-09-02 19:42:49,439 - src.ml.handle_prediction - ERROR - return deserialize(config, custom_objects=custom_objects)
+2022-09-02 19:42:49,439 - src.ml.handle_prediction - ERROR -   File "C:\Users\sugiy\AppData\Local\Programs\Python\Python310\lib\site-packages\keras\layers\serialization.py", line 205, in deserialize
+2022-09-02 19:42:49,439 - src.ml.handle_prediction - ERROR - return generic_utils.deserialize_keras_object(
+2022-09-02 19:42:49,439 - src.ml.handle_prediction - ERROR -   File "C:\Users\sugiy\AppData\Local\Programs\Python\Python310\lib\site-packages\keras\utils\generic_utils.py", line 679, in deserialize_keras_object
+2022-09-02 19:42:49,439 - src.ml.handle_prediction - ERROR - deserialized_obj = cls.from_config(
+2022-09-02 19:42:49,439 - src.ml.handle_prediction - ERROR -   File "C:\Users\sugiy\AppData\Local\Programs\Python\Python310\lib\site-packages\keras\engine\training.py", line 2720, in from_config
+2022-09-02 19:42:49,440 - src.ml.handle_prediction - ERROR - inputs, outputs, layers = functional.reconstruct_from_config(
+2022-09-02 19:42:49,440 - src.ml.handle_prediction - ERROR -   File "C:\Users\sugiy\AppData\Local\Programs\Python\Python310\lib\site-packages\keras\engine\functional.py", line 1312, in reconstruct_from_config
+2022-09-02 19:42:49,440 - src.ml.handle_prediction - ERROR - if process_node(layer, node_data):
+2022-09-02 19:42:49,440 - src.ml.handle_prediction - ERROR -   File "C:\Users\sugiy\AppData\Local\Programs\Python\Python310\lib\site-packages\keras\engine\functional.py", line 1256, in process_node
+2022-09-02 19:42:49,440 - src.ml.handle_prediction - ERROR - output_tensors = layer(input_tensors, **kwargs)
+2022-09-02 19:42:49,440 - src.ml.handle_prediction - ERROR -   File "C:\Users\sugiy\AppData\Local\Programs\Python\Python310\lib\site-packages\keras\utils\traceback_utils.py", line 64, in error_handler
+2022-09-02 19:42:49,441 - src.ml.handle_prediction - ERROR - return fn(*args, **kwargs)
+2022-09-02 19:42:49,441 - src.ml.handle_prediction - ERROR -   File "C:\Users\sugiy\AppData\Local\Programs\Python\Python310\lib\site-packages\keras\engine\base_layer.py", line 944, in __call__
+2022-09-02 19:42:49,441 - src.ml.handle_prediction - ERROR - return self._functional_construction_call(inputs, args, kwargs,
+2022-09-02 19:42:49,441 - src.ml.handle_prediction - ERROR -   File "C:\Users\sugiy\AppData\Local\Programs\Python\Python310\lib\site-packages\keras\engine\base_layer.py", line 2315, in _functional_construction_call
+2022-09-02 19:42:49,441 - src.ml.handle_prediction - ERROR - outputs = self._keras_tensor_symbolic_call(
+2022-09-02 19:42:49,441 - src.ml.handle_prediction - ERROR -   File "C:\Users\sugiy\AppData\Local\Programs\Python\Python310\lib\site-packages\keras\engine\base_layer.py", line 2186, in _keras_tensor_symbolic_call
+2022-09-02 19:42:49,442 - src.ml.handle_prediction - ERROR - return self._infer_output_signature(inputs, args, kwargs, input_masks)
+2022-09-02 19:42:49,442 - src.ml.handle_prediction - ERROR -   File "C:\Users\sugiy\AppData\Local\Programs\Python\Python310\lib\site-packages\keras\engine\base_layer.py", line 2230, in _infer_output_signature
+2022-09-02 19:42:49,442 - src.ml.handle_prediction - ERROR - self._maybe_build(inputs)
+2022-09-02 19:42:49,442 - src.ml.handle_prediction - ERROR -   File "C:\Users\sugiy\AppData\Local\Programs\Python\Python310\lib\site-packages\keras\engine\base_layer.py", line 2759, in _maybe_build
+2022-09-02 19:42:49,443 - src.ml.handle_prediction - ERROR - self.build(input_shapes)  # pylint:disable=not-callable
+2022-09-02 19:42:49,443 - src.ml.handle_prediction - ERROR -   File "C:\Users\sugiy\AppData\Local\Programs\Python\Python310\lib\site-packages\keras\layers\convolutional\base_conv.py", line 193, in build
+2022-09-02 19:42:49,443 - src.ml.handle_prediction - ERROR - self.kernel = self.add_weight(
+2022-09-02 19:42:49,443 - src.ml.handle_prediction - ERROR -   File "C:\Users\sugiy\AppData\Local\Programs\Python\Python310\lib\site-packages\keras\engine\base_layer.py", line 665, in add_weight
+2022-09-02 19:42:49,443 - src.ml.handle_prediction - ERROR - variable = self._add_variable_with_custom_getter(
+2022-09-02 19:42:49,443 - src.ml.handle_prediction - ERROR -   File "C:\Users\sugiy\AppData\Local\Programs\Python\Python310\lib\site-packages\tensorflow\python\training\tracking\base.py", line 873, in _add_variable_with_custom_getter
+2022-09-02 19:42:49,444 - src.ml.handle_prediction - ERROR - new_variable = getter(
+2022-09-02 19:42:49,444 - src.ml.handle_prediction - ERROR -   File "C:\Users\sugiy\AppData\Local\Programs\Python\Python310\lib\site-packages\keras\engine\base_layer_utils.py", line 126, in make_variable
+2022-09-02 19:42:49,444 - src.ml.handle_prediction - ERROR - return tf.compat.v1.Variable(
+2022-09-02 19:42:49,444 - src.ml.handle_prediction - ERROR -   File "C:\Users\sugiy\AppData\Local\Programs\Python\Python310\lib\site-packages\tensorflow\python\util\traceback_utils.py", line 150, in error_handler
+2022-09-02 19:42:49,444 - src.ml.handle_prediction - ERROR - return fn(*args, **kwargs)
+2022-09-02 19:42:49,444 - src.ml.handle_prediction - ERROR -   File "C:\Users\sugiy\AppData\Local\Programs\Python\Python310\lib\site-packages\tensorflow\python\ops\variables.py", line 264, in __call__
+2022-09-02 19:42:49,444 - src.ml.handle_prediction - ERROR - return cls._variable_v1_call(*args, **kwargs)
+2022-09-02 19:42:49,444 - src.ml.handle_prediction - ERROR -   File "C:\Users\sugiy\AppData\Local\Programs\Python\Python310\lib\site-packages\tensorflow\python\ops\variables.py", line 209, in _variable_v1_call
+2022-09-02 19:42:49,444 - src.ml.handle_prediction - ERROR - return previous_getter(
+2022-09-02 19:42:49,444 - src.ml.handle_prediction - ERROR -   File "C:\Users\sugiy\AppData\Local\Programs\Python\Python310\lib\site-packages\tensorflow\python\ops\variables.py", line 202, in <lambda>
+2022-09-02 19:42:49,445 - src.ml.handle_prediction - ERROR - previous_getter = lambda **kwargs: default_variable_creator(None, **kwargs)
+2022-09-02 19:42:49,445 - src.ml.handle_prediction - ERROR -   File "C:\Users\sugiy\AppData\Local\Programs\Python\Python310\lib\site-packages\tensorflow\python\ops\variable_scope.py", line 2705, in default_variable_creator
+2022-09-02 19:42:49,445 - src.ml.handle_prediction - ERROR - return resource_variable_ops.ResourceVariable(
+2022-09-02 19:42:49,445 - src.ml.handle_prediction - ERROR -   File "C:\Users\sugiy\AppData\Local\Programs\Python\Python310\lib\site-packages\tensorflow\python\util\traceback_utils.py", line 150, in error_handler
+2022-09-02 19:42:49,445 - src.ml.handle_prediction - ERROR - return fn(*args, **kwargs)
+2022-09-02 19:42:49,445 - src.ml.handle_prediction - ERROR -   File "C:\Users\sugiy\AppData\Local\Programs\Python\Python310\lib\site-packages\tensorflow\python\ops\variables.py", line 268, in __call__
+2022-09-02 19:42:49,445 - src.ml.handle_prediction - ERROR - return super(VariableMetaclass, cls).__call__(*args, **kwargs)
+2022-09-02 19:42:49,445 - src.ml.handle_prediction - ERROR -   File "C:\Users\sugiy\AppData\Local\Programs\Python\Python310\lib\site-packages\tensorflow\python\ops\resource_variable_ops.py", line 1630, in __init__
+2022-09-02 19:42:49,446 - src.ml.handle_prediction - ERROR - self._init_from_args(
+2022-09-02 19:42:49,446 - src.ml.handle_prediction - ERROR -   File "C:\Users\sugiy\AppData\Local\Programs\Python\Python310\lib\site-packages\tensorflow\python\ops\resource_variable_ops.py", line 1783, in _init_from_args
+2022-09-02 19:42:49,446 - src.ml.handle_prediction - ERROR - initial_value = initial_value()
+2022-09-02 19:42:49,446 - src.ml.handle_prediction - ERROR -   File "C:\Users\sugiy\AppData\Local\Programs\Python\Python310\lib\site-packages\keras\initializers\initializers_v2.py", line 558, in __call__
+2022-09-02 19:42:49,446 - src.ml.handle_prediction - ERROR - return self._generate_init_val(shape=shape, dtype=dtype)
+2022-09-02 19:42:49,446 - src.ml.handle_prediction - ERROR -   File "C:\Users\sugiy\AppData\Local\Programs\Python\Python310\lib\site-packages\keras\initializers\initializers_v2.py", line 578, in _generate_init_val
+2022-09-02 19:42:49,446 - src.ml.handle_prediction - ERROR - return self._random_generator.random_uniform(shape, -limit, limit, dtype)
+2022-09-02 19:42:49,446 - src.ml.handle_prediction - ERROR -   File "C:\Users\sugiy\AppData\Local\Programs\Python\Python310\lib\site-packages\keras\backend.py", line 1920, in random_uniform
+2022-09-02 19:42:49,446 - src.ml.handle_prediction - ERROR - return tf.random.uniform(
+2022-09-02 19:42:49,446 - src.ml.handle_prediction - ERROR -   File "C:\Users\sugiy\AppData\Local\Programs\Python\Python310\lib\site-packages\tensorflow\python\util\traceback_utils.py", line 150, in error_handler
+2022-09-02 19:42:49,446 - src.ml.handle_prediction - ERROR - return fn(*args, **kwargs)
+2022-09-02 19:42:49,446 - src.ml.handle_prediction - ERROR -   File "C:\Users\sugiy\AppData\Local\Programs\Python\Python310\lib\site-packages\tensorflow\python\util\dispatch.py", line 1082, in op_dispatch_handler
+2022-09-02 19:42:49,447 - src.ml.handle_prediction - ERROR - return dispatch_target(*args, **kwargs)
+2022-09-02 19:42:49,447 - src.ml.handle_prediction - ERROR -   File "C:\Users\sugiy\AppData\Local\Programs\Python\Python310\lib\site-packages\tensorflow\python\ops\random_ops.py", line 315, in random_uniform
+2022-09-02 19:42:49,447 - src.ml.handle_prediction - ERROR - result = math_ops.add(result * (maxval - minval), minval, name=name)
+2022-09-02 19:42:49,447 - src.ml.handle_prediction - ERROR -   File "C:\Users\sugiy\AppData\Local\Programs\Python\Python310\lib\site-packages\tensorflow\python\util\traceback_utils.py", line 150, in error_handler
+2022-09-02 19:42:49,447 - src.ml.handle_prediction - ERROR - return fn(*args, **kwargs)
+2022-09-02 19:42:49,447 - src.ml.handle_prediction - ERROR -   File "C:\Users\sugiy\AppData\Local\Programs\Python\Python310\lib\site-packages\tensorflow\python\ops\math_ops.py", line 1406, in binary_op_wrapper
+2022-09-02 19:42:49,447 - src.ml.handle_prediction - ERROR - return func(x, y, name=name)
+2022-09-02 19:42:49,448 - src.ml.handle_prediction - ERROR -   File "C:\Users\sugiy\AppData\Local\Programs\Python\Python310\lib\site-packages\tensorflow\python\util\traceback_utils.py", line 150, in error_handler
+2022-09-02 19:42:49,448 - src.ml.handle_prediction - ERROR - return fn(*args, **kwargs)
+2022-09-02 19:42:49,448 - src.ml.handle_prediction - ERROR -   File "C:\Users\sugiy\AppData\Local\Programs\Python\Python310\lib\site-packages\tensorflow\python\util\dispatch.py", line 1074, in op_dispatch_handler
+2022-09-02 19:42:49,448 - src.ml.handle_prediction - ERROR - if iterable_params is not None:
+2022-09-02 19:42:49,448 - src.ml.handle_prediction - ERROR - KeyboardInterrupt
+2022-09-02 19:46:29,451 - matplotlib - DEBUG - CACHEDIR=C:\Users\sugiy\.matplotlib
+2022-09-02 19:46:29,452 - matplotlib.font_manager - DEBUG - Using fontManager instance from C:\Users\sugiy\.matplotlib\fontlist-v330.json
+2022-09-02 19:46:30,622 - tensorflow - DEBUG - Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2022-09-02 19:46:30,804 - h5py._conv - DEBUG - Creating converter from 7 to 5
+2022-09-02 19:46:30,805 - h5py._conv - DEBUG - Creating converter from 5 to 7
+2022-09-02 19:46:30,805 - h5py._conv - DEBUG - Creating converter from 7 to 5
+2022-09-02 19:46:30,805 - h5py._conv - DEBUG - Creating converter from 5 to 7
+2022-09-02 19:48:51,709 - matplotlib - DEBUG - CACHEDIR=C:\Users\sugiy\.matplotlib
+2022-09-02 19:48:51,711 - matplotlib.font_manager - DEBUG - Using fontManager instance from C:\Users\sugiy\.matplotlib\fontlist-v330.json
+2022-09-02 19:48:52,896 - tensorflow - DEBUG - Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2022-09-02 19:48:53,079 - h5py._conv - DEBUG - Creating converter from 7 to 5
+2022-09-02 19:48:53,079 - h5py._conv - DEBUG - Creating converter from 5 to 7
+2022-09-02 19:48:53,079 - h5py._conv - DEBUG - Creating converter from 7 to 5
+2022-09-02 19:48:53,079 - h5py._conv - DEBUG - Creating converter from 5 to 7
+2022-09-02 19:48:54,513 - src.ml.handle_prediction - INFO - Creating new model instance <src.ml.handle_prediction.ProductionModels object at 0x0000015DF68BBE80>
+2022-09-02 19:48:54,513 - src.ml.handle_prediction - INFO - Loading model at path C:\Users\sugiy\Desktop\New folder (19)\Group05\model\model.h5
+2022-09-02 19:48:54,515 - h5py._conv - DEBUG - Creating converter from 3 to 5
+2022-09-02 19:48:57,739 - root - INFO - Starting execution of webapp from __main__
+2022-09-02 19:48:57,740 - src.ml.handle_prediction - INFO - b" * Serving Flask app 'src.web.main' (lazy loading)"
+2022-09-02 19:48:57,740 - src.ml.handle_prediction - INFO - b' * Environment: production'
+2022-09-02 19:48:57,740 - src.ml.handle_prediction - INFO - b'   WARNING: This is a development server. Do not use it in a production deployment.'
+2022-09-02 19:48:57,740 - src.ml.handle_prediction - INFO - b'   Use a production WSGI server instead.'
+2022-09-02 19:48:57,740 - src.ml.handle_prediction - INFO - b' * Debug mode: on'
+2022-09-02 19:48:57,745 - werkzeug - INFO -  * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:8888
+ * Running on http://192.168.0.107:8888 (Press CTRL+C to quit)
+2022-09-02 19:48:57,746 - werkzeug - INFO -  * Restarting with stat
+2022-09-02 19:48:58,062 - matplotlib - DEBUG - CACHEDIR=C:\Users\sugiy\.matplotlib
+2022-09-02 19:48:58,064 - matplotlib.font_manager - DEBUG - Using fontManager instance from C:\Users\sugiy\.matplotlib\fontlist-v330.json
+2022-09-02 20:03:53,981 - matplotlib - DEBUG - CACHEDIR=C:\Users\sugiy\.matplotlib
+2022-09-02 20:03:53,982 - matplotlib.font_manager - DEBUG - Using fontManager instance from C:\Users\sugiy\.matplotlib\fontlist-v330.json
+2022-09-02 20:03:55,172 - tensorflow - DEBUG - Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2022-09-02 20:03:55,356 - h5py._conv - DEBUG - Creating converter from 7 to 5
+2022-09-02 20:03:55,356 - h5py._conv - DEBUG - Creating converter from 5 to 7
+2022-09-02 20:03:55,356 - h5py._conv - DEBUG - Creating converter from 7 to 5
+2022-09-02 20:03:55,356 - h5py._conv - DEBUG - Creating converter from 5 to 7
+2022-09-02 20:03:56,808 - src.ml.handle_prediction - INFO - Creating new model instance <src.ml.handle_prediction.ProductionModels object at 0x000001CE3EFE7DC0>
+2022-09-02 20:03:56,808 - src.ml.handle_prediction - INFO - Loading model at path C:\Users\sugiy\Desktop\New folder (20)\Group05\model\model.h5
+2022-09-02 20:03:56,810 - h5py._conv - DEBUG - Creating converter from 3 to 5
+2022-09-02 20:04:00,043 - root - INFO - Starting execution of webapp from __main__
+2022-09-02 20:04:00,043 - src.ml.handle_prediction - INFO - b" * Serving Flask app 'src.web.main' (lazy loading)"
+2022-09-02 20:04:00,043 - src.ml.handle_prediction - INFO - b' * Environment: production'
+2022-09-02 20:04:00,043 - src.ml.handle_prediction - INFO - b'   WARNING: This is a development server. Do not use it in a production deployment.'
+2022-09-02 20:04:00,043 - src.ml.handle_prediction - INFO - b'   Use a production WSGI server instead.'
+2022-09-02 20:04:00,043 - src.ml.handle_prediction - INFO - b' * Debug mode: off'
+2022-09-02 20:04:00,044 - werkzeug - INFO -  * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:8888
+ * Running on http://192.168.0.107:8888 (Press CTRL+C to quit)
+2022-09-02 20:04:19,313 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 20:04:19] "GET / HTTP/1.1" 200 -
+2022-09-02 20:04:19,414 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 20:04:19] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-09-02 20:04:19,416 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 20:04:19] "[36mGET /static/css/vendor.css HTTP/1.1[0m" 304 -
+2022-09-02 20:04:19,417 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 20:04:19] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2022-09-02 20:04:19,419 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 20:04:19] "[36mGET /static/js/pace.min.js HTTP/1.1[0m" 304 -
+2022-09-02 20:04:19,419 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 20:04:19] "[36mGET /static/js/modernizr.js HTTP/1.1[0m" 304 -
+2022-09-02 20:04:19,420 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 20:04:19] "[36mGET /static/css/font-awesome/css/font-awesome.min.css HTTP/1.1[0m" 304 -
+2022-09-02 20:04:19,422 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 20:04:19] "[36mGET /static/css/micons/micons.css HTTP/1.1[0m" 304 -
+2022-09-02 20:04:19,423 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 20:04:19] "[36mGET /static/css/fonts.css HTTP/1.1[0m" 304 -
+2022-09-02 20:04:19,426 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 20:04:19] "[36mGET /static/js/jquery-3.2.1.min.js HTTP/1.1[0m" 304 -
+2022-09-02 20:04:19,427 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 20:04:19] "[36mGET /static/js/plugins.js HTTP/1.1[0m" 304 -
+2022-09-02 20:04:19,447 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 20:04:19] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2022-09-02 20:04:19,449 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 20:04:19] "[36mGET /static/assets/logo.png HTTP/1.1[0m" 304 -
+2022-09-02 20:04:19,487 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 20:04:19] "[36mGET /static/fonts/montserrat/montserrat-semibold-webfont.woff2 HTTP/1.1[0m" 304 -
+2022-09-02 20:04:19,489 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 20:04:19] "[36mGET /static/fonts/montserrat/montserrat-regular-webfont.woff2 HTTP/1.1[0m" 304 -
+2022-09-02 20:04:19,491 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 20:04:19] "[36mGET /static/fonts/montserrat/montserrat-medium-webfont.woff2 HTTP/1.1[0m" 304 -
+2022-09-02 20:04:19,493 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 20:04:19] "[36mGET /static/fonts/lora/lora-regular-webfont.woff2 HTTP/1.1[0m" 304 -
+2022-09-02 20:04:19,505 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 20:04:19] "[36mGET /static/assets/Car2.jpg HTTP/1.1[0m" 304 -
+2022-09-02 20:29:58,055 - matplotlib - DEBUG - CACHEDIR=C:\Users\mpmic\.matplotlib
+2022-09-02 20:29:58,071 - matplotlib.font_manager - DEBUG - Using fontManager instance from C:\Users\mpmic\.matplotlib\fontlist-v330.json
+2022-09-02 20:30:06,667 - tensorflow - DEBUG - Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2022-09-02 20:30:07,840 - h5py._conv - DEBUG - Creating converter from 7 to 5
+2022-09-02 20:30:07,840 - h5py._conv - DEBUG - Creating converter from 5 to 7
+2022-09-02 20:30:07,840 - h5py._conv - DEBUG - Creating converter from 7 to 5
+2022-09-02 20:30:07,840 - h5py._conv - DEBUG - Creating converter from 5 to 7
+2022-09-02 20:30:19,771 - src.ml.handle_prediction - INFO - Creating new model instance <src.ml.handle_prediction.ProductionModels object at 0x0000022C3DA2A760>
+2022-09-02 20:30:19,772 - src.ml.handle_prediction - INFO - Loading model at path C:\Users\mpmic\PycharmProjects\Group05\model\model.h5
+2022-09-02 20:30:19,810 - h5py._conv - DEBUG - Creating converter from 3 to 5
+2022-09-02 20:30:27,705 - root - INFO - Starting execution of webapp from __main__
+2022-09-02 20:30:27,722 - src.ml.handle_prediction - INFO - b" * Serving Flask app 'src.web.main' (lazy loading)"
+2022-09-02 20:30:27,722 - src.ml.handle_prediction - INFO - b' * Environment: production'
+2022-09-02 20:30:27,723 - src.ml.handle_prediction - INFO - b'   WARNING: This is a development server. Do not use it in a production deployment.'
+2022-09-02 20:30:27,723 - src.ml.handle_prediction - INFO - b'   Use a production WSGI server instead.'
+2022-09-02 20:30:27,723 - src.ml.handle_prediction - INFO - b' * Debug mode: off'
+2022-09-02 20:30:27,783 - werkzeug - INFO -  * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:8888
+ * Running on http://172.18.99.83:8888 (Press CTRL+C to quit)
+2022-09-02 21:41:11,715 - matplotlib - DEBUG - CACHEDIR=C:\Users\sugiy\.matplotlib
+2022-09-02 21:41:11,717 - matplotlib.font_manager - DEBUG - Using fontManager instance from C:\Users\sugiy\.matplotlib\fontlist-v330.json
+2022-09-02 21:41:13,324 - tensorflow - DEBUG - Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2022-09-02 21:41:13,601 - h5py._conv - DEBUG - Creating converter from 7 to 5
+2022-09-02 21:41:13,601 - h5py._conv - DEBUG - Creating converter from 5 to 7
+2022-09-02 21:41:13,601 - h5py._conv - DEBUG - Creating converter from 7 to 5
+2022-09-02 21:41:13,601 - h5py._conv - DEBUG - Creating converter from 5 to 7
+2022-09-02 21:41:15,402 - src.ml.handle_prediction - INFO - Creating new model instance <src.ml.handle_prediction.ProductionModels object at 0x00000208F4543D90>
+2022-09-02 21:41:15,402 - src.ml.handle_prediction - INFO - Loading model at path C:\Users\sugiy\Desktop\New folder (21)\Group05\model\model.h5
+2022-09-02 21:41:15,404 - h5py._conv - DEBUG - Creating converter from 3 to 5
+2022-09-02 21:41:18,722 - root - INFO - Starting execution of webapp from __main__
+2022-09-02 21:41:18,722 - src.ml.handle_prediction - INFO - b" * Serving Flask app 'src.web.main' (lazy loading)"
+2022-09-02 21:41:18,722 - src.ml.handle_prediction - INFO - b' * Environment: production'
+2022-09-02 21:41:18,722 - src.ml.handle_prediction - INFO - b'   WARNING: This is a development server. Do not use it in a production deployment.'
+2022-09-02 21:41:18,722 - src.ml.handle_prediction - INFO - b'   Use a production WSGI server instead.'
+2022-09-02 21:41:18,722 - src.ml.handle_prediction - INFO - b' * Debug mode: off'
+2022-09-02 21:41:18,724 - werkzeug - INFO -  * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:8888
+ * Running on http://192.168.0.107:8888 (Press CTRL+C to quit)
+2022-09-02 21:41:29,780 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:41:29] "GET / HTTP/1.1" 200 -
+2022-09-02 21:41:29,870 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:41:29] "GET /static/css/base.css HTTP/1.1" 200 -
+2022-09-02 21:41:29,876 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:41:29] "GET /static/css/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+2022-09-02 21:41:29,877 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:41:29] "GET /static/css/micons/micons.css HTTP/1.1" 200 -
+2022-09-02 21:41:29,879 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:41:29] "GET /static/css/fonts.css HTTP/1.1" 200 -
+2022-09-02 21:41:29,881 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:41:29] "GET /static/css/vendor.css HTTP/1.1" 200 -
+2022-09-02 21:41:29,883 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:41:29] "GET /static/css/main.css HTTP/1.1" 200 -
+2022-09-02 21:41:29,884 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:41:29] "GET /static/js/modernizr.js HTTP/1.1" 200 -
+2022-09-02 21:41:29,884 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:41:29] "GET /static/js/pace.min.js HTTP/1.1" 200 -
+2022-09-02 21:41:29,890 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:41:29] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 200 -
+2022-09-02 21:41:29,910 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:41:29] "GET /static/js/plugins.js HTTP/1.1" 200 -
+2022-09-02 21:41:29,912 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:41:29] "GET /static/js/main.js HTTP/1.1" 200 -
+2022-09-02 21:41:29,917 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:41:29] "GET /static/assets/logo.png HTTP/1.1" 200 -
+2022-09-02 21:41:29,946 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:41:29] "GET /static/fonts/montserrat/montserrat-semibold-webfont.woff2 HTTP/1.1" 200 -
+2022-09-02 21:41:29,948 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:41:29] "GET /static/fonts/montserrat/montserrat-regular-webfont.woff2 HTTP/1.1" 200 -
+2022-09-02 21:41:29,949 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:41:29] "GET /static/fonts/montserrat/montserrat-medium-webfont.woff2 HTTP/1.1" 200 -
+2022-09-02 21:41:29,951 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:41:29] "GET /static/fonts/lora/lora-regular-webfont.woff2 HTTP/1.1" 200 -
+2022-09-02 21:41:29,982 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:41:29] "GET /static/assets/Car2.jpg HTTP/1.1" 200 -
+2022-09-02 21:42:17,645 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:42:17] "GET / HTTP/1.1" 200 -
+2022-09-02 21:42:17,667 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:42:17] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-09-02 21:42:17,669 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:42:17] "[36mGET /static/css/vendor.css HTTP/1.1[0m" 304 -
+2022-09-02 21:42:17,670 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:42:17] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2022-09-02 21:42:17,671 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:42:17] "[36mGET /static/js/modernizr.js HTTP/1.1[0m" 304 -
+2022-09-02 21:42:17,672 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:42:17] "[36mGET /static/js/pace.min.js HTTP/1.1[0m" 304 -
+2022-09-02 21:42:17,698 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:42:17] "[36mGET /static/css/font-awesome/css/font-awesome.min.css HTTP/1.1[0m" 304 -
+2022-09-02 21:42:17,700 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:42:17] "[36mGET /static/css/micons/micons.css HTTP/1.1[0m" 304 -
+2022-09-02 21:42:17,701 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:42:17] "[36mGET /static/css/fonts.css HTTP/1.1[0m" 304 -
+2022-09-02 21:42:17,705 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:42:17] "[36mGET /static/js/jquery-3.2.1.min.js HTTP/1.1[0m" 304 -
+2022-09-02 21:42:17,707 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:42:17] "[36mGET /static/js/plugins.js HTTP/1.1[0m" 304 -
+2022-09-02 21:42:17,725 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:42:17] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2022-09-02 21:42:17,726 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:42:17] "[36mGET /static/assets/logo.png HTTP/1.1[0m" 304 -
+2022-09-02 21:42:17,738 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:42:17] "[36mGET /static/fonts/montserrat/montserrat-semibold-webfont.woff2 HTTP/1.1[0m" 304 -
+2022-09-02 21:42:17,739 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:42:17] "[36mGET /static/fonts/montserrat/montserrat-regular-webfont.woff2 HTTP/1.1[0m" 304 -
+2022-09-02 21:42:17,741 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:42:17] "[36mGET /static/fonts/montserrat/montserrat-medium-webfont.woff2 HTTP/1.1[0m" 304 -
+2022-09-02 21:42:17,743 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:42:17] "[36mGET /static/fonts/lora/lora-regular-webfont.woff2 HTTP/1.1[0m" 304 -
+2022-09-02 21:42:17,746 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:42:17] "[36mGET /static/assets/Car2.jpg HTTP/1.1[0m" 304 -
+2022-09-02 21:42:17,773 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:42:17] "GET /favicon.ico HTTP/1.1" 200 -
+2022-09-02 21:42:42,270 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:42:42] "GET / HTTP/1.1" 200 -
+2022-09-02 21:42:42,297 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:42:42] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-09-02 21:42:42,300 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:42:42] "[36mGET /static/css/vendor.css HTTP/1.1[0m" 304 -
+2022-09-02 21:42:42,303 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:42:42] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2022-09-02 21:42:42,307 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:42:42] "[36mGET /static/js/modernizr.js HTTP/1.1[0m" 304 -
+2022-09-02 21:42:42,312 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:42:42] "[36mGET /static/js/pace.min.js HTTP/1.1[0m" 304 -
+2022-09-02 21:42:42,344 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:42:42] "[36mGET /static/css/font-awesome/css/font-awesome.min.css HTTP/1.1[0m" 304 -
+2022-09-02 21:42:42,346 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:42:42] "[36mGET /static/css/micons/micons.css HTTP/1.1[0m" 304 -
+2022-09-02 21:42:42,347 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:42:42] "[36mGET /static/css/fonts.css HTTP/1.1[0m" 304 -
+2022-09-02 21:42:42,352 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:42:42] "[36mGET /static/js/jquery-3.2.1.min.js HTTP/1.1[0m" 304 -
+2022-09-02 21:42:42,353 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:42:42] "[36mGET /static/js/plugins.js HTTP/1.1[0m" 304 -
+2022-09-02 21:42:42,372 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:42:42] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2022-09-02 21:42:42,373 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:42:42] "[36mGET /static/assets/logo.png HTTP/1.1[0m" 304 -
+2022-09-02 21:42:42,383 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:42:42] "[36mGET /static/fonts/montserrat/montserrat-semibold-webfont.woff2 HTTP/1.1[0m" 304 -
+2022-09-02 21:42:42,384 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:42:42] "[36mGET /static/fonts/montserrat/montserrat-regular-webfont.woff2 HTTP/1.1[0m" 304 -
+2022-09-02 21:42:42,386 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:42:42] "[36mGET /static/fonts/montserrat/montserrat-medium-webfont.woff2 HTTP/1.1[0m" 304 -
+2022-09-02 21:42:42,388 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:42:42] "[36mGET /static/fonts/lora/lora-regular-webfont.woff2 HTTP/1.1[0m" 304 -
+2022-09-02 21:42:42,390 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:42:42] "[36mGET /static/assets/Car2.jpg HTTP/1.1[0m" 304 -
+2022-09-02 21:42:42,408 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:42:42] "[36mGET /favicon.ico HTTP/1.1[0m" 304 -
+2022-09-02 21:43:17,450 - matplotlib - DEBUG - CACHEDIR=C:\Users\sugiy\.matplotlib
+2022-09-02 21:43:17,451 - matplotlib.font_manager - DEBUG - Using fontManager instance from C:\Users\sugiy\.matplotlib\fontlist-v330.json
+2022-09-02 21:43:19,345 - tensorflow - DEBUG - Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2022-09-02 21:43:19,583 - h5py._conv - DEBUG - Creating converter from 7 to 5
+2022-09-02 21:43:19,583 - h5py._conv - DEBUG - Creating converter from 5 to 7
+2022-09-02 21:43:19,583 - h5py._conv - DEBUG - Creating converter from 7 to 5
+2022-09-02 21:43:19,583 - h5py._conv - DEBUG - Creating converter from 5 to 7
+2022-09-02 21:43:21,247 - src.ml.handle_prediction - INFO - Creating new model instance <src.ml.handle_prediction.ProductionModels object at 0x000001DAD4783F40>
+2022-09-02 21:43:21,247 - src.ml.handle_prediction - INFO - Loading model at path C:\Users\sugiy\Desktop\New folder (21)\Group05\model\model.h5
+2022-09-02 21:43:21,249 - h5py._conv - DEBUG - Creating converter from 3 to 5
+2022-09-02 21:43:24,182 - root - INFO - Starting execution of webapp from __main__
+2022-09-02 21:43:24,182 - src.ml.handle_prediction - INFO - b" * Serving Flask app 'src.web.main' (lazy loading)"
+2022-09-02 21:43:24,182 - src.ml.handle_prediction - INFO - b' * Environment: production'
+2022-09-02 21:43:24,182 - src.ml.handle_prediction - INFO - b'   WARNING: This is a development server. Do not use it in a production deployment.'
+2022-09-02 21:43:24,182 - src.ml.handle_prediction - INFO - b'   Use a production WSGI server instead.'
+2022-09-02 21:43:24,183 - src.ml.handle_prediction - INFO - b' * Debug mode: on'
+2022-09-02 21:43:24,201 - werkzeug - INFO -  * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:8888
+ * Running on http://192.168.0.107:8888 (Press CTRL+C to quit)
+2022-09-02 21:43:24,202 - werkzeug - INFO -  * Restarting with stat
+2022-09-02 21:43:24,512 - matplotlib - DEBUG - CACHEDIR=C:\Users\sugiy\.matplotlib
+2022-09-02 21:43:24,513 - matplotlib.font_manager - DEBUG - Using fontManager instance from C:\Users\sugiy\.matplotlib\fontlist-v330.json
+2022-09-02 21:43:25,779 - tensorflow - DEBUG - Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2022-09-02 21:43:25,972 - h5py._conv - DEBUG - Creating converter from 7 to 5
+2022-09-02 21:43:25,972 - h5py._conv - DEBUG - Creating converter from 5 to 7
+2022-09-02 21:43:25,972 - h5py._conv - DEBUG - Creating converter from 7 to 5
+2022-09-02 21:43:25,972 - h5py._conv - DEBUG - Creating converter from 5 to 7
+2022-09-02 21:43:27,441 - src.ml.handle_prediction - INFO - Creating new model instance <src.ml.handle_prediction.ProductionModels object at 0x000002B3FCDF7EB0>
+2022-09-02 21:43:27,441 - src.ml.handle_prediction - INFO - Loading model at path C:\Users\sugiy\Desktop\New folder (21)\Group05\model\model.h5
+2022-09-02 21:43:27,444 - h5py._conv - DEBUG - Creating converter from 3 to 5
+2022-09-02 21:43:30,425 - root - INFO - Starting execution of webapp from __main__
+2022-09-02 21:43:30,429 - werkzeug - WARNING -  * Debugger is active!
+2022-09-02 21:43:30,431 - werkzeug - INFO -  * Debugger PIN: 619-699-038
+2022-09-02 21:43:38,606 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:43:38] "GET / HTTP/1.1" 200 -
+2022-09-02 21:43:38,699 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:43:38] "[36mGET /static/assets/logo.png HTTP/1.1[0m" 304 -
+2022-09-02 21:43:38,701 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:43:38] "[36mGET /static/js/pace.min.js HTTP/1.1[0m" 304 -
+2022-09-02 21:43:38,702 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:43:38] "[36mGET /static/js/modernizr.js HTTP/1.1[0m" 304 -
+2022-09-02 21:43:38,703 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:43:38] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2022-09-02 21:43:38,704 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:43:38] "[36mGET /static/js/jquery-3.2.1.min.js HTTP/1.1[0m" 304 -
+2022-09-02 21:43:38,706 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:43:38] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-09-02 21:43:38,707 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:43:38] "[36mGET /static/css/vendor.css HTTP/1.1[0m" 304 -
+2022-09-02 21:43:38,707 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:43:38] "[36mGET /static/js/plugins.js HTTP/1.1[0m" 304 -
+2022-09-02 21:43:38,708 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:43:38] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2022-09-02 21:43:38,899 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:43:38] "[36mGET /static/css/micons/micons.css HTTP/1.1[0m" 304 -
+2022-09-02 21:43:38,899 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:43:38] "[36mGET /static/css/font-awesome/css/font-awesome.min.css HTTP/1.1[0m" 304 -
+2022-09-02 21:43:38,900 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:43:38] "[36mGET /static/css/fonts.css HTTP/1.1[0m" 304 -
+2022-09-02 21:43:38,985 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:43:38] "[36mGET /static/fonts/montserrat/montserrat-semibold-webfont.woff2 HTTP/1.1[0m" 304 -
+2022-09-02 21:43:38,987 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:43:38] "[36mGET /static/fonts/montserrat/montserrat-regular-webfont.woff2 HTTP/1.1[0m" 304 -
+2022-09-02 21:43:38,989 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:43:38] "[36mGET /static/fonts/montserrat/montserrat-medium-webfont.woff2 HTTP/1.1[0m" 304 -
+2022-09-02 21:43:38,992 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:43:38] "[36mGET /static/fonts/lora/lora-regular-webfont.woff2 HTTP/1.1[0m" 304 -
+2022-09-02 21:43:39,025 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:43:39] "[36mGET /static/assets/Car2.jpg HTTP/1.1[0m" 304 -
+2022-09-02 21:45:09,916 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:45:09] "GET / HTTP/1.1" 200 -
+2022-09-02 21:45:09,935 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:45:09] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-09-02 21:45:09,937 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:45:09] "[36mGET /static/css/vendor.css HTTP/1.1[0m" 304 -
+2022-09-02 21:45:09,938 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:45:09] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2022-09-02 21:45:09,942 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:45:09] "[36mGET /static/js/modernizr.js HTTP/1.1[0m" 304 -
+2022-09-02 21:45:09,944 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:45:09] "[36mGET /static/js/pace.min.js HTTP/1.1[0m" 304 -
+2022-09-02 21:45:09,970 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:45:09] "[36mGET /static/css/font-awesome/css/font-awesome.min.css HTTP/1.1[0m" 304 -
+2022-09-02 21:45:09,971 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:45:09] "[36mGET /static/css/micons/micons.css HTTP/1.1[0m" 304 -
+2022-09-02 21:45:09,972 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:45:09] "[36mGET /static/css/fonts.css HTTP/1.1[0m" 304 -
+2022-09-02 21:45:09,978 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:45:09] "[36mGET /static/js/jquery-3.2.1.min.js HTTP/1.1[0m" 304 -
+2022-09-02 21:45:09,980 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:45:09] "[36mGET /static/js/plugins.js HTTP/1.1[0m" 304 -
+2022-09-02 21:45:10,007 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:45:10] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2022-09-02 21:45:10,009 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:45:10] "[36mGET /static/assets/logo.png HTTP/1.1[0m" 304 -
+2022-09-02 21:45:10,026 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:45:10] "[36mGET /static/fonts/montserrat/montserrat-semibold-webfont.woff2 HTTP/1.1[0m" 304 -
+2022-09-02 21:45:10,030 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:45:10] "[36mGET /static/fonts/montserrat/montserrat-regular-webfont.woff2 HTTP/1.1[0m" 304 -
+2022-09-02 21:45:10,032 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:45:10] "[36mGET /static/fonts/montserrat/montserrat-medium-webfont.woff2 HTTP/1.1[0m" 304 -
+2022-09-02 21:45:10,035 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:45:10] "[36mGET /static/fonts/lora/lora-regular-webfont.woff2 HTTP/1.1[0m" 304 -
+2022-09-02 21:45:10,037 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:45:10] "[36mGET /static/assets/Car2.jpg HTTP/1.1[0m" 304 -
+2022-09-02 21:45:10,062 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:45:10] "[36mGET /favicon.ico HTTP/1.1[0m" 304 -
+2022-09-02 21:45:27,785 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:45:27] "GET / HTTP/1.1" 200 -
+2022-09-02 21:45:27,805 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:45:27] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-09-02 21:45:27,807 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:45:27] "[36mGET /static/css/vendor.css HTTP/1.1[0m" 304 -
+2022-09-02 21:45:27,809 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:45:27] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2022-09-02 21:45:27,811 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:45:27] "[36mGET /static/js/modernizr.js HTTP/1.1[0m" 304 -
+2022-09-02 21:45:27,813 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:45:27] "[36mGET /static/js/pace.min.js HTTP/1.1[0m" 304 -
+2022-09-02 21:45:27,837 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:45:27] "[36mGET /static/css/font-awesome/css/font-awesome.min.css HTTP/1.1[0m" 304 -
+2022-09-02 21:45:27,838 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:45:27] "[36mGET /static/css/micons/micons.css HTTP/1.1[0m" 304 -
+2022-09-02 21:45:27,840 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:45:27] "[36mGET /static/css/fonts.css HTTP/1.1[0m" 304 -
+2022-09-02 21:45:27,843 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:45:27] "[36mGET /static/js/jquery-3.2.1.min.js HTTP/1.1[0m" 304 -
+2022-09-02 21:45:27,843 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:45:27] "[36mGET /static/js/plugins.js HTTP/1.1[0m" 304 -
+2022-09-02 21:45:27,860 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:45:27] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2022-09-02 21:45:27,861 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:45:27] "[36mGET /static/assets/logo.png HTTP/1.1[0m" 304 -
+2022-09-02 21:45:27,868 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:45:27] "[36mGET /static/fonts/montserrat/montserrat-semibold-webfont.woff2 HTTP/1.1[0m" 304 -
+2022-09-02 21:45:27,870 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:45:27] "[36mGET /static/fonts/montserrat/montserrat-regular-webfont.woff2 HTTP/1.1[0m" 304 -
+2022-09-02 21:45:27,872 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:45:27] "[36mGET /static/fonts/montserrat/montserrat-medium-webfont.woff2 HTTP/1.1[0m" 304 -
+2022-09-02 21:45:27,873 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:45:27] "[36mGET /static/fonts/lora/lora-regular-webfont.woff2 HTTP/1.1[0m" 304 -
+2022-09-02 21:45:27,877 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:45:27] "[36mGET /static/assets/Car2.jpg HTTP/1.1[0m" 304 -
+2022-09-02 21:45:27,892 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:45:27] "[36mGET /favicon.ico HTTP/1.1[0m" 304 -
+2022-09-02 21:46:09,481 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:46:09] "GET / HTTP/1.1" 200 -
+2022-09-02 21:46:09,501 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:46:09] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-09-02 21:46:09,503 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:46:09] "[36mGET /static/css/vendor.css HTTP/1.1[0m" 304 -
+2022-09-02 21:46:09,504 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:46:09] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2022-09-02 21:46:09,505 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:46:09] "[36mGET /static/js/modernizr.js HTTP/1.1[0m" 304 -
+2022-09-02 21:46:09,506 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:46:09] "[36mGET /static/js/pace.min.js HTTP/1.1[0m" 304 -
+2022-09-02 21:46:09,532 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:46:09] "[36mGET /static/css/font-awesome/css/font-awesome.min.css HTTP/1.1[0m" 304 -
+2022-09-02 21:46:09,533 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:46:09] "[36mGET /static/css/micons/micons.css HTTP/1.1[0m" 304 -
+2022-09-02 21:46:09,534 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:46:09] "[36mGET /static/css/fonts.css HTTP/1.1[0m" 304 -
+2022-09-02 21:46:09,537 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:46:09] "[36mGET /static/js/jquery-3.2.1.min.js HTTP/1.1[0m" 304 -
+2022-09-02 21:46:09,538 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:46:09] "[36mGET /static/js/plugins.js HTTP/1.1[0m" 304 -
+2022-09-02 21:46:09,555 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:46:09] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2022-09-02 21:46:09,556 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:46:09] "[36mGET /static/assets/logo.png HTTP/1.1[0m" 304 -
+2022-09-02 21:46:09,563 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:46:09] "[36mGET /static/fonts/montserrat/montserrat-semibold-webfont.woff2 HTTP/1.1[0m" 304 -
+2022-09-02 21:46:09,565 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:46:09] "[36mGET /static/fonts/montserrat/montserrat-regular-webfont.woff2 HTTP/1.1[0m" 304 -
+2022-09-02 21:46:09,567 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:46:09] "[36mGET /static/fonts/montserrat/montserrat-medium-webfont.woff2 HTTP/1.1[0m" 304 -
+2022-09-02 21:46:09,568 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:46:09] "[36mGET /static/fonts/lora/lora-regular-webfont.woff2 HTTP/1.1[0m" 304 -
+2022-09-02 21:46:09,572 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:46:09] "[36mGET /static/assets/Car2.jpg HTTP/1.1[0m" 304 -
+2022-09-02 21:46:09,593 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:46:09] "[36mGET /favicon.ico HTTP/1.1[0m" 304 -
+2022-09-02 21:48:23,816 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:48:23] "GET /damage HTTP/1.1" 200 -
+2022-09-02 21:48:23,842 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:48:23] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-09-02 21:48:23,845 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:48:23] "[36mGET /static/css/vendor.css HTTP/1.1[0m" 304 -
+2022-09-02 21:48:23,848 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:48:23] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2022-09-02 21:48:23,851 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:48:23] "[36mGET /static/js/modernizr.js HTTP/1.1[0m" 304 -
+2022-09-02 21:48:23,853 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:48:23] "[36mGET /static/js/pace.min.js HTTP/1.1[0m" 304 -
+2022-09-02 21:48:23,855 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:48:23] "[36mGET /static/assets/logo.png HTTP/1.1[0m" 304 -
+2022-09-02 21:48:23,874 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:48:23] "[36mGET /static/css/font-awesome/css/font-awesome.min.css HTTP/1.1[0m" 304 -
+2022-09-02 21:48:23,875 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:48:23] "[36mGET /static/css/micons/micons.css HTTP/1.1[0m" 304 -
+2022-09-02 21:48:23,877 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:48:23] "[36mGET /static/css/fonts.css HTTP/1.1[0m" 304 -
+2022-09-02 21:48:23,880 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:48:23] "[36mGET /static/js/jquery-3.2.1.min.js HTTP/1.1[0m" 304 -
+2022-09-02 21:48:23,881 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:48:23] "[36mGET /static/js/plugins.js HTTP/1.1[0m" 304 -
+2022-09-02 21:48:23,900 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:48:23] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2022-09-02 21:48:23,910 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:48:23] "[36mGET /static/fonts/montserrat/montserrat-semibold-webfont.woff2 HTTP/1.1[0m" 304 -
+2022-09-02 21:48:23,911 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:48:23] "[36mGET /static/fonts/montserrat/montserrat-regular-webfont.woff2 HTTP/1.1[0m" 304 -
+2022-09-02 21:48:23,913 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:48:23] "[36mGET /static/fonts/montserrat/montserrat-medium-webfont.woff2 HTTP/1.1[0m" 304 -
+2022-09-02 21:48:23,914 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:48:23] "[36mGET /static/fonts/lora/lora-regular-webfont.woff2 HTTP/1.1[0m" 304 -
+2022-09-02 21:48:23,922 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:48:23] "GET /static/fonts/montserrat/montserrat-bold-webfont.woff2 HTTP/1.1" 200 -
+2022-09-02 21:48:38,275 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:48:38] "GET / HTTP/1.1" 200 -
+2022-09-02 21:48:38,306 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:48:38] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-09-02 21:48:38,310 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:48:38] "[36mGET /static/css/vendor.css HTTP/1.1[0m" 304 -
+2022-09-02 21:48:38,312 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:48:38] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2022-09-02 21:48:38,315 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:48:38] "[36mGET /static/js/modernizr.js HTTP/1.1[0m" 304 -
+2022-09-02 21:48:38,316 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:48:38] "[36mGET /static/js/pace.min.js HTTP/1.1[0m" 304 -
+2022-09-02 21:48:38,317 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:48:38] "[36mGET /static/assets/logo.png HTTP/1.1[0m" 304 -
+2022-09-02 21:48:38,330 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:48:38] "[36mGET /static/css/font-awesome/css/font-awesome.min.css HTTP/1.1[0m" 304 -
+2022-09-02 21:48:38,330 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:48:38] "[36mGET /static/css/micons/micons.css HTTP/1.1[0m" 304 -
+2022-09-02 21:48:38,331 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:48:38] "[36mGET /static/css/fonts.css HTTP/1.1[0m" 304 -
+2022-09-02 21:48:38,336 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:48:38] "[36mGET /static/js/jquery-3.2.1.min.js HTTP/1.1[0m" 304 -
+2022-09-02 21:48:38,336 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:48:38] "[36mGET /static/js/plugins.js HTTP/1.1[0m" 304 -
+2022-09-02 21:48:38,358 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:48:38] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2022-09-02 21:48:38,367 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:48:38] "[36mGET /static/fonts/montserrat/montserrat-semibold-webfont.woff2 HTTP/1.1[0m" 304 -
+2022-09-02 21:48:38,369 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:48:38] "[36mGET /static/fonts/montserrat/montserrat-regular-webfont.woff2 HTTP/1.1[0m" 304 -
+2022-09-02 21:48:38,370 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:48:38] "[36mGET /static/fonts/montserrat/montserrat-medium-webfont.woff2 HTTP/1.1[0m" 304 -
+2022-09-02 21:48:38,372 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:48:38] "[36mGET /static/fonts/lora/lora-regular-webfont.woff2 HTTP/1.1[0m" 304 -
+2022-09-02 21:48:38,375 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:48:38] "[36mGET /static/assets/Car2.jpg HTTP/1.1[0m" 304 -
+2022-09-02 21:48:40,666 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:48:40] "GET /damage HTTP/1.1" 200 -
+2022-09-02 21:48:40,691 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:48:40] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-09-02 21:48:40,700 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:48:40] "[36mGET /static/css/vendor.css HTTP/1.1[0m" 304 -
+2022-09-02 21:48:40,703 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:48:40] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2022-09-02 21:48:40,704 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:48:40] "[36mGET /static/js/modernizr.js HTTP/1.1[0m" 304 -
+2022-09-02 21:48:40,706 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:48:40] "[36mGET /static/js/pace.min.js HTTP/1.1[0m" 304 -
+2022-09-02 21:48:40,709 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:48:40] "[36mGET /static/assets/logo.png HTTP/1.1[0m" 304 -
+2022-09-02 21:48:40,728 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:48:40] "[36mGET /static/css/font-awesome/css/font-awesome.min.css HTTP/1.1[0m" 304 -
+2022-09-02 21:48:40,729 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:48:40] "[36mGET /static/css/micons/micons.css HTTP/1.1[0m" 304 -
+2022-09-02 21:48:40,730 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:48:40] "[36mGET /static/css/fonts.css HTTP/1.1[0m" 304 -
+2022-09-02 21:48:40,734 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:48:40] "[36mGET /static/js/jquery-3.2.1.min.js HTTP/1.1[0m" 304 -
+2022-09-02 21:48:40,739 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:48:40] "[36mGET /static/js/plugins.js HTTP/1.1[0m" 304 -
+2022-09-02 21:48:40,759 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:48:40] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2022-09-02 21:48:40,770 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:48:40] "[36mGET /static/fonts/montserrat/montserrat-semibold-webfont.woff2 HTTP/1.1[0m" 304 -
+2022-09-02 21:48:40,771 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:48:40] "[36mGET /static/fonts/montserrat/montserrat-regular-webfont.woff2 HTTP/1.1[0m" 304 -
+2022-09-02 21:48:40,773 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:48:40] "[36mGET /static/fonts/montserrat/montserrat-medium-webfont.woff2 HTTP/1.1[0m" 304 -
+2022-09-02 21:48:40,775 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:48:40] "[36mGET /static/fonts/montserrat/montserrat-bold-webfont.woff2 HTTP/1.1[0m" 304 -
+2022-09-02 21:48:40,777 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:48:40] "[36mGET /static/fonts/lora/lora-regular-webfont.woff2 HTTP/1.1[0m" 304 -
+2022-09-02 21:48:56,447 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:48:56] "GET / HTTP/1.1" 200 -
+2022-09-02 21:48:56,483 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:48:56] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-09-02 21:48:56,485 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:48:56] "[36mGET /static/css/vendor.css HTTP/1.1[0m" 304 -
+2022-09-02 21:48:56,488 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:48:56] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2022-09-02 21:48:56,489 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:48:56] "[36mGET /static/js/modernizr.js HTTP/1.1[0m" 304 -
+2022-09-02 21:48:56,492 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:48:56] "[36mGET /static/js/pace.min.js HTTP/1.1[0m" 304 -
+2022-09-02 21:48:56,493 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:48:56] "[36mGET /static/assets/logo.png HTTP/1.1[0m" 304 -
+2022-09-02 21:48:56,505 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:48:56] "[36mGET /static/css/font-awesome/css/font-awesome.min.css HTTP/1.1[0m" 304 -
+2022-09-02 21:48:56,507 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:48:56] "[36mGET /static/css/fonts.css HTTP/1.1[0m" 304 -
+2022-09-02 21:48:56,507 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:48:56] "[36mGET /static/css/micons/micons.css HTTP/1.1[0m" 304 -
+2022-09-02 21:48:56,511 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:48:56] "[36mGET /static/js/jquery-3.2.1.min.js HTTP/1.1[0m" 304 -
+2022-09-02 21:48:56,512 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:48:56] "[36mGET /static/js/plugins.js HTTP/1.1[0m" 304 -
+2022-09-02 21:48:56,528 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:48:56] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2022-09-02 21:48:56,541 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:48:56] "[36mGET /static/fonts/montserrat/montserrat-semibold-webfont.woff2 HTTP/1.1[0m" 304 -
+2022-09-02 21:48:56,544 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:48:56] "[36mGET /static/fonts/montserrat/montserrat-regular-webfont.woff2 HTTP/1.1[0m" 304 -
+2022-09-02 21:48:56,546 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:48:56] "[36mGET /static/fonts/montserrat/montserrat-medium-webfont.woff2 HTTP/1.1[0m" 304 -
+2022-09-02 21:48:56,549 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:48:56] "[36mGET /static/fonts/lora/lora-regular-webfont.woff2 HTTP/1.1[0m" 304 -
+2022-09-02 21:48:56,552 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:48:56] "[36mGET /static/assets/Car2.jpg HTTP/1.1[0m" 304 -
+2022-09-02 21:50:52,771 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:50:52] "GET /label HTTP/1.1" 200 -
+2022-09-02 21:50:52,796 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:50:52] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-09-02 21:50:52,799 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:50:52] "[36mGET /static/css/vendor.css HTTP/1.1[0m" 304 -
+2022-09-02 21:50:52,802 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:50:52] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2022-09-02 21:50:52,804 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:50:52] "[36mGET /static/js/modernizr.js HTTP/1.1[0m" 304 -
+2022-09-02 21:50:52,806 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:50:52] "[36mGET /static/js/pace.min.js HTTP/1.1[0m" 304 -
+2022-09-02 21:50:52,808 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:50:52] "[36mGET /static/assets/logo.png HTTP/1.1[0m" 304 -
+2022-09-02 21:50:52,834 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:50:52] "[36mGET /static/css/font-awesome/css/font-awesome.min.css HTTP/1.1[0m" 304 -
+2022-09-02 21:50:52,836 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:50:52] "[36mGET /static/css/micons/micons.css HTTP/1.1[0m" 304 -
+2022-09-02 21:50:52,837 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:50:52] "[36mGET /static/css/fonts.css HTTP/1.1[0m" 304 -
+2022-09-02 21:50:52,844 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:50:52] "[36mGET /static/js/jquery-3.2.1.min.js HTTP/1.1[0m" 304 -
+2022-09-02 21:50:52,845 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:50:52] "[36mGET /static/js/plugins.js HTTP/1.1[0m" 304 -
+2022-09-02 21:50:52,866 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:50:52] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2022-09-02 21:50:52,877 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:50:52] "[36mGET /static/fonts/montserrat/montserrat-semibold-webfont.woff2 HTTP/1.1[0m" 304 -
+2022-09-02 21:50:52,879 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:50:52] "[36mGET /static/fonts/montserrat/montserrat-regular-webfont.woff2 HTTP/1.1[0m" 304 -
+2022-09-02 21:50:52,880 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:50:52] "[36mGET /static/fonts/montserrat/montserrat-medium-webfont.woff2 HTTP/1.1[0m" 304 -
+2022-09-02 21:50:52,883 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:50:52] "[36mGET /static/fonts/montserrat/montserrat-bold-webfont.woff2 HTTP/1.1[0m" 304 -
+2022-09-02 21:50:52,884 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:50:52] "[36mGET /static/fonts/lora/lora-regular-webfont.woff2 HTTP/1.1[0m" 304 -
+2022-09-02 21:51:19,064 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:51:19] "POST /basic HTTP/1.1" 200 -
+2022-09-02 21:51:19,084 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:51:19] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-09-02 21:51:19,094 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:51:19] "[36mGET /static/css/vendor.css HTTP/1.1[0m" 304 -
+2022-09-02 21:51:19,096 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:51:19] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2022-09-02 21:51:19,100 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:51:19] "[36mGET /static/js/modernizr.js HTTP/1.1[0m" 304 -
+2022-09-02 21:51:19,102 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:51:19] "[36mGET /static/js/pace.min.js HTTP/1.1[0m" 304 -
+2022-09-02 21:51:19,115 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:51:19] "[36mGET /static/css/font-awesome/css/font-awesome.min.css HTTP/1.1[0m" 304 -
+2022-09-02 21:51:19,116 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:51:19] "[36mGET /static/css/micons/micons.css HTTP/1.1[0m" 304 -
+2022-09-02 21:51:19,117 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:51:19] "[36mGET /static/css/fonts.css HTTP/1.1[0m" 304 -
+2022-09-02 21:51:19,120 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:51:19] "[36mGET /static/js/jquery-3.2.1.min.js HTTP/1.1[0m" 304 -
+2022-09-02 21:51:19,121 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:51:19] "[36mGET /static/js/plugins.js HTTP/1.1[0m" 304 -
+2022-09-02 21:51:19,134 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:51:19] "[36mGET /static/assets/logo.png HTTP/1.1[0m" 304 -
+2022-09-02 21:51:19,141 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:51:19] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2022-09-02 21:51:19,146 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:51:19] "[36mGET /static/fonts/montserrat/montserrat-semibold-webfont.woff2 HTTP/1.1[0m" 304 -
+2022-09-02 21:51:19,150 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:51:19] "GET /static/3ab29178-11af-470c-a691-3cc46e105439_AS62305_1630568724_0_43.jpeg HTTP/1.1" 200 -
+2022-09-02 21:51:19,151 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:51:19] "GET /static/3ab29178-11af-470c-a691-3cc46e105439_DR70274_1630594992_0_27.jpeg HTTP/1.1" 200 -
+2022-09-02 21:51:19,152 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:51:19] "GET /static/3ab29178-11af-470c-a691-3cc46e105439_CV94263_1631797526_1_31.webp HTTP/1.1" 200 -
+2022-09-02 21:51:19,153 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:51:19] "[36mGET /static/fonts/montserrat/montserrat-medium-webfont.woff2 HTTP/1.1[0m" 304 -
+2022-09-02 21:51:19,153 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:51:19] "[36mGET /static/fonts/montserrat/montserrat-regular-webfont.woff2 HTTP/1.1[0m" 304 -
+2022-09-02 21:51:19,154 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:51:19] "[36mGET /static/fonts/montserrat/montserrat-bold-webfont.woff2 HTTP/1.1[0m" 304 -
+2022-09-02 21:51:19,156 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:51:19] "[36mGET /static/fonts/lora/lora-regular-webfont.woff2 HTTP/1.1[0m" 304 -
+2022-09-02 21:51:19,161 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:51:19] "GET /static/fonts/lora/lora-italic-webfont.woff2 HTTP/1.1" 200 -
+2022-09-02 21:51:29,686 - src.ml.handle_prediction - INFO - [{'file_name': '3ab29178-11af-470c-a691-3cc46e105439_AS62305_1630568724_0_43.jpeg', 'Label': 'rim'}, {'file_name': '3ab29178-11af-470c-a691-3cc46e105439_DR70274_1630594992_0_27.jpeg', 'Label': 'dent'}]
+2022-09-02 21:51:29,689 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:51:29] "POST /basic HTTP/1.1" 200 -
+2022-09-02 21:51:29,704 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:51:29] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-09-02 21:51:29,706 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:51:29] "[36mGET /static/css/vendor.css HTTP/1.1[0m" 304 -
+2022-09-02 21:51:29,710 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:51:29] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2022-09-02 21:51:29,712 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:51:29] "[36mGET /static/js/modernizr.js HTTP/1.1[0m" 304 -
+2022-09-02 21:51:29,715 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:51:29] "[36mGET /static/js/pace.min.js HTTP/1.1[0m" 304 -
+2022-09-02 21:51:29,742 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:51:29] "[36mGET /static/css/font-awesome/css/font-awesome.min.css HTTP/1.1[0m" 304 -
+2022-09-02 21:51:29,743 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:51:29] "[36mGET /static/css/micons/micons.css HTTP/1.1[0m" 304 -
+2022-09-02 21:51:29,744 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:51:29] "[36mGET /static/css/fonts.css HTTP/1.1[0m" 304 -
+2022-09-02 21:51:29,749 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:51:29] "[36mGET /static/js/jquery-3.2.1.min.js HTTP/1.1[0m" 304 -
+2022-09-02 21:51:29,750 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:51:29] "[36mGET /static/js/plugins.js HTTP/1.1[0m" 304 -
+2022-09-02 21:51:29,761 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:51:29] "[36mGET /static/assets/logo.png HTTP/1.1[0m" 304 -
+2022-09-02 21:51:29,766 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:51:29] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2022-09-02 21:51:29,776 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:51:29] "[36mGET /static/fonts/montserrat/montserrat-semibold-webfont.woff2 HTTP/1.1[0m" 304 -
+2022-09-02 21:51:29,778 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:51:29] "[36mGET /static/fonts/montserrat/montserrat-regular-webfont.woff2 HTTP/1.1[0m" 304 -
+2022-09-02 21:51:29,779 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:51:29] "[36mGET /static/fonts/montserrat/montserrat-medium-webfont.woff2 HTTP/1.1[0m" 304 -
+2022-09-02 21:51:29,781 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:51:29] "[36mGET /static/fonts/lora/lora-regular-webfont.woff2 HTTP/1.1[0m" 304 -
+2022-09-02 21:51:31,644 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:51:31] "GET /downloader HTTP/1.1" 200 -
+2022-09-02 21:51:40,394 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:51:40] "GET / HTTP/1.1" 200 -
+2022-09-02 21:51:40,419 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:51:40] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-09-02 21:51:40,428 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:51:40] "[36mGET /static/css/vendor.css HTTP/1.1[0m" 304 -
+2022-09-02 21:51:40,431 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:51:40] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2022-09-02 21:51:40,432 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:51:40] "[36mGET /static/js/modernizr.js HTTP/1.1[0m" 304 -
+2022-09-02 21:51:40,434 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:51:40] "[36mGET /static/js/pace.min.js HTTP/1.1[0m" 304 -
+2022-09-02 21:51:40,451 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:51:40] "[36mGET /static/css/font-awesome/css/font-awesome.min.css HTTP/1.1[0m" 304 -
+2022-09-02 21:51:40,452 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:51:40] "[36mGET /static/css/micons/micons.css HTTP/1.1[0m" 304 -
+2022-09-02 21:51:40,454 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:51:40] "[36mGET /static/css/fonts.css HTTP/1.1[0m" 304 -
+2022-09-02 21:51:40,461 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:51:40] "[36mGET /static/js/jquery-3.2.1.min.js HTTP/1.1[0m" 304 -
+2022-09-02 21:51:40,465 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:51:40] "[36mGET /static/js/plugins.js HTTP/1.1[0m" 304 -
+2022-09-02 21:51:40,481 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:51:40] "[36mGET /static/assets/logo.png HTTP/1.1[0m" 304 -
+2022-09-02 21:51:40,487 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:51:40] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2022-09-02 21:51:40,500 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:51:40] "[36mGET /static/fonts/montserrat/montserrat-semibold-webfont.woff2 HTTP/1.1[0m" 304 -
+2022-09-02 21:51:40,503 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:51:40] "[36mGET /static/fonts/montserrat/montserrat-regular-webfont.woff2 HTTP/1.1[0m" 304 -
+2022-09-02 21:51:40,509 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:51:40] "[36mGET /static/fonts/montserrat/montserrat-medium-webfont.woff2 HTTP/1.1[0m" 304 -
+2022-09-02 21:51:40,513 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:51:40] "[36mGET /static/fonts/lora/lora-regular-webfont.woff2 HTTP/1.1[0m" 304 -
+2022-09-02 21:51:40,516 - werkzeug - INFO - 127.0.0.1 - - [02/Sep/2022 21:51:40] "[36mGET /static/assets/Car2.jpg HTTP/1.1[0m" 304 -
+2022-09-04 11:05:25,776 - matplotlib - DEBUG - matplotlib data path: D:\Git\venv\lib\site-packages\matplotlib\mpl-data
+2022-09-04 11:05:25,780 - matplotlib - DEBUG - CONFIGDIR=C:\Users\nilak\.matplotlib
+2022-09-04 11:05:25,781 - matplotlib - DEBUG - interactive is False
+2022-09-04 11:05:25,781 - matplotlib - DEBUG - platform is win32
+2022-09-04 11:05:25,781 - matplotlib - DEBUG - loaded modules: ['sys', 'builtins', '_frozen_importlib', '_imp', '_thread', '_warnings', '_weakref', '_io', 'marshal', 'nt', 'winreg', '_frozen_importlib_external', 'time', 'zipimport', '_codecs', 'codecs', 'encodings.aliases', 'encodings', 'encodings.utf_8', '_signal', 'encodings.latin_1', '_abc', 'abc', 'io', '__main__', '_stat', 'stat', '_collections_abc', 'genericpath', 'ntpath', 'os.path', 'os', '_sitebuiltins', '_locale', '_bootlocale', 'encodings.cp1252', '_heapq', 'heapq', 'itertools', 'keyword', '_operator', 'operator', 'reprlib', '_collections', 'collections', 'types', '_functools', 'functools', 'importlib._bootstrap', 'importlib._bootstrap_external', 'warnings', 'importlib', 'importlib.machinery', 'collections.abc', 'contextlib', 'enum', '_sre', 'sre_constants', 'sre_parse', 'sre_compile', 'copyreg', 're', 'typing.io', 'typing.re', 'typing', 'importlib.abc', 'importlib.util', '_virtualenv', '_distutils_hack', 'google', 'mpl_toolkits', 'site', 'token', 'tokenize', 'linecache', 'traceback', '_weakrefset', 'weakref', '_string', 'string', 'threading', 'atexit', 'logging', 'posixpath', 'fnmatch', 'errno', 'urllib', 'urllib.parse', 'pathlib', 'src', 'src.web', 'src.web.main', 'matplotlib', '_ast', 'ast', '_opcode', 'opcode', 'dis', 'inspect', 'locale', 'pprint', 'zlib', '_compression', '_bz2', 'bz2', '_lzma', 'lzma', 'shutil', 'signal', 'msvcrt', '_winapi', 'subprocess', 'math', '_bisect', 'bisect', '_random', '_sha512', 'random', 'tempfile', 'numpy._globals', 'numpy.__config__', 'glob', '_ctypes', '_struct', 'struct', 'ctypes._endian', 'ctypes', 'numpy._distributor_init', '__future__', '_json', 'json.scanner', 'json.decoder', 'json.encoder', 'json', 'numpy._version', 'numpy.version', '_datetime', 'datetime', 'numpy.core._multiarray_umath', 'numpy.compat._inspect', 'numpy.compat._pep440', '_compat_pickle', '_pickle', 'pickle', 'numpy.compat.py3k', 'numpy.compat', 'numpy.core.overrides', 'numpy.core.multiarray', 'numpy.core.umath', 'numbers', 'numpy.core._string_helpers', 'numpy.core._dtype', 'numpy.core._type_aliases', 'numpy.core.numerictypes', 'numpy.core._exceptions', 'numpy.core._methods', 'numpy.core.fromnumeric', 'numpy.core.shape_base', 'numpy.core._ufunc_config', 'numpy.core.arrayprint', 'numpy.core._asarray', 'numpy.core.numeric', 'numpy.core.defchararray', 'numpy.core.records', 'numpy.core.memmap', 'numpy.core.function_base', 'numpy.core._machar', 'numpy.core.getlimits', 'numpy.core.einsumfunc', 'numpy.core._multiarray_tests', 'numpy.core._add_newdocs', 'platform', '_socket', 'select', 'selectors', 'socket', 'numpy.core._add_newdocs_scalars', 'numpy.core._dtype_ctypes', 'numpy.core._internal', 'numpy._pytesttester', 'numpy.core', 'numpy.lib.mixins', 'numpy.lib.ufunclike', 'numpy.lib.type_check', 'numpy.lib.scimath', 'numpy.lib.stride_tricks', 'numpy.lib.twodim_base', 'numpy.linalg._umath_linalg', 'numpy.linalg.linalg', 'numpy.linalg', 'numpy.matrixlib.defmatrix', 'numpy.matrixlib', 'numpy.lib.histograms', 'numpy.lib.function_base', 'numpy.lib.index_tricks', 'numpy.lib.nanfunctions', 'numpy.lib.shape_base', 'numpy.lib.polynomial', 'textwrap', 'numpy.lib.utils', 'numpy.lib.arraysetops', 'numpy.lib.format', 'numpy.lib._datasource', 'numpy.lib._iotools', 'numpy.lib.npyio', 'numpy.lib.arrayterator', 'numpy.lib.arraypad', 'numpy.lib._version', 'numpy.lib', 'numpy.fft._pocketfft_internal', 'numpy.fft._pocketfft', 'numpy.fft.helper', 'numpy.fft', 'numpy.polynomial.polyutils', 'numpy.polynomial._polybase', 'numpy.polynomial.polynomial', 'numpy.polynomial.chebyshev', 'numpy.polynomial.legendre', 'numpy.polynomial.hermite', 'numpy.polynomial.hermite_e', 'numpy.polynomial.laguerre', 'numpy.polynomial', 'cython_runtime', '_cython_0_29_32', 'numpy.random._common', 'binascii', 'base64', '_hashlib', '_blake2', 'hashlib', 'hmac', 'secrets', 'numpy.random.bit_generator', 'numpy.random._bounded_integers', 'numpy.random._mt19937', 'numpy.random.mtrand', 'numpy.random._philox', 'numpy.random._pcg64', 'numpy.random._sfc64', 'numpy.random._generator', 'numpy.random._pickle', 'numpy.random', 'numpy.ctypeslib', 'numpy.ma.core', 'numpy.ma.extras', 'numpy.ma', 'numpy', 'packaging.__about__', 'packaging', 'packaging._structures', 'packaging.version', 'matplotlib._api.deprecation', 'matplotlib._api', 'matplotlib._version', 'gzip', 'shlex', 'matplotlib._c_internal_utils', 'matplotlib.cbook', 'matplotlib.docstring', 'copy', 'PIL._version', 'PIL', 'PIL.ImageMode', 'PIL.TiffTags', 'PIL._binary', 'PIL._util', 'PIL._imaging', 'PIL.Image', 'PIL.ImageChops', 'PIL.ImageFile', 'array', 'PIL.GimpGradientFile', 'PIL.GimpPaletteFile', 'PIL.ImageColor', 'PIL.PaletteFile', 'PIL.ImagePalette', 'PIL.ImageSequence', 'PIL.PngImagePlugin', 'matplotlib._path', 'matplotlib.bezier', 'matplotlib.path', 'matplotlib.transforms', 'matplotlib.ticker', 'matplotlib.scale', 'matplotlib._color_data', 'matplotlib.colors', 'pyparsing.util', 'pyparsing.unicode', 'pyparsing.exceptions', 'pyparsing.actions', 'pyparsing.results', 'pyparsing.core', 'html.entities', 'html', 'pyparsing.helpers', 'pyparsing.testing', 'pyparsing.common', 'pyparsing', 'matplotlib.fontconfig_pattern', 'matplotlib._enums', 'cycler', 'matplotlib.rcsetup', 'matplotlib.ft2font', 'dateutil._version', 'dateutil', 'kiwisolver._cext', 'kiwisolver']
+2022-09-04 11:05:25,867 - matplotlib - DEBUG - CACHEDIR=C:\Users\nilak\.matplotlib
+2022-09-04 11:05:25,874 - matplotlib.font_manager - DEBUG - Using fontManager instance from C:\Users\nilak\.matplotlib\fontlist-v330.json
+2022-09-04 11:05:27,407 - tensorflow - DEBUG - Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2022-09-04 11:05:27,720 - h5py._conv - DEBUG - Creating converter from 7 to 5
+2022-09-04 11:05:27,720 - h5py._conv - DEBUG - Creating converter from 5 to 7
+2022-09-04 11:05:27,720 - h5py._conv - DEBUG - Creating converter from 7 to 5
+2022-09-04 11:05:27,720 - h5py._conv - DEBUG - Creating converter from 5 to 7
+2022-09-04 11:05:29,612 - src.ml.handle_prediction - INFO - Creating new model instance <src.ml.handle_prediction.ProductionModels object at 0x0000013C5BB313D0>
+2022-09-04 11:05:29,612 - src.ml.handle_prediction - INFO - Loading model at path D:\Git\model\model.h5
+2022-09-04 11:05:29,617 - h5py._conv - DEBUG - Creating converter from 3 to 5
+2022-09-04 11:05:33,363 - root - INFO - Starting execution of webapp from __main__
+2022-09-04 11:05:33,364 - src.ml.handle_prediction - INFO - b" * Serving Flask app 'src.web.main' (lazy loading)"
+2022-09-04 11:05:33,364 - src.ml.handle_prediction - INFO - b' * Environment: production'
+2022-09-04 11:05:33,364 - src.ml.handle_prediction - INFO - b'   WARNING: This is a development server. Do not use it in a production deployment.'
+2022-09-04 11:05:33,364 - src.ml.handle_prediction - INFO - b'   Use a production WSGI server instead.'
+2022-09-04 11:05:33,364 - src.ml.handle_prediction - INFO - b' * Debug mode: off'
+2022-09-04 11:05:33,397 - werkzeug - INFO -  * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:8888
+ * Running on http://192.168.0.112:8888 (Press CTRL+C to quit)
+2022-09-04 11:08:08,051 - matplotlib - DEBUG - matplotlib data path: D:\Git\venv\lib\site-packages\matplotlib\mpl-data
+2022-09-04 11:08:08,053 - matplotlib - DEBUG - CONFIGDIR=C:\Users\nilak\.matplotlib
+2022-09-04 11:08:08,055 - matplotlib - DEBUG - interactive is False
+2022-09-04 11:08:08,055 - matplotlib - DEBUG - platform is win32
+2022-09-04 11:08:08,055 - matplotlib - DEBUG - loaded modules: ['sys', 'builtins', '_frozen_importlib', '_imp', '_thread', '_warnings', '_weakref', '_io', 'marshal', 'nt', 'winreg', '_frozen_importlib_external', 'time', 'zipimport', '_codecs', 'codecs', 'encodings.aliases', 'encodings', 'encodings.utf_8', '_signal', 'encodings.latin_1', '_abc', 'abc', 'io', '__main__', '_stat', 'stat', '_collections_abc', 'genericpath', 'ntpath', 'os.path', 'os', '_sitebuiltins', '_locale', '_bootlocale', 'encodings.cp1252', '_heapq', 'heapq', 'itertools', 'keyword', '_operator', 'operator', 'reprlib', '_collections', 'collections', 'types', '_functools', 'functools', 'importlib._bootstrap', 'importlib._bootstrap_external', 'warnings', 'importlib', 'importlib.machinery', 'collections.abc', 'contextlib', 'enum', '_sre', 'sre_constants', 'sre_parse', 'sre_compile', 'copyreg', 're', 'typing.io', 'typing.re', 'typing', 'importlib.abc', 'importlib.util', '_virtualenv', '_distutils_hack', 'google', 'mpl_toolkits', 'site', 'token', 'tokenize', 'linecache', 'traceback', '_weakrefset', 'weakref', '_string', 'string', 'threading', 'atexit', 'logging', 'posixpath', 'fnmatch', 'errno', 'urllib', 'urllib.parse', 'pathlib', 'src', 'src.web', 'src.web.main', 'matplotlib', '_ast', 'ast', '_opcode', 'opcode', 'dis', 'inspect', 'locale', 'pprint', 'zlib', '_compression', '_bz2', 'bz2', '_lzma', 'lzma', 'shutil', 'signal', 'msvcrt', '_winapi', 'subprocess', 'math', '_bisect', 'bisect', '_random', '_sha512', 'random', 'tempfile', 'numpy._globals', 'numpy.__config__', 'glob', '_ctypes', '_struct', 'struct', 'ctypes._endian', 'ctypes', 'numpy._distributor_init', '__future__', '_json', 'json.scanner', 'json.decoder', 'json.encoder', 'json', 'numpy._version', 'numpy.version', '_datetime', 'datetime', 'numpy.core._multiarray_umath', 'numpy.compat._inspect', 'numpy.compat._pep440', '_compat_pickle', '_pickle', 'pickle', 'numpy.compat.py3k', 'numpy.compat', 'numpy.core.overrides', 'numpy.core.multiarray', 'numpy.core.umath', 'numbers', 'numpy.core._string_helpers', 'numpy.core._dtype', 'numpy.core._type_aliases', 'numpy.core.numerictypes', 'numpy.core._exceptions', 'numpy.core._methods', 'numpy.core.fromnumeric', 'numpy.core.shape_base', 'numpy.core._ufunc_config', 'numpy.core.arrayprint', 'numpy.core._asarray', 'numpy.core.numeric', 'numpy.core.defchararray', 'numpy.core.records', 'numpy.core.memmap', 'numpy.core.function_base', 'numpy.core._machar', 'numpy.core.getlimits', 'numpy.core.einsumfunc', 'numpy.core._multiarray_tests', 'numpy.core._add_newdocs', 'platform', '_socket', 'select', 'selectors', 'socket', 'numpy.core._add_newdocs_scalars', 'numpy.core._dtype_ctypes', 'numpy.core._internal', 'numpy._pytesttester', 'numpy.core', 'numpy.lib.mixins', 'numpy.lib.ufunclike', 'numpy.lib.type_check', 'numpy.lib.scimath', 'numpy.lib.stride_tricks', 'numpy.lib.twodim_base', 'numpy.linalg._umath_linalg', 'numpy.linalg.linalg', 'numpy.linalg', 'numpy.matrixlib.defmatrix', 'numpy.matrixlib', 'numpy.lib.histograms', 'numpy.lib.function_base', 'numpy.lib.index_tricks', 'numpy.lib.nanfunctions', 'numpy.lib.shape_base', 'numpy.lib.polynomial', 'textwrap', 'numpy.lib.utils', 'numpy.lib.arraysetops', 'numpy.lib.format', 'numpy.lib._datasource', 'numpy.lib._iotools', 'numpy.lib.npyio', 'numpy.lib.arrayterator', 'numpy.lib.arraypad', 'numpy.lib._version', 'numpy.lib', 'numpy.fft._pocketfft_internal', 'numpy.fft._pocketfft', 'numpy.fft.helper', 'numpy.fft', 'numpy.polynomial.polyutils', 'numpy.polynomial._polybase', 'numpy.polynomial.polynomial', 'numpy.polynomial.chebyshev', 'numpy.polynomial.legendre', 'numpy.polynomial.hermite', 'numpy.polynomial.hermite_e', 'numpy.polynomial.laguerre', 'numpy.polynomial', 'cython_runtime', '_cython_0_29_32', 'numpy.random._common', 'binascii', 'base64', '_hashlib', '_blake2', 'hashlib', 'hmac', 'secrets', 'numpy.random.bit_generator', 'numpy.random._bounded_integers', 'numpy.random._mt19937', 'numpy.random.mtrand', 'numpy.random._philox', 'numpy.random._pcg64', 'numpy.random._sfc64', 'numpy.random._generator', 'numpy.random._pickle', 'numpy.random', 'numpy.ctypeslib', 'numpy.ma.core', 'numpy.ma.extras', 'numpy.ma', 'numpy', 'packaging.__about__', 'packaging', 'packaging._structures', 'packaging.version', 'matplotlib._api.deprecation', 'matplotlib._api', 'matplotlib._version', 'gzip', 'shlex', 'matplotlib._c_internal_utils', 'matplotlib.cbook', 'matplotlib.docstring', 'copy', 'PIL._version', 'PIL', 'PIL.ImageMode', 'PIL.TiffTags', 'PIL._binary', 'PIL._util', 'PIL._imaging', 'PIL.Image', 'PIL.ImageChops', 'PIL.ImageFile', 'array', 'PIL.GimpGradientFile', 'PIL.GimpPaletteFile', 'PIL.ImageColor', 'PIL.PaletteFile', 'PIL.ImagePalette', 'PIL.ImageSequence', 'PIL.PngImagePlugin', 'matplotlib._path', 'matplotlib.bezier', 'matplotlib.path', 'matplotlib.transforms', 'matplotlib.ticker', 'matplotlib.scale', 'matplotlib._color_data', 'matplotlib.colors', 'pyparsing.util', 'pyparsing.unicode', 'pyparsing.exceptions', 'pyparsing.actions', 'pyparsing.results', 'pyparsing.core', 'html.entities', 'html', 'pyparsing.helpers', 'pyparsing.testing', 'pyparsing.common', 'pyparsing', 'matplotlib.fontconfig_pattern', 'matplotlib._enums', 'cycler', 'matplotlib.rcsetup', 'matplotlib.ft2font', 'dateutil._version', 'dateutil', 'kiwisolver._cext', 'kiwisolver']
+2022-09-04 11:08:08,141 - matplotlib - DEBUG - CACHEDIR=C:\Users\nilak\.matplotlib
+2022-09-04 11:08:08,142 - matplotlib.font_manager - DEBUG - Using fontManager instance from C:\Users\nilak\.matplotlib\fontlist-v330.json
+2022-09-04 11:08:09,653 - tensorflow - DEBUG - Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2022-09-04 11:08:09,843 - h5py._conv - DEBUG - Creating converter from 7 to 5
+2022-09-04 11:08:09,844 - h5py._conv - DEBUG - Creating converter from 5 to 7
+2022-09-04 11:08:09,844 - h5py._conv - DEBUG - Creating converter from 7 to 5
+2022-09-04 11:08:09,844 - h5py._conv - DEBUG - Creating converter from 5 to 7
+2022-09-04 11:08:11,685 - src.ml.handle_prediction - INFO - Creating new model instance <src.ml.handle_prediction.ProductionModels object at 0x0000022A8BBA35E0>
+2022-09-04 11:08:11,686 - src.ml.handle_prediction - INFO - Loading model at path D:\Git\model\model.h5
+2022-09-04 11:08:11,688 - h5py._conv - DEBUG - Creating converter from 3 to 5
+2022-09-04 11:08:15,118 - root - INFO - Starting execution of webapp from __main__
+2022-09-04 11:08:15,120 - src.ml.handle_prediction - INFO - b" * Serving Flask app 'src.web.main' (lazy loading)"
+2022-09-04 11:08:15,120 - src.ml.handle_prediction - INFO - b' * Environment: production'
+2022-09-04 11:08:15,120 - src.ml.handle_prediction - INFO - b'   WARNING: This is a development server. Do not use it in a production deployment.'
+2022-09-04 11:08:15,120 - src.ml.handle_prediction - INFO - b'   Use a production WSGI server instead.'
+2022-09-04 11:08:15,120 - src.ml.handle_prediction - INFO - b' * Debug mode: off'
+2022-09-04 11:08:15,124 - werkzeug - INFO -  * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:8888
+ * Running on http://192.168.0.112:8888 (Press CTRL+C to quit)
+2022-09-04 11:10:01,236 - matplotlib - DEBUG - matplotlib data path: D:\Git\venv\lib\site-packages\matplotlib\mpl-data
+2022-09-04 11:10:01,239 - matplotlib - DEBUG - CONFIGDIR=C:\Users\nilak\.matplotlib
+2022-09-04 11:10:01,241 - matplotlib - DEBUG - interactive is False
+2022-09-04 11:10:01,241 - matplotlib - DEBUG - platform is win32
+2022-09-04 11:10:01,241 - matplotlib - DEBUG - loaded modules: ['sys', 'builtins', '_frozen_importlib', '_imp', '_thread', '_warnings', '_weakref', '_io', 'marshal', 'nt', 'winreg', '_frozen_importlib_external', 'time', 'zipimport', '_codecs', 'codecs', 'encodings.aliases', 'encodings', 'encodings.utf_8', '_signal', 'encodings.latin_1', '_abc', 'abc', 'io', '__main__', '_stat', 'stat', '_collections_abc', 'genericpath', 'ntpath', 'os.path', 'os', '_sitebuiltins', '_locale', '_bootlocale', 'encodings.cp1252', '_heapq', 'heapq', 'itertools', 'keyword', '_operator', 'operator', 'reprlib', '_collections', 'collections', 'types', '_functools', 'functools', 'importlib._bootstrap', 'importlib._bootstrap_external', 'warnings', 'importlib', 'importlib.machinery', 'collections.abc', 'contextlib', 'enum', '_sre', 'sre_constants', 'sre_parse', 'sre_compile', 'copyreg', 're', 'typing.io', 'typing.re', 'typing', 'importlib.abc', 'importlib.util', '_virtualenv', '_distutils_hack', 'google', 'mpl_toolkits', 'site', 'token', 'tokenize', 'linecache', 'traceback', '_weakrefset', 'weakref', '_string', 'string', 'threading', 'atexit', 'logging', 'posixpath', 'fnmatch', 'errno', 'urllib', 'urllib.parse', 'pathlib', 'src', 'src.web', 'src.web.main', 'matplotlib', '_ast', 'ast', '_opcode', 'opcode', 'dis', 'inspect', 'locale', 'pprint', 'zlib', '_compression', '_bz2', 'bz2', '_lzma', 'lzma', 'shutil', 'signal', 'msvcrt', '_winapi', 'subprocess', 'math', '_bisect', 'bisect', '_random', '_sha512', 'random', 'tempfile', 'numpy._globals', 'numpy.__config__', 'glob', '_ctypes', '_struct', 'struct', 'ctypes._endian', 'ctypes', 'numpy._distributor_init', '__future__', '_json', 'json.scanner', 'json.decoder', 'json.encoder', 'json', 'numpy._version', 'numpy.version', '_datetime', 'datetime', 'numpy.core._multiarray_umath', 'numpy.compat._inspect', 'numpy.compat._pep440', '_compat_pickle', '_pickle', 'pickle', 'numpy.compat.py3k', 'numpy.compat', 'numpy.core.overrides', 'numpy.core.multiarray', 'numpy.core.umath', 'numbers', 'numpy.core._string_helpers', 'numpy.core._dtype', 'numpy.core._type_aliases', 'numpy.core.numerictypes', 'numpy.core._exceptions', 'numpy.core._methods', 'numpy.core.fromnumeric', 'numpy.core.shape_base', 'numpy.core._ufunc_config', 'numpy.core.arrayprint', 'numpy.core._asarray', 'numpy.core.numeric', 'numpy.core.defchararray', 'numpy.core.records', 'numpy.core.memmap', 'numpy.core.function_base', 'numpy.core._machar', 'numpy.core.getlimits', 'numpy.core.einsumfunc', 'numpy.core._multiarray_tests', 'numpy.core._add_newdocs', 'platform', '_socket', 'select', 'selectors', 'socket', 'numpy.core._add_newdocs_scalars', 'numpy.core._dtype_ctypes', 'numpy.core._internal', 'numpy._pytesttester', 'numpy.core', 'numpy.lib.mixins', 'numpy.lib.ufunclike', 'numpy.lib.type_check', 'numpy.lib.scimath', 'numpy.lib.stride_tricks', 'numpy.lib.twodim_base', 'numpy.linalg._umath_linalg', 'numpy.linalg.linalg', 'numpy.linalg', 'numpy.matrixlib.defmatrix', 'numpy.matrixlib', 'numpy.lib.histograms', 'numpy.lib.function_base', 'numpy.lib.index_tricks', 'numpy.lib.nanfunctions', 'numpy.lib.shape_base', 'numpy.lib.polynomial', 'textwrap', 'numpy.lib.utils', 'numpy.lib.arraysetops', 'numpy.lib.format', 'numpy.lib._datasource', 'numpy.lib._iotools', 'numpy.lib.npyio', 'numpy.lib.arrayterator', 'numpy.lib.arraypad', 'numpy.lib._version', 'numpy.lib', 'numpy.fft._pocketfft_internal', 'numpy.fft._pocketfft', 'numpy.fft.helper', 'numpy.fft', 'numpy.polynomial.polyutils', 'numpy.polynomial._polybase', 'numpy.polynomial.polynomial', 'numpy.polynomial.chebyshev', 'numpy.polynomial.legendre', 'numpy.polynomial.hermite', 'numpy.polynomial.hermite_e', 'numpy.polynomial.laguerre', 'numpy.polynomial', 'cython_runtime', '_cython_0_29_32', 'numpy.random._common', 'binascii', 'base64', '_hashlib', '_blake2', 'hashlib', 'hmac', 'secrets', 'numpy.random.bit_generator', 'numpy.random._bounded_integers', 'numpy.random._mt19937', 'numpy.random.mtrand', 'numpy.random._philox', 'numpy.random._pcg64', 'numpy.random._sfc64', 'numpy.random._generator', 'numpy.random._pickle', 'numpy.random', 'numpy.ctypeslib', 'numpy.ma.core', 'numpy.ma.extras', 'numpy.ma', 'numpy', 'packaging.__about__', 'packaging', 'packaging._structures', 'packaging.version', 'matplotlib._api.deprecation', 'matplotlib._api', 'matplotlib._version', 'gzip', 'shlex', 'matplotlib._c_internal_utils', 'matplotlib.cbook', 'matplotlib.docstring', 'copy', 'PIL._version', 'PIL', 'PIL.ImageMode', 'PIL.TiffTags', 'PIL._binary', 'PIL._util', 'PIL._imaging', 'PIL.Image', 'PIL.ImageChops', 'PIL.ImageFile', 'array', 'PIL.GimpGradientFile', 'PIL.GimpPaletteFile', 'PIL.ImageColor', 'PIL.PaletteFile', 'PIL.ImagePalette', 'PIL.ImageSequence', 'PIL.PngImagePlugin', 'matplotlib._path', 'matplotlib.bezier', 'matplotlib.path', 'matplotlib.transforms', 'matplotlib.ticker', 'matplotlib.scale', 'matplotlib._color_data', 'matplotlib.colors', 'pyparsing.util', 'pyparsing.unicode', 'pyparsing.exceptions', 'pyparsing.actions', 'pyparsing.results', 'pyparsing.core', 'html.entities', 'html', 'pyparsing.helpers', 'pyparsing.testing', 'pyparsing.common', 'pyparsing', 'matplotlib.fontconfig_pattern', 'matplotlib._enums', 'cycler', 'matplotlib.rcsetup', 'matplotlib.ft2font', 'dateutil._version', 'dateutil', 'kiwisolver._cext', 'kiwisolver']
+2022-09-04 11:10:01,331 - matplotlib - DEBUG - CACHEDIR=C:\Users\nilak\.matplotlib
+2022-09-04 11:10:01,333 - matplotlib.font_manager - DEBUG - Using fontManager instance from C:\Users\nilak\.matplotlib\fontlist-v330.json
+2022-09-04 11:10:02,938 - tensorflow - DEBUG - Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2022-09-04 11:10:03,162 - h5py._conv - DEBUG - Creating converter from 7 to 5
+2022-09-04 11:10:03,162 - h5py._conv - DEBUG - Creating converter from 5 to 7
+2022-09-04 11:10:03,162 - h5py._conv - DEBUG - Creating converter from 7 to 5
+2022-09-04 11:10:03,162 - h5py._conv - DEBUG - Creating converter from 5 to 7
+2022-09-04 11:10:05,036 - src.ml.handle_prediction - INFO - Creating new model instance <src.ml.handle_prediction.ProductionModels object at 0x000002792FF035E0>
+2022-09-04 11:10:05,036 - src.ml.handle_prediction - INFO - Loading model at path D:\Git\model\model.h5
+2022-09-04 11:10:05,039 - h5py._conv - DEBUG - Creating converter from 3 to 5
+2022-09-04 11:10:08,400 - root - INFO - Starting execution of webapp from __main__
+2022-09-04 11:10:08,400 - src.ml.handle_prediction - INFO - b" * Serving Flask app 'src.web.main' (lazy loading)"
+2022-09-04 11:10:08,400 - src.ml.handle_prediction - INFO - b' * Environment: production'
+2022-09-04 11:10:08,400 - src.ml.handle_prediction - INFO - b'   WARNING: This is a development server. Do not use it in a production deployment.'
+2022-09-04 11:10:08,401 - src.ml.handle_prediction - INFO - b'   Use a production WSGI server instead.'
+2022-09-04 11:10:08,401 - src.ml.handle_prediction - INFO - b' * Debug mode: off'
+2022-09-04 11:10:08,405 - werkzeug - INFO -  * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:8888
+ * Running on http://192.168.0.112:8888 (Press CTRL+C to quit)
+2022-09-04 11:12:34,334 - matplotlib - DEBUG - matplotlib data path: D:\Git\venv\lib\site-packages\matplotlib\mpl-data
+2022-09-04 11:12:34,337 - matplotlib - DEBUG - CONFIGDIR=C:\Users\nilak\.matplotlib
+2022-09-04 11:12:34,338 - matplotlib - DEBUG - interactive is False
+2022-09-04 11:12:34,338 - matplotlib - DEBUG - platform is win32
+2022-09-04 11:12:34,339 - matplotlib - DEBUG - loaded modules: ['sys', 'builtins', '_frozen_importlib', '_imp', '_thread', '_warnings', '_weakref', '_io', 'marshal', 'nt', 'winreg', '_frozen_importlib_external', 'time', 'zipimport', '_codecs', 'codecs', 'encodings.aliases', 'encodings', 'encodings.utf_8', '_signal', 'encodings.latin_1', '_abc', 'abc', 'io', '__main__', '_stat', 'stat', '_collections_abc', 'genericpath', 'ntpath', 'os.path', 'os', '_sitebuiltins', '_locale', '_bootlocale', 'encodings.cp1252', '_heapq', 'heapq', 'itertools', 'keyword', '_operator', 'operator', 'reprlib', '_collections', 'collections', 'types', '_functools', 'functools', 'importlib._bootstrap', 'importlib._bootstrap_external', 'warnings', 'importlib', 'importlib.machinery', 'collections.abc', 'contextlib', 'enum', '_sre', 'sre_constants', 'sre_parse', 'sre_compile', 'copyreg', 're', 'typing.io', 'typing.re', 'typing', 'importlib.abc', 'importlib.util', '_virtualenv', '_distutils_hack', 'google', 'mpl_toolkits', 'site', 'token', 'tokenize', 'linecache', 'traceback', '_weakrefset', 'weakref', '_string', 'string', 'threading', 'atexit', 'logging', 'posixpath', 'fnmatch', 'errno', 'urllib', 'urllib.parse', 'pathlib', 'src', 'src.web', 'src.web.main', 'matplotlib', '_ast', 'ast', '_opcode', 'opcode', 'dis', 'inspect', 'locale', 'pprint', 'zlib', '_compression', '_bz2', 'bz2', '_lzma', 'lzma', 'shutil', 'signal', 'msvcrt', '_winapi', 'subprocess', 'math', '_bisect', 'bisect', '_random', '_sha512', 'random', 'tempfile', 'numpy._globals', 'numpy.__config__', 'glob', '_ctypes', '_struct', 'struct', 'ctypes._endian', 'ctypes', 'numpy._distributor_init', '__future__', '_json', 'json.scanner', 'json.decoder', 'json.encoder', 'json', 'numpy._version', 'numpy.version', '_datetime', 'datetime', 'numpy.core._multiarray_umath', 'numpy.compat._inspect', 'numpy.compat._pep440', '_compat_pickle', '_pickle', 'pickle', 'numpy.compat.py3k', 'numpy.compat', 'numpy.core.overrides', 'numpy.core.multiarray', 'numpy.core.umath', 'numbers', 'numpy.core._string_helpers', 'numpy.core._dtype', 'numpy.core._type_aliases', 'numpy.core.numerictypes', 'numpy.core._exceptions', 'numpy.core._methods', 'numpy.core.fromnumeric', 'numpy.core.shape_base', 'numpy.core._ufunc_config', 'numpy.core.arrayprint', 'numpy.core._asarray', 'numpy.core.numeric', 'numpy.core.defchararray', 'numpy.core.records', 'numpy.core.memmap', 'numpy.core.function_base', 'numpy.core._machar', 'numpy.core.getlimits', 'numpy.core.einsumfunc', 'numpy.core._multiarray_tests', 'numpy.core._add_newdocs', 'platform', '_socket', 'select', 'selectors', 'socket', 'numpy.core._add_newdocs_scalars', 'numpy.core._dtype_ctypes', 'numpy.core._internal', 'numpy._pytesttester', 'numpy.core', 'numpy.lib.mixins', 'numpy.lib.ufunclike', 'numpy.lib.type_check', 'numpy.lib.scimath', 'numpy.lib.stride_tricks', 'numpy.lib.twodim_base', 'numpy.linalg._umath_linalg', 'numpy.linalg.linalg', 'numpy.linalg', 'numpy.matrixlib.defmatrix', 'numpy.matrixlib', 'numpy.lib.histograms', 'numpy.lib.function_base', 'numpy.lib.index_tricks', 'numpy.lib.nanfunctions', 'numpy.lib.shape_base', 'numpy.lib.polynomial', 'textwrap', 'numpy.lib.utils', 'numpy.lib.arraysetops', 'numpy.lib.format', 'numpy.lib._datasource', 'numpy.lib._iotools', 'numpy.lib.npyio', 'numpy.lib.arrayterator', 'numpy.lib.arraypad', 'numpy.lib._version', 'numpy.lib', 'numpy.fft._pocketfft_internal', 'numpy.fft._pocketfft', 'numpy.fft.helper', 'numpy.fft', 'numpy.polynomial.polyutils', 'numpy.polynomial._polybase', 'numpy.polynomial.polynomial', 'numpy.polynomial.chebyshev', 'numpy.polynomial.legendre', 'numpy.polynomial.hermite', 'numpy.polynomial.hermite_e', 'numpy.polynomial.laguerre', 'numpy.polynomial', 'cython_runtime', '_cython_0_29_32', 'numpy.random._common', 'binascii', 'base64', '_hashlib', '_blake2', 'hashlib', 'hmac', 'secrets', 'numpy.random.bit_generator', 'numpy.random._bounded_integers', 'numpy.random._mt19937', 'numpy.random.mtrand', 'numpy.random._philox', 'numpy.random._pcg64', 'numpy.random._sfc64', 'numpy.random._generator', 'numpy.random._pickle', 'numpy.random', 'numpy.ctypeslib', 'numpy.ma.core', 'numpy.ma.extras', 'numpy.ma', 'numpy', 'packaging.__about__', 'packaging', 'packaging._structures', 'packaging.version', 'matplotlib._api.deprecation', 'matplotlib._api', 'matplotlib._version', 'gzip', 'shlex', 'matplotlib._c_internal_utils', 'matplotlib.cbook', 'matplotlib.docstring', 'copy', 'PIL._version', 'PIL', 'PIL.ImageMode', 'PIL.TiffTags', 'PIL._binary', 'PIL._util', 'PIL._imaging', 'PIL.Image', 'PIL.ImageChops', 'PIL.ImageFile', 'array', 'PIL.GimpGradientFile', 'PIL.GimpPaletteFile', 'PIL.ImageColor', 'PIL.PaletteFile', 'PIL.ImagePalette', 'PIL.ImageSequence', 'PIL.PngImagePlugin', 'matplotlib._path', 'matplotlib.bezier', 'matplotlib.path', 'matplotlib.transforms', 'matplotlib.ticker', 'matplotlib.scale', 'matplotlib._color_data', 'matplotlib.colors', 'pyparsing.util', 'pyparsing.unicode', 'pyparsing.exceptions', 'pyparsing.actions', 'pyparsing.results', 'pyparsing.core', 'html.entities', 'html', 'pyparsing.helpers', 'pyparsing.testing', 'pyparsing.common', 'pyparsing', 'matplotlib.fontconfig_pattern', 'matplotlib._enums', 'cycler', 'matplotlib.rcsetup', 'matplotlib.ft2font', 'dateutil._version', 'dateutil', 'kiwisolver._cext', 'kiwisolver']
+2022-09-04 11:12:34,426 - matplotlib - DEBUG - CACHEDIR=C:\Users\nilak\.matplotlib
+2022-09-04 11:12:34,427 - matplotlib.font_manager - DEBUG - Using fontManager instance from C:\Users\nilak\.matplotlib\fontlist-v330.json
+2022-09-04 11:12:35,824 - tensorflow - DEBUG - Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2022-09-04 11:12:36,035 - h5py._conv - DEBUG - Creating converter from 7 to 5
+2022-09-04 11:12:36,035 - h5py._conv - DEBUG - Creating converter from 5 to 7
+2022-09-04 11:12:36,035 - h5py._conv - DEBUG - Creating converter from 7 to 5
+2022-09-04 11:12:36,036 - h5py._conv - DEBUG - Creating converter from 5 to 7
+2022-09-04 11:12:37,722 - src.ml.handle_prediction - INFO - Creating new model instance <src.ml.handle_prediction.ProductionModels object at 0x0000018B18D935E0>
+2022-09-04 11:12:37,722 - src.ml.handle_prediction - INFO - Loading model at path D:\Git\model\model.h5
+2022-09-04 11:12:37,724 - h5py._conv - DEBUG - Creating converter from 3 to 5
+2022-09-04 11:12:40,457 - root - INFO - Starting execution of webapp from __main__
+2022-09-04 11:12:40,459 - src.ml.handle_prediction - INFO - b" * Serving Flask app 'src.web.main' (lazy loading)"
+2022-09-04 11:12:40,459 - src.ml.handle_prediction - INFO - b' * Environment: production'
+2022-09-04 11:12:40,459 - src.ml.handle_prediction - INFO - b'   WARNING: This is a development server. Do not use it in a production deployment.'
+2022-09-04 11:12:40,459 - src.ml.handle_prediction - INFO - b'   Use a production WSGI server instead.'
+2022-09-04 11:12:40,459 - src.ml.handle_prediction - INFO - b' * Debug mode: off'
+2022-09-04 11:12:40,461 - werkzeug - INFO -  * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:8888
+ * Running on http://192.168.0.112:8888 (Press CTRL+C to quit)
+2022-09-04 11:21:01,301 - matplotlib - DEBUG - matplotlib data path: D:\Git\venv\lib\site-packages\matplotlib\mpl-data
+2022-09-04 11:21:01,305 - matplotlib - DEBUG - CONFIGDIR=C:\Users\nilak\.matplotlib
+2022-09-04 11:21:01,308 - matplotlib - DEBUG - interactive is False
+2022-09-04 11:21:01,308 - matplotlib - DEBUG - platform is win32
+2022-09-04 11:21:01,308 - matplotlib - DEBUG - loaded modules: ['sys', 'builtins', '_frozen_importlib', '_imp', '_thread', '_warnings', '_weakref', '_io', 'marshal', 'nt', 'winreg', '_frozen_importlib_external', 'time', 'zipimport', '_codecs', 'codecs', 'encodings.aliases', 'encodings', 'encodings.utf_8', '_signal', 'encodings.latin_1', '_abc', 'abc', 'io', '__main__', '_stat', 'stat', '_collections_abc', 'genericpath', 'ntpath', 'os.path', 'os', '_sitebuiltins', '_locale', '_bootlocale', 'encodings.cp1252', '_heapq', 'heapq', 'itertools', 'keyword', '_operator', 'operator', 'reprlib', '_collections', 'collections', 'types', '_functools', 'functools', 'importlib._bootstrap', 'importlib._bootstrap_external', 'warnings', 'importlib', 'importlib.machinery', 'collections.abc', 'contextlib', 'enum', '_sre', 'sre_constants', 'sre_parse', 'sre_compile', 'copyreg', 're', 'typing.io', 'typing.re', 'typing', 'importlib.abc', 'importlib.util', '_virtualenv', '_distutils_hack', 'google', 'mpl_toolkits', 'site', 'token', 'tokenize', 'linecache', 'traceback', '_weakrefset', 'weakref', '_string', 'string', 'threading', 'atexit', 'logging', 'posixpath', 'fnmatch', 'errno', 'urllib', 'urllib.parse', 'pathlib', 'src', 'src.web', 'src.web.main', 'matplotlib', '_ast', 'ast', '_opcode', 'opcode', 'dis', 'inspect', 'locale', 'pprint', 'zlib', '_compression', '_bz2', 'bz2', '_lzma', 'lzma', 'shutil', 'signal', 'msvcrt', '_winapi', 'subprocess', 'math', '_bisect', 'bisect', '_random', '_sha512', 'random', 'tempfile', 'numpy._globals', 'numpy.__config__', 'glob', '_ctypes', '_struct', 'struct', 'ctypes._endian', 'ctypes', 'numpy._distributor_init', '__future__', '_json', 'json.scanner', 'json.decoder', 'json.encoder', 'json', 'numpy._version', 'numpy.version', '_datetime', 'datetime', 'numpy.core._multiarray_umath', 'numpy.compat._inspect', 'numpy.compat._pep440', '_compat_pickle', '_pickle', 'pickle', 'numpy.compat.py3k', 'numpy.compat', 'numpy.core.overrides', 'numpy.core.multiarray', 'numpy.core.umath', 'numbers', 'numpy.core._string_helpers', 'numpy.core._dtype', 'numpy.core._type_aliases', 'numpy.core.numerictypes', 'numpy.core._exceptions', 'numpy.core._methods', 'numpy.core.fromnumeric', 'numpy.core.shape_base', 'numpy.core._ufunc_config', 'numpy.core.arrayprint', 'numpy.core._asarray', 'numpy.core.numeric', 'numpy.core.defchararray', 'numpy.core.records', 'numpy.core.memmap', 'numpy.core.function_base', 'numpy.core._machar', 'numpy.core.getlimits', 'numpy.core.einsumfunc', 'numpy.core._multiarray_tests', 'numpy.core._add_newdocs', 'platform', '_socket', 'select', 'selectors', 'socket', 'numpy.core._add_newdocs_scalars', 'numpy.core._dtype_ctypes', 'numpy.core._internal', 'numpy._pytesttester', 'numpy.core', 'numpy.lib.mixins', 'numpy.lib.ufunclike', 'numpy.lib.type_check', 'numpy.lib.scimath', 'numpy.lib.stride_tricks', 'numpy.lib.twodim_base', 'numpy.linalg._umath_linalg', 'numpy.linalg.linalg', 'numpy.linalg', 'numpy.matrixlib.defmatrix', 'numpy.matrixlib', 'numpy.lib.histograms', 'numpy.lib.function_base', 'numpy.lib.index_tricks', 'numpy.lib.nanfunctions', 'numpy.lib.shape_base', 'numpy.lib.polynomial', 'textwrap', 'numpy.lib.utils', 'numpy.lib.arraysetops', 'numpy.lib.format', 'numpy.lib._datasource', 'numpy.lib._iotools', 'numpy.lib.npyio', 'numpy.lib.arrayterator', 'numpy.lib.arraypad', 'numpy.lib._version', 'numpy.lib', 'numpy.fft._pocketfft_internal', 'numpy.fft._pocketfft', 'numpy.fft.helper', 'numpy.fft', 'numpy.polynomial.polyutils', 'numpy.polynomial._polybase', 'numpy.polynomial.polynomial', 'numpy.polynomial.chebyshev', 'numpy.polynomial.legendre', 'numpy.polynomial.hermite', 'numpy.polynomial.hermite_e', 'numpy.polynomial.laguerre', 'numpy.polynomial', 'cython_runtime', '_cython_0_29_32', 'numpy.random._common', 'binascii', 'base64', '_hashlib', '_blake2', 'hashlib', 'hmac', 'secrets', 'numpy.random.bit_generator', 'numpy.random._bounded_integers', 'numpy.random._mt19937', 'numpy.random.mtrand', 'numpy.random._philox', 'numpy.random._pcg64', 'numpy.random._sfc64', 'numpy.random._generator', 'numpy.random._pickle', 'numpy.random', 'numpy.ctypeslib', 'numpy.ma.core', 'numpy.ma.extras', 'numpy.ma', 'numpy', 'packaging.__about__', 'packaging', 'packaging._structures', 'packaging.version', 'matplotlib._api.deprecation', 'matplotlib._api', 'matplotlib._version', 'gzip', 'shlex', 'matplotlib._c_internal_utils', 'matplotlib.cbook', 'matplotlib.docstring', 'copy', 'PIL._version', 'PIL', 'PIL.ImageMode', 'PIL.TiffTags', 'PIL._binary', 'PIL._util', 'PIL._imaging', 'PIL.Image', 'PIL.ImageChops', 'PIL.ImageFile', 'array', 'PIL.GimpGradientFile', 'PIL.GimpPaletteFile', 'PIL.ImageColor', 'PIL.PaletteFile', 'PIL.ImagePalette', 'PIL.ImageSequence', 'PIL.PngImagePlugin', 'matplotlib._path', 'matplotlib.bezier', 'matplotlib.path', 'matplotlib.transforms', 'matplotlib.ticker', 'matplotlib.scale', 'matplotlib._color_data', 'matplotlib.colors', 'pyparsing.util', 'pyparsing.unicode', 'pyparsing.exceptions', 'pyparsing.actions', 'pyparsing.results', 'pyparsing.core', 'html.entities', 'html', 'pyparsing.helpers', 'pyparsing.testing', 'pyparsing.common', 'pyparsing', 'matplotlib.fontconfig_pattern', 'matplotlib._enums', 'cycler', 'matplotlib.rcsetup', 'matplotlib.ft2font', 'dateutil._version', 'dateutil', 'kiwisolver._cext', 'kiwisolver']
+2022-09-04 11:21:01,401 - matplotlib - DEBUG - CACHEDIR=C:\Users\nilak\.matplotlib
+2022-09-04 11:21:01,403 - matplotlib.font_manager - DEBUG - Using fontManager instance from C:\Users\nilak\.matplotlib\fontlist-v330.json
+2022-09-04 11:21:02,879 - tensorflow - DEBUG - Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2022-09-04 11:21:03,081 - h5py._conv - DEBUG - Creating converter from 7 to 5
+2022-09-04 11:21:03,081 - h5py._conv - DEBUG - Creating converter from 5 to 7
+2022-09-04 11:21:03,081 - h5py._conv - DEBUG - Creating converter from 7 to 5
+2022-09-04 11:21:03,081 - h5py._conv - DEBUG - Creating converter from 5 to 7
+2022-09-04 11:21:04,680 - src.ml.handle_prediction - INFO - Creating new model instance <src.ml.handle_prediction.ProductionModels object at 0x0000019E3A7435E0>
+2022-09-04 11:21:04,680 - src.ml.handle_prediction - INFO - Loading model at path D:\Git\model\model.h5
+2022-09-04 11:21:04,683 - h5py._conv - DEBUG - Creating converter from 3 to 5
+2022-09-04 11:21:07,791 - root - INFO - Starting execution of webapp from __main__
+2022-09-04 11:21:07,792 - src.ml.handle_prediction - INFO - b" * Serving Flask app 'src.web.main' (lazy loading)"
+2022-09-04 11:21:07,792 - src.ml.handle_prediction - INFO - b' * Environment: production'
+2022-09-04 11:21:07,793 - src.ml.handle_prediction - INFO - b'   WARNING: This is a development server. Do not use it in a production deployment.'
+2022-09-04 11:21:07,793 - src.ml.handle_prediction - INFO - b'   Use a production WSGI server instead.'
+2022-09-04 11:21:07,793 - src.ml.handle_prediction - INFO - b' * Debug mode: off'
+2022-09-04 11:21:07,796 - werkzeug - INFO -  * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:8888
+ * Running on http://192.168.0.112:8888 (Press CTRL+C to quit)
+2022-09-04 11:27:27,786 - matplotlib - DEBUG - matplotlib data path: D:\Git\venv\lib\site-packages\matplotlib\mpl-data
+2022-09-04 11:27:27,791 - matplotlib - DEBUG - CONFIGDIR=C:\Users\nilak\.matplotlib
+2022-09-04 11:27:27,793 - matplotlib - DEBUG - interactive is False
+2022-09-04 11:27:27,793 - matplotlib - DEBUG - platform is win32
+2022-09-04 11:27:27,794 - matplotlib - DEBUG - loaded modules: ['sys', 'builtins', '_frozen_importlib', '_imp', '_thread', '_warnings', '_weakref', '_io', 'marshal', 'nt', 'winreg', '_frozen_importlib_external', 'time', 'zipimport', '_codecs', 'codecs', 'encodings.aliases', 'encodings', 'encodings.utf_8', '_signal', 'encodings.latin_1', '_abc', 'abc', 'io', '__main__', '_stat', 'stat', '_collections_abc', 'genericpath', 'ntpath', 'os.path', 'os', '_sitebuiltins', '_locale', '_bootlocale', 'encodings.cp1252', '_heapq', 'heapq', 'itertools', 'keyword', '_operator', 'operator', 'reprlib', '_collections', 'collections', 'types', '_functools', 'functools', 'importlib._bootstrap', 'importlib._bootstrap_external', 'warnings', 'importlib', 'importlib.machinery', 'collections.abc', 'contextlib', 'enum', '_sre', 'sre_constants', 'sre_parse', 'sre_compile', 'copyreg', 're', 'typing.io', 'typing.re', 'typing', 'importlib.abc', 'importlib.util', '_virtualenv', '_distutils_hack', 'google', 'mpl_toolkits', 'site', 'token', 'tokenize', 'linecache', 'traceback', '_weakrefset', 'weakref', '_string', 'string', 'threading', 'atexit', 'logging', 'posixpath', 'fnmatch', 'errno', 'urllib', 'urllib.parse', 'pathlib', 'src', 'src.web', 'src.web.main', 'matplotlib', '_ast', 'ast', '_opcode', 'opcode', 'dis', 'inspect', 'locale', 'pprint', 'zlib', '_compression', '_bz2', 'bz2', '_lzma', 'lzma', 'shutil', 'signal', 'msvcrt', '_winapi', 'subprocess', 'math', '_bisect', 'bisect', '_random', '_sha512', 'random', 'tempfile', 'numpy._globals', 'numpy.__config__', 'glob', '_ctypes', '_struct', 'struct', 'ctypes._endian', 'ctypes', 'numpy._distributor_init', '__future__', '_json', 'json.scanner', 'json.decoder', 'json.encoder', 'json', 'numpy._version', 'numpy.version', '_datetime', 'datetime', 'numpy.core._multiarray_umath', 'numpy.compat._inspect', 'numpy.compat._pep440', '_compat_pickle', '_pickle', 'pickle', 'numpy.compat.py3k', 'numpy.compat', 'numpy.core.overrides', 'numpy.core.multiarray', 'numpy.core.umath', 'numbers', 'numpy.core._string_helpers', 'numpy.core._dtype', 'numpy.core._type_aliases', 'numpy.core.numerictypes', 'numpy.core._exceptions', 'numpy.core._methods', 'numpy.core.fromnumeric', 'numpy.core.shape_base', 'numpy.core._ufunc_config', 'numpy.core.arrayprint', 'numpy.core._asarray', 'numpy.core.numeric', 'numpy.core.defchararray', 'numpy.core.records', 'numpy.core.memmap', 'numpy.core.function_base', 'numpy.core._machar', 'numpy.core.getlimits', 'numpy.core.einsumfunc', 'numpy.core._multiarray_tests', 'numpy.core._add_newdocs', 'platform', '_socket', 'select', 'selectors', 'socket', 'numpy.core._add_newdocs_scalars', 'numpy.core._dtype_ctypes', 'numpy.core._internal', 'numpy._pytesttester', 'numpy.core', 'numpy.lib.mixins', 'numpy.lib.ufunclike', 'numpy.lib.type_check', 'numpy.lib.scimath', 'numpy.lib.stride_tricks', 'numpy.lib.twodim_base', 'numpy.linalg._umath_linalg', 'numpy.linalg.linalg', 'numpy.linalg', 'numpy.matrixlib.defmatrix', 'numpy.matrixlib', 'numpy.lib.histograms', 'numpy.lib.function_base', 'numpy.lib.index_tricks', 'numpy.lib.nanfunctions', 'numpy.lib.shape_base', 'numpy.lib.polynomial', 'textwrap', 'numpy.lib.utils', 'numpy.lib.arraysetops', 'numpy.lib.format', 'numpy.lib._datasource', 'numpy.lib._iotools', 'numpy.lib.npyio', 'numpy.lib.arrayterator', 'numpy.lib.arraypad', 'numpy.lib._version', 'numpy.lib', 'numpy.fft._pocketfft_internal', 'numpy.fft._pocketfft', 'numpy.fft.helper', 'numpy.fft', 'numpy.polynomial.polyutils', 'numpy.polynomial._polybase', 'numpy.polynomial.polynomial', 'numpy.polynomial.chebyshev', 'numpy.polynomial.legendre', 'numpy.polynomial.hermite', 'numpy.polynomial.hermite_e', 'numpy.polynomial.laguerre', 'numpy.polynomial', 'cython_runtime', '_cython_0_29_32', 'numpy.random._common', 'binascii', 'base64', '_hashlib', '_blake2', 'hashlib', 'hmac', 'secrets', 'numpy.random.bit_generator', 'numpy.random._bounded_integers', 'numpy.random._mt19937', 'numpy.random.mtrand', 'numpy.random._philox', 'numpy.random._pcg64', 'numpy.random._sfc64', 'numpy.random._generator', 'numpy.random._pickle', 'numpy.random', 'numpy.ctypeslib', 'numpy.ma.core', 'numpy.ma.extras', 'numpy.ma', 'numpy', 'packaging.__about__', 'packaging', 'packaging._structures', 'packaging.version', 'matplotlib._api.deprecation', 'matplotlib._api', 'matplotlib._version', 'gzip', 'shlex', 'matplotlib._c_internal_utils', 'matplotlib.cbook', 'matplotlib.docstring', 'copy', 'PIL._version', 'PIL', 'PIL.ImageMode', 'PIL.TiffTags', 'PIL._binary', 'PIL._util', 'PIL._imaging', 'PIL.Image', 'PIL.ImageChops', 'PIL.ImageFile', 'array', 'PIL.GimpGradientFile', 'PIL.GimpPaletteFile', 'PIL.ImageColor', 'PIL.PaletteFile', 'PIL.ImagePalette', 'PIL.ImageSequence', 'PIL.PngImagePlugin', 'matplotlib._path', 'matplotlib.bezier', 'matplotlib.path', 'matplotlib.transforms', 'matplotlib.ticker', 'matplotlib.scale', 'matplotlib._color_data', 'matplotlib.colors', 'pyparsing.util', 'pyparsing.unicode', 'pyparsing.exceptions', 'pyparsing.actions', 'pyparsing.results', 'pyparsing.core', 'html.entities', 'html', 'pyparsing.helpers', 'pyparsing.testing', 'pyparsing.common', 'pyparsing', 'matplotlib.fontconfig_pattern', 'matplotlib._enums', 'cycler', 'matplotlib.rcsetup', 'matplotlib.ft2font', 'dateutil._version', 'dateutil', 'kiwisolver._cext', 'kiwisolver']
+2022-09-04 11:27:27,882 - matplotlib - DEBUG - CACHEDIR=C:\Users\nilak\.matplotlib
+2022-09-04 11:27:27,884 - matplotlib.font_manager - DEBUG - Using fontManager instance from C:\Users\nilak\.matplotlib\fontlist-v330.json
+2022-09-04 11:27:29,347 - tensorflow - DEBUG - Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2022-09-04 11:27:29,558 - h5py._conv - DEBUG - Creating converter from 7 to 5
+2022-09-04 11:27:29,558 - h5py._conv - DEBUG - Creating converter from 5 to 7
+2022-09-04 11:27:29,558 - h5py._conv - DEBUG - Creating converter from 7 to 5
+2022-09-04 11:27:29,558 - h5py._conv - DEBUG - Creating converter from 5 to 7
+2022-09-04 11:27:31,354 - src.ml.handle_prediction - INFO - Creating new model instance <src.ml.handle_prediction.ProductionModels object at 0x0000021D281835E0>
+2022-09-04 11:27:31,354 - src.ml.handle_prediction - INFO - Loading model at path D:\Git\model\model.h5
+2022-09-04 11:27:31,358 - h5py._conv - DEBUG - Creating converter from 3 to 5
+2022-09-04 11:27:34,109 - root - INFO - Starting execution of webapp from __main__
+2022-09-04 11:27:34,111 - src.ml.handle_prediction - INFO - b" * Serving Flask app 'src.web.main' (lazy loading)"
+2022-09-04 11:27:34,111 - src.ml.handle_prediction - INFO - b' * Environment: production'
+2022-09-04 11:27:34,111 - src.ml.handle_prediction - INFO - b'   WARNING: This is a development server. Do not use it in a production deployment.'
+2022-09-04 11:27:34,111 - src.ml.handle_prediction - INFO - b'   Use a production WSGI server instead.'
+2022-09-04 11:27:34,111 - src.ml.handle_prediction - INFO - b' * Debug mode: off'
+2022-09-04 11:27:34,112 - werkzeug - INFO -  * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:8888
+ * Running on http://192.168.0.112:8888 (Press CTRL+C to quit)
+2022-09-04 12:15:54,889 - matplotlib - DEBUG - matplotlib data path: D:\Git\venv\lib\site-packages\matplotlib\mpl-data
+2022-09-04 12:15:54,898 - matplotlib - DEBUG - CONFIGDIR=C:\Users\nilak\.matplotlib
+2022-09-04 12:15:54,900 - matplotlib - DEBUG - interactive is False
+2022-09-04 12:15:54,900 - matplotlib - DEBUG - platform is win32
+2022-09-04 12:15:54,900 - matplotlib - DEBUG - loaded modules: ['sys', 'builtins', '_frozen_importlib', '_imp', '_thread', '_warnings', '_weakref', '_io', 'marshal', 'nt', 'winreg', '_frozen_importlib_external', 'time', 'zipimport', '_codecs', 'codecs', 'encodings.aliases', 'encodings', 'encodings.utf_8', '_signal', 'encodings.latin_1', '_abc', 'abc', 'io', '__main__', '_stat', 'stat', '_collections_abc', 'genericpath', 'ntpath', 'os.path', 'os', '_sitebuiltins', '_locale', '_bootlocale', 'encodings.cp1252', '_heapq', 'heapq', 'itertools', 'keyword', '_operator', 'operator', 'reprlib', '_collections', 'collections', 'types', '_functools', 'functools', 'importlib._bootstrap', 'importlib._bootstrap_external', 'warnings', 'importlib', 'importlib.machinery', 'collections.abc', 'contextlib', 'enum', '_sre', 'sre_constants', 'sre_parse', 'sre_compile', 'copyreg', 're', 'typing.io', 'typing.re', 'typing', 'importlib.abc', 'importlib.util', '_virtualenv', '_distutils_hack', 'google', 'mpl_toolkits', 'site', 'token', 'tokenize', 'linecache', 'traceback', '_weakrefset', 'weakref', '_string', 'string', 'threading', 'atexit', 'logging', 'posixpath', 'fnmatch', 'errno', 'urllib', 'urllib.parse', 'pathlib', 'src', 'src.web', 'src.web.main', 'matplotlib', '_ast', 'ast', '_opcode', 'opcode', 'dis', 'inspect', 'locale', 'pprint', 'zlib', '_compression', '_bz2', 'bz2', '_lzma', 'lzma', 'shutil', 'signal', 'msvcrt', '_winapi', 'subprocess', 'math', '_bisect', 'bisect', '_random', '_sha512', 'random', 'tempfile', 'numpy._globals', 'numpy.__config__', 'glob', '_ctypes', '_struct', 'struct', 'ctypes._endian', 'ctypes', 'numpy._distributor_init', '__future__', '_json', 'json.scanner', 'json.decoder', 'json.encoder', 'json', 'numpy._version', 'numpy.version', '_datetime', 'datetime', 'numpy.core._multiarray_umath', 'numpy.compat._inspect', 'numpy.compat._pep440', '_compat_pickle', '_pickle', 'pickle', 'numpy.compat.py3k', 'numpy.compat', 'numpy.core.overrides', 'numpy.core.multiarray', 'numpy.core.umath', 'numbers', 'numpy.core._string_helpers', 'numpy.core._dtype', 'numpy.core._type_aliases', 'numpy.core.numerictypes', 'numpy.core._exceptions', 'numpy.core._methods', 'numpy.core.fromnumeric', 'numpy.core.shape_base', 'numpy.core._ufunc_config', 'numpy.core.arrayprint', 'numpy.core._asarray', 'numpy.core.numeric', 'numpy.core.defchararray', 'numpy.core.records', 'numpy.core.memmap', 'numpy.core.function_base', 'numpy.core._machar', 'numpy.core.getlimits', 'numpy.core.einsumfunc', 'numpy.core._multiarray_tests', 'numpy.core._add_newdocs', 'platform', '_socket', 'select', 'selectors', 'socket', 'numpy.core._add_newdocs_scalars', 'numpy.core._dtype_ctypes', 'numpy.core._internal', 'numpy._pytesttester', 'numpy.core', 'numpy.lib.mixins', 'numpy.lib.ufunclike', 'numpy.lib.type_check', 'numpy.lib.scimath', 'numpy.lib.stride_tricks', 'numpy.lib.twodim_base', 'numpy.linalg._umath_linalg', 'numpy.linalg.linalg', 'numpy.linalg', 'numpy.matrixlib.defmatrix', 'numpy.matrixlib', 'numpy.lib.histograms', 'numpy.lib.function_base', 'numpy.lib.index_tricks', 'numpy.lib.nanfunctions', 'numpy.lib.shape_base', 'numpy.lib.polynomial', 'textwrap', 'numpy.lib.utils', 'numpy.lib.arraysetops', 'numpy.lib.format', 'numpy.lib._datasource', 'numpy.lib._iotools', 'numpy.lib.npyio', 'numpy.lib.arrayterator', 'numpy.lib.arraypad', 'numpy.lib._version', 'numpy.lib', 'numpy.fft._pocketfft_internal', 'numpy.fft._pocketfft', 'numpy.fft.helper', 'numpy.fft', 'numpy.polynomial.polyutils', 'numpy.polynomial._polybase', 'numpy.polynomial.polynomial', 'numpy.polynomial.chebyshev', 'numpy.polynomial.legendre', 'numpy.polynomial.hermite', 'numpy.polynomial.hermite_e', 'numpy.polynomial.laguerre', 'numpy.polynomial', 'cython_runtime', '_cython_0_29_32', 'numpy.random._common', 'binascii', 'base64', '_hashlib', '_blake2', 'hashlib', 'hmac', 'secrets', 'numpy.random.bit_generator', 'numpy.random._bounded_integers', 'numpy.random._mt19937', 'numpy.random.mtrand', 'numpy.random._philox', 'numpy.random._pcg64', 'numpy.random._sfc64', 'numpy.random._generator', 'numpy.random._pickle', 'numpy.random', 'numpy.ctypeslib', 'numpy.ma.core', 'numpy.ma.extras', 'numpy.ma', 'numpy', 'packaging.__about__', 'packaging', 'packaging._structures', 'packaging.version', 'matplotlib._api.deprecation', 'matplotlib._api', 'matplotlib._version', 'gzip', 'shlex', 'matplotlib._c_internal_utils', 'matplotlib.cbook', 'matplotlib.docstring', 'copy', 'PIL._version', 'PIL', 'PIL.ImageMode', 'PIL.TiffTags', 'PIL._binary', 'PIL._util', 'PIL._imaging', 'PIL.Image', 'PIL.ImageChops', 'PIL.ImageFile', 'array', 'PIL.GimpGradientFile', 'PIL.GimpPaletteFile', 'PIL.ImageColor', 'PIL.PaletteFile', 'PIL.ImagePalette', 'PIL.ImageSequence', 'PIL.PngImagePlugin', 'matplotlib._path', 'matplotlib.bezier', 'matplotlib.path', 'matplotlib.transforms', 'matplotlib.ticker', 'matplotlib.scale', 'matplotlib._color_data', 'matplotlib.colors', 'pyparsing.util', 'pyparsing.unicode', 'pyparsing.exceptions', 'pyparsing.actions', 'pyparsing.results', 'pyparsing.core', 'html.entities', 'html', 'pyparsing.helpers', 'pyparsing.testing', 'pyparsing.common', 'pyparsing', 'matplotlib.fontconfig_pattern', 'matplotlib._enums', 'cycler', 'matplotlib.rcsetup', 'matplotlib.ft2font', 'dateutil._version', 'dateutil', 'kiwisolver._cext', 'kiwisolver']
+2022-09-04 12:15:55,023 - matplotlib - DEBUG - CACHEDIR=C:\Users\nilak\.matplotlib
+2022-09-04 12:15:55,032 - matplotlib.font_manager - DEBUG - Using fontManager instance from C:\Users\nilak\.matplotlib\fontlist-v330.json
+2022-09-04 12:15:59,991 - tensorflow - DEBUG - Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2022-09-04 12:16:00,728 - h5py._conv - DEBUG - Creating converter from 7 to 5
+2022-09-04 12:16:00,728 - h5py._conv - DEBUG - Creating converter from 5 to 7
+2022-09-04 12:16:00,728 - h5py._conv - DEBUG - Creating converter from 7 to 5
+2022-09-04 12:16:00,728 - h5py._conv - DEBUG - Creating converter from 5 to 7
+2022-09-04 12:16:07,512 - src.ml.handle_prediction - INFO - Creating new model instance <src.ml.handle_prediction.ProductionModels object at 0x0000028921EC35E0>
+2022-09-04 12:16:07,513 - src.ml.handle_prediction - INFO - Loading model at path D:\Git\model\model.h5
+2022-09-04 12:16:07,533 - h5py._conv - DEBUG - Creating converter from 3 to 5
+2022-09-04 12:16:11,940 - root - INFO - Starting execution of webapp from __main__
+2022-09-04 12:16:11,945 - src.ml.handle_prediction - INFO - b" * Serving Flask app 'src.web.main' (lazy loading)"
+2022-09-04 12:16:11,946 - src.ml.handle_prediction - INFO - b' * Environment: production'
+2022-09-04 12:16:11,946 - src.ml.handle_prediction - INFO - b'   WARNING: This is a development server. Do not use it in a production deployment.'
+2022-09-04 12:16:11,946 - src.ml.handle_prediction - INFO - b'   Use a production WSGI server instead.'
+2022-09-04 12:16:11,946 - src.ml.handle_prediction - INFO - b' * Debug mode: off'
+2022-09-04 12:16:11,961 - werkzeug - INFO -  * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:8888
+ * Running on http://192.168.0.112:8888 (Press CTRL+C to quit)
+2022-09-04 12:56:18,650 - matplotlib - DEBUG - matplotlib data path: D:\Git\venv\lib\site-packages\matplotlib\mpl-data
+2022-09-04 12:56:18,656 - matplotlib - DEBUG - CONFIGDIR=C:\Users\nilak\.matplotlib
+2022-09-04 12:56:18,657 - matplotlib - DEBUG - interactive is False
+2022-09-04 12:56:18,657 - matplotlib - DEBUG - platform is win32
+2022-09-04 12:56:18,657 - matplotlib - DEBUG - loaded modules: ['sys', 'builtins', '_frozen_importlib', '_imp', '_thread', '_warnings', '_weakref', '_io', 'marshal', 'nt', 'winreg', '_frozen_importlib_external', 'time', 'zipimport', '_codecs', 'codecs', 'encodings.aliases', 'encodings', 'encodings.utf_8', '_signal', 'encodings.latin_1', '_abc', 'abc', 'io', '__main__', '_stat', 'stat', '_collections_abc', 'genericpath', 'ntpath', 'os.path', 'os', '_sitebuiltins', '_locale', '_bootlocale', 'encodings.cp1252', '_heapq', 'heapq', 'itertools', 'keyword', '_operator', 'operator', 'reprlib', '_collections', 'collections', 'types', '_functools', 'functools', 'importlib._bootstrap', 'importlib._bootstrap_external', 'warnings', 'importlib', 'importlib.machinery', 'collections.abc', 'contextlib', 'enum', '_sre', 'sre_constants', 'sre_parse', 'sre_compile', 'copyreg', 're', 'typing.io', 'typing.re', 'typing', 'importlib.abc', 'importlib.util', '_virtualenv', '_distutils_hack', 'google', 'mpl_toolkits', 'site', 'token', 'tokenize', 'linecache', 'traceback', '_weakrefset', 'weakref', '_string', 'string', 'threading', 'atexit', 'logging', 'posixpath', 'fnmatch', 'errno', 'urllib', 'urllib.parse', 'pathlib', 'src', 'src.web', 'src.web.main', 'matplotlib', '_ast', 'ast', '_opcode', 'opcode', 'dis', 'inspect', 'locale', 'pprint', 'zlib', '_compression', '_bz2', 'bz2', '_lzma', 'lzma', 'shutil', 'signal', 'msvcrt', '_winapi', 'subprocess', 'math', '_bisect', 'bisect', '_random', '_sha512', 'random', 'tempfile', 'numpy._globals', 'numpy.__config__', 'glob', '_ctypes', '_struct', 'struct', 'ctypes._endian', 'ctypes', 'numpy._distributor_init', '__future__', '_json', 'json.scanner', 'json.decoder', 'json.encoder', 'json', 'numpy._version', 'numpy.version', '_datetime', 'datetime', 'numpy.core._multiarray_umath', 'numpy.compat._inspect', 'numpy.compat._pep440', '_compat_pickle', '_pickle', 'pickle', 'numpy.compat.py3k', 'numpy.compat', 'numpy.core.overrides', 'numpy.core.multiarray', 'numpy.core.umath', 'numbers', 'numpy.core._string_helpers', 'numpy.core._dtype', 'numpy.core._type_aliases', 'numpy.core.numerictypes', 'numpy.core._exceptions', 'numpy.core._methods', 'numpy.core.fromnumeric', 'numpy.core.shape_base', 'numpy.core._ufunc_config', 'numpy.core.arrayprint', 'numpy.core._asarray', 'numpy.core.numeric', 'numpy.core.defchararray', 'numpy.core.records', 'numpy.core.memmap', 'numpy.core.function_base', 'numpy.core._machar', 'numpy.core.getlimits', 'numpy.core.einsumfunc', 'numpy.core._multiarray_tests', 'numpy.core._add_newdocs', 'platform', '_socket', 'select', 'selectors', 'socket', 'numpy.core._add_newdocs_scalars', 'numpy.core._dtype_ctypes', 'numpy.core._internal', 'numpy._pytesttester', 'numpy.core', 'numpy.lib.mixins', 'numpy.lib.ufunclike', 'numpy.lib.type_check', 'numpy.lib.scimath', 'numpy.lib.stride_tricks', 'numpy.lib.twodim_base', 'numpy.linalg._umath_linalg', 'numpy.linalg.linalg', 'numpy.linalg', 'numpy.matrixlib.defmatrix', 'numpy.matrixlib', 'numpy.lib.histograms', 'numpy.lib.function_base', 'numpy.lib.index_tricks', 'numpy.lib.nanfunctions', 'numpy.lib.shape_base', 'numpy.lib.polynomial', 'textwrap', 'numpy.lib.utils', 'numpy.lib.arraysetops', 'numpy.lib.format', 'numpy.lib._datasource', 'numpy.lib._iotools', 'numpy.lib.npyio', 'numpy.lib.arrayterator', 'numpy.lib.arraypad', 'numpy.lib._version', 'numpy.lib', 'numpy.fft._pocketfft_internal', 'numpy.fft._pocketfft', 'numpy.fft.helper', 'numpy.fft', 'numpy.polynomial.polyutils', 'numpy.polynomial._polybase', 'numpy.polynomial.polynomial', 'numpy.polynomial.chebyshev', 'numpy.polynomial.legendre', 'numpy.polynomial.hermite', 'numpy.polynomial.hermite_e', 'numpy.polynomial.laguerre', 'numpy.polynomial', 'cython_runtime', '_cython_0_29_32', 'numpy.random._common', 'binascii', 'base64', '_hashlib', '_blake2', 'hashlib', 'hmac', 'secrets', 'numpy.random.bit_generator', 'numpy.random._bounded_integers', 'numpy.random._mt19937', 'numpy.random.mtrand', 'numpy.random._philox', 'numpy.random._pcg64', 'numpy.random._sfc64', 'numpy.random._generator', 'numpy.random._pickle', 'numpy.random', 'numpy.ctypeslib', 'numpy.ma.core', 'numpy.ma.extras', 'numpy.ma', 'numpy', 'packaging.__about__', 'packaging', 'packaging._structures', 'packaging.version', 'matplotlib._api.deprecation', 'matplotlib._api', 'matplotlib._version', 'gzip', 'shlex', 'matplotlib._c_internal_utils', 'matplotlib.cbook', 'matplotlib.docstring', 'copy', 'PIL._version', 'PIL', 'PIL.ImageMode', 'PIL.TiffTags', 'PIL._binary', 'PIL._util', 'PIL._imaging', 'PIL.Image', 'PIL.ImageChops', 'PIL.ImageFile', 'array', 'PIL.GimpGradientFile', 'PIL.GimpPaletteFile', 'PIL.ImageColor', 'PIL.PaletteFile', 'PIL.ImagePalette', 'PIL.ImageSequence', 'PIL.PngImagePlugin', 'matplotlib._path', 'matplotlib.bezier', 'matplotlib.path', 'matplotlib.transforms', 'matplotlib.ticker', 'matplotlib.scale', 'matplotlib._color_data', 'matplotlib.colors', 'pyparsing.util', 'pyparsing.unicode', 'pyparsing.exceptions', 'pyparsing.actions', 'pyparsing.results', 'pyparsing.core', 'html.entities', 'html', 'pyparsing.helpers', 'pyparsing.testing', 'pyparsing.common', 'pyparsing', 'matplotlib.fontconfig_pattern', 'matplotlib._enums', 'cycler', 'matplotlib.rcsetup', 'matplotlib.ft2font', 'dateutil._version', 'dateutil', 'kiwisolver._cext', 'kiwisolver']
+2022-09-04 12:56:18,774 - matplotlib - DEBUG - CACHEDIR=C:\Users\nilak\.matplotlib
+2022-09-04 12:56:18,776 - matplotlib.font_manager - DEBUG - Using fontManager instance from C:\Users\nilak\.matplotlib\fontlist-v330.json
+2022-09-04 12:56:22,093 - tensorflow - DEBUG - Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2022-09-04 12:56:22,547 - h5py._conv - DEBUG - Creating converter from 7 to 5
+2022-09-04 12:56:22,547 - h5py._conv - DEBUG - Creating converter from 5 to 7
+2022-09-04 12:56:22,547 - h5py._conv - DEBUG - Creating converter from 7 to 5
+2022-09-04 12:56:22,547 - h5py._conv - DEBUG - Creating converter from 5 to 7
+2022-09-04 12:56:25,984 - src.ml.handle_prediction - INFO - Creating new model instance <src.ml.handle_prediction.ProductionModels object at 0x00000174437835E0>
+2022-09-04 12:56:25,985 - src.ml.handle_prediction - INFO - Loading model at path D:\Git\model\model.h5
+2022-09-04 12:56:25,994 - h5py._conv - DEBUG - Creating converter from 3 to 5
+2022-09-04 12:56:29,565 - root - INFO - Starting execution of webapp from __main__
+2022-09-04 12:56:29,566 - src.ml.handle_prediction - INFO - b" * Serving Flask app 'src.web.main' (lazy loading)"
+2022-09-04 12:56:29,566 - src.ml.handle_prediction - INFO - b' * Environment: production'
+2022-09-04 12:56:29,566 - src.ml.handle_prediction - INFO - b'   WARNING: This is a development server. Do not use it in a production deployment.'
+2022-09-04 12:56:29,566 - src.ml.handle_prediction - INFO - b'   Use a production WSGI server instead.'
+2022-09-04 12:56:29,566 - src.ml.handle_prediction - INFO - b' * Debug mode: off'
+2022-09-04 12:56:29,569 - werkzeug - INFO -  * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:8888
+ * Running on http://192.168.0.112:8888 (Press CTRL+C to quit)
+2022-09-04 12:57:55,301 - matplotlib - DEBUG - matplotlib data path: D:\Git\venv\lib\site-packages\matplotlib\mpl-data
+2022-09-04 12:57:55,304 - matplotlib - DEBUG - CONFIGDIR=C:\Users\nilak\.matplotlib
+2022-09-04 12:57:55,306 - matplotlib - DEBUG - interactive is False
+2022-09-04 12:57:55,306 - matplotlib - DEBUG - platform is win32
+2022-09-04 12:57:55,306 - matplotlib - DEBUG - loaded modules: ['sys', 'builtins', '_frozen_importlib', '_imp', '_thread', '_warnings', '_weakref', '_io', 'marshal', 'nt', 'winreg', '_frozen_importlib_external', 'time', 'zipimport', '_codecs', 'codecs', 'encodings.aliases', 'encodings', 'encodings.utf_8', '_signal', 'encodings.latin_1', '_abc', 'abc', 'io', '__main__', '_stat', 'stat', '_collections_abc', 'genericpath', 'ntpath', 'os.path', 'os', '_sitebuiltins', '_locale', '_bootlocale', 'encodings.cp1252', '_heapq', 'heapq', 'itertools', 'keyword', '_operator', 'operator', 'reprlib', '_collections', 'collections', 'types', '_functools', 'functools', 'importlib._bootstrap', 'importlib._bootstrap_external', 'warnings', 'importlib', 'importlib.machinery', 'collections.abc', 'contextlib', 'enum', '_sre', 'sre_constants', 'sre_parse', 'sre_compile', 'copyreg', 're', 'typing.io', 'typing.re', 'typing', 'importlib.abc', 'importlib.util', '_virtualenv', '_distutils_hack', 'google', 'mpl_toolkits', 'site', 'token', 'tokenize', 'linecache', 'traceback', '_weakrefset', 'weakref', '_string', 'string', 'threading', 'atexit', 'logging', 'posixpath', 'fnmatch', 'errno', 'urllib', 'urllib.parse', 'pathlib', 'src', 'src.web', 'src.web.main', 'matplotlib', '_ast', 'ast', '_opcode', 'opcode', 'dis', 'inspect', 'locale', 'pprint', 'zlib', '_compression', '_bz2', 'bz2', '_lzma', 'lzma', 'shutil', 'signal', 'msvcrt', '_winapi', 'subprocess', 'math', '_bisect', 'bisect', '_random', '_sha512', 'random', 'tempfile', 'numpy._globals', 'numpy.__config__', 'glob', '_ctypes', '_struct', 'struct', 'ctypes._endian', 'ctypes', 'numpy._distributor_init', '__future__', '_json', 'json.scanner', 'json.decoder', 'json.encoder', 'json', 'numpy._version', 'numpy.version', '_datetime', 'datetime', 'numpy.core._multiarray_umath', 'numpy.compat._inspect', 'numpy.compat._pep440', '_compat_pickle', '_pickle', 'pickle', 'numpy.compat.py3k', 'numpy.compat', 'numpy.core.overrides', 'numpy.core.multiarray', 'numpy.core.umath', 'numbers', 'numpy.core._string_helpers', 'numpy.core._dtype', 'numpy.core._type_aliases', 'numpy.core.numerictypes', 'numpy.core._exceptions', 'numpy.core._methods', 'numpy.core.fromnumeric', 'numpy.core.shape_base', 'numpy.core._ufunc_config', 'numpy.core.arrayprint', 'numpy.core._asarray', 'numpy.core.numeric', 'numpy.core.defchararray', 'numpy.core.records', 'numpy.core.memmap', 'numpy.core.function_base', 'numpy.core._machar', 'numpy.core.getlimits', 'numpy.core.einsumfunc', 'numpy.core._multiarray_tests', 'numpy.core._add_newdocs', 'platform', '_socket', 'select', 'selectors', 'socket', 'numpy.core._add_newdocs_scalars', 'numpy.core._dtype_ctypes', 'numpy.core._internal', 'numpy._pytesttester', 'numpy.core', 'numpy.lib.mixins', 'numpy.lib.ufunclike', 'numpy.lib.type_check', 'numpy.lib.scimath', 'numpy.lib.stride_tricks', 'numpy.lib.twodim_base', 'numpy.linalg._umath_linalg', 'numpy.linalg.linalg', 'numpy.linalg', 'numpy.matrixlib.defmatrix', 'numpy.matrixlib', 'numpy.lib.histograms', 'numpy.lib.function_base', 'numpy.lib.index_tricks', 'numpy.lib.nanfunctions', 'numpy.lib.shape_base', 'numpy.lib.polynomial', 'textwrap', 'numpy.lib.utils', 'numpy.lib.arraysetops', 'numpy.lib.format', 'numpy.lib._datasource', 'numpy.lib._iotools', 'numpy.lib.npyio', 'numpy.lib.arrayterator', 'numpy.lib.arraypad', 'numpy.lib._version', 'numpy.lib', 'numpy.fft._pocketfft_internal', 'numpy.fft._pocketfft', 'numpy.fft.helper', 'numpy.fft', 'numpy.polynomial.polyutils', 'numpy.polynomial._polybase', 'numpy.polynomial.polynomial', 'numpy.polynomial.chebyshev', 'numpy.polynomial.legendre', 'numpy.polynomial.hermite', 'numpy.polynomial.hermite_e', 'numpy.polynomial.laguerre', 'numpy.polynomial', 'cython_runtime', '_cython_0_29_32', 'numpy.random._common', 'binascii', 'base64', '_hashlib', '_blake2', 'hashlib', 'hmac', 'secrets', 'numpy.random.bit_generator', 'numpy.random._bounded_integers', 'numpy.random._mt19937', 'numpy.random.mtrand', 'numpy.random._philox', 'numpy.random._pcg64', 'numpy.random._sfc64', 'numpy.random._generator', 'numpy.random._pickle', 'numpy.random', 'numpy.ctypeslib', 'numpy.ma.core', 'numpy.ma.extras', 'numpy.ma', 'numpy', 'packaging.__about__', 'packaging', 'packaging._structures', 'packaging.version', 'matplotlib._api.deprecation', 'matplotlib._api', 'matplotlib._version', 'gzip', 'shlex', 'matplotlib._c_internal_utils', 'matplotlib.cbook', 'matplotlib.docstring', 'copy', 'PIL._version', 'PIL', 'PIL.ImageMode', 'PIL.TiffTags', 'PIL._binary', 'PIL._util', 'PIL._imaging', 'PIL.Image', 'PIL.ImageChops', 'PIL.ImageFile', 'array', 'PIL.GimpGradientFile', 'PIL.GimpPaletteFile', 'PIL.ImageColor', 'PIL.PaletteFile', 'PIL.ImagePalette', 'PIL.ImageSequence', 'PIL.PngImagePlugin', 'matplotlib._path', 'matplotlib.bezier', 'matplotlib.path', 'matplotlib.transforms', 'matplotlib.ticker', 'matplotlib.scale', 'matplotlib._color_data', 'matplotlib.colors', 'pyparsing.util', 'pyparsing.unicode', 'pyparsing.exceptions', 'pyparsing.actions', 'pyparsing.results', 'pyparsing.core', 'html.entities', 'html', 'pyparsing.helpers', 'pyparsing.testing', 'pyparsing.common', 'pyparsing', 'matplotlib.fontconfig_pattern', 'matplotlib._enums', 'cycler', 'matplotlib.rcsetup', 'matplotlib.ft2font', 'dateutil._version', 'dateutil', 'kiwisolver._cext', 'kiwisolver']
+2022-09-04 12:57:55,386 - matplotlib - DEBUG - CACHEDIR=C:\Users\nilak\.matplotlib
+2022-09-04 12:57:55,388 - matplotlib.font_manager - DEBUG - Using fontManager instance from C:\Users\nilak\.matplotlib\fontlist-v330.json
+2022-09-04 12:57:57,046 - tensorflow - DEBUG - Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2022-09-04 12:57:57,247 - h5py._conv - DEBUG - Creating converter from 7 to 5
+2022-09-04 12:57:57,247 - h5py._conv - DEBUG - Creating converter from 5 to 7
+2022-09-04 12:57:57,247 - h5py._conv - DEBUG - Creating converter from 7 to 5
+2022-09-04 12:57:57,247 - h5py._conv - DEBUG - Creating converter from 5 to 7
+2022-09-04 12:57:59,026 - src.ml.handle_prediction - INFO - Creating new model instance <src.ml.handle_prediction.ProductionModels object at 0x00000175668435E0>
+2022-09-04 12:57:59,026 - src.ml.handle_prediction - INFO - Loading model at path D:\Git\model\model.h5
+2022-09-04 12:57:59,028 - h5py._conv - DEBUG - Creating converter from 3 to 5
+2022-09-04 12:58:02,328 - root - INFO - Starting execution of webapp from __main__
+2022-09-04 12:58:02,329 - src.ml.handle_prediction - INFO - b" * Serving Flask app 'src.web.main' (lazy loading)"
+2022-09-04 12:58:02,330 - src.ml.handle_prediction - INFO - b' * Environment: production'
+2022-09-04 12:58:02,330 - src.ml.handle_prediction - INFO - b'   WARNING: This is a development server. Do not use it in a production deployment.'
+2022-09-04 12:58:02,330 - src.ml.handle_prediction - INFO - b'   Use a production WSGI server instead.'
+2022-09-04 12:58:02,330 - src.ml.handle_prediction - INFO - b' * Debug mode: off'
+2022-09-04 12:58:02,332 - werkzeug - INFO -  * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:8888
+ * Running on http://192.168.0.112:8888 (Press CTRL+C to quit)
+2022-09-04 12:59:39,318 - matplotlib - DEBUG - matplotlib data path: D:\Git\venv\lib\site-packages\matplotlib\mpl-data
+2022-09-04 12:59:39,321 - matplotlib - DEBUG - CONFIGDIR=C:\Users\nilak\.matplotlib
+2022-09-04 12:59:39,322 - matplotlib - DEBUG - interactive is False
+2022-09-04 12:59:39,322 - matplotlib - DEBUG - platform is win32
+2022-09-04 12:59:39,322 - matplotlib - DEBUG - loaded modules: ['sys', 'builtins', '_frozen_importlib', '_imp', '_thread', '_warnings', '_weakref', '_io', 'marshal', 'nt', 'winreg', '_frozen_importlib_external', 'time', 'zipimport', '_codecs', 'codecs', 'encodings.aliases', 'encodings', 'encodings.utf_8', '_signal', 'encodings.latin_1', '_abc', 'abc', 'io', '__main__', '_stat', 'stat', '_collections_abc', 'genericpath', 'ntpath', 'os.path', 'os', '_sitebuiltins', '_locale', '_bootlocale', 'encodings.cp1252', '_heapq', 'heapq', 'itertools', 'keyword', '_operator', 'operator', 'reprlib', '_collections', 'collections', 'types', '_functools', 'functools', 'importlib._bootstrap', 'importlib._bootstrap_external', 'warnings', 'importlib', 'importlib.machinery', 'collections.abc', 'contextlib', 'enum', '_sre', 'sre_constants', 'sre_parse', 'sre_compile', 'copyreg', 're', 'typing.io', 'typing.re', 'typing', 'importlib.abc', 'importlib.util', '_virtualenv', '_distutils_hack', 'google', 'mpl_toolkits', 'site', 'token', 'tokenize', 'linecache', 'traceback', '_weakrefset', 'weakref', '_string', 'string', 'threading', 'atexit', 'logging', 'posixpath', 'fnmatch', 'errno', 'urllib', 'urllib.parse', 'pathlib', 'src', 'src.web', 'src.web.main', 'matplotlib', '_ast', 'ast', '_opcode', 'opcode', 'dis', 'inspect', 'locale', 'pprint', 'zlib', '_compression', '_bz2', 'bz2', '_lzma', 'lzma', 'shutil', 'signal', 'msvcrt', '_winapi', 'subprocess', 'math', '_bisect', 'bisect', '_random', '_sha512', 'random', 'tempfile', 'numpy._globals', 'numpy.__config__', 'glob', '_ctypes', '_struct', 'struct', 'ctypes._endian', 'ctypes', 'numpy._distributor_init', '__future__', '_json', 'json.scanner', 'json.decoder', 'json.encoder', 'json', 'numpy._version', 'numpy.version', '_datetime', 'datetime', 'numpy.core._multiarray_umath', 'numpy.compat._inspect', 'numpy.compat._pep440', '_compat_pickle', '_pickle', 'pickle', 'numpy.compat.py3k', 'numpy.compat', 'numpy.core.overrides', 'numpy.core.multiarray', 'numpy.core.umath', 'numbers', 'numpy.core._string_helpers', 'numpy.core._dtype', 'numpy.core._type_aliases', 'numpy.core.numerictypes', 'numpy.core._exceptions', 'numpy.core._methods', 'numpy.core.fromnumeric', 'numpy.core.shape_base', 'numpy.core._ufunc_config', 'numpy.core.arrayprint', 'numpy.core._asarray', 'numpy.core.numeric', 'numpy.core.defchararray', 'numpy.core.records', 'numpy.core.memmap', 'numpy.core.function_base', 'numpy.core._machar', 'numpy.core.getlimits', 'numpy.core.einsumfunc', 'numpy.core._multiarray_tests', 'numpy.core._add_newdocs', 'platform', '_socket', 'select', 'selectors', 'socket', 'numpy.core._add_newdocs_scalars', 'numpy.core._dtype_ctypes', 'numpy.core._internal', 'numpy._pytesttester', 'numpy.core', 'numpy.lib.mixins', 'numpy.lib.ufunclike', 'numpy.lib.type_check', 'numpy.lib.scimath', 'numpy.lib.stride_tricks', 'numpy.lib.twodim_base', 'numpy.linalg._umath_linalg', 'numpy.linalg.linalg', 'numpy.linalg', 'numpy.matrixlib.defmatrix', 'numpy.matrixlib', 'numpy.lib.histograms', 'numpy.lib.function_base', 'numpy.lib.index_tricks', 'numpy.lib.nanfunctions', 'numpy.lib.shape_base', 'numpy.lib.polynomial', 'textwrap', 'numpy.lib.utils', 'numpy.lib.arraysetops', 'numpy.lib.format', 'numpy.lib._datasource', 'numpy.lib._iotools', 'numpy.lib.npyio', 'numpy.lib.arrayterator', 'numpy.lib.arraypad', 'numpy.lib._version', 'numpy.lib', 'numpy.fft._pocketfft_internal', 'numpy.fft._pocketfft', 'numpy.fft.helper', 'numpy.fft', 'numpy.polynomial.polyutils', 'numpy.polynomial._polybase', 'numpy.polynomial.polynomial', 'numpy.polynomial.chebyshev', 'numpy.polynomial.legendre', 'numpy.polynomial.hermite', 'numpy.polynomial.hermite_e', 'numpy.polynomial.laguerre', 'numpy.polynomial', 'cython_runtime', '_cython_0_29_32', 'numpy.random._common', 'binascii', 'base64', '_hashlib', '_blake2', 'hashlib', 'hmac', 'secrets', 'numpy.random.bit_generator', 'numpy.random._bounded_integers', 'numpy.random._mt19937', 'numpy.random.mtrand', 'numpy.random._philox', 'numpy.random._pcg64', 'numpy.random._sfc64', 'numpy.random._generator', 'numpy.random._pickle', 'numpy.random', 'numpy.ctypeslib', 'numpy.ma.core', 'numpy.ma.extras', 'numpy.ma', 'numpy', 'packaging.__about__', 'packaging', 'packaging._structures', 'packaging.version', 'matplotlib._api.deprecation', 'matplotlib._api', 'matplotlib._version', 'gzip', 'shlex', 'matplotlib._c_internal_utils', 'matplotlib.cbook', 'matplotlib.docstring', 'copy', 'PIL._version', 'PIL', 'PIL.ImageMode', 'PIL.TiffTags', 'PIL._binary', 'PIL._util', 'PIL._imaging', 'PIL.Image', 'PIL.ImageChops', 'PIL.ImageFile', 'array', 'PIL.GimpGradientFile', 'PIL.GimpPaletteFile', 'PIL.ImageColor', 'PIL.PaletteFile', 'PIL.ImagePalette', 'PIL.ImageSequence', 'PIL.PngImagePlugin', 'matplotlib._path', 'matplotlib.bezier', 'matplotlib.path', 'matplotlib.transforms', 'matplotlib.ticker', 'matplotlib.scale', 'matplotlib._color_data', 'matplotlib.colors', 'pyparsing.util', 'pyparsing.unicode', 'pyparsing.exceptions', 'pyparsing.actions', 'pyparsing.results', 'pyparsing.core', 'html.entities', 'html', 'pyparsing.helpers', 'pyparsing.testing', 'pyparsing.common', 'pyparsing', 'matplotlib.fontconfig_pattern', 'matplotlib._enums', 'cycler', 'matplotlib.rcsetup', 'matplotlib.ft2font', 'dateutil._version', 'dateutil', 'kiwisolver._cext', 'kiwisolver']
+2022-09-04 12:59:39,423 - matplotlib - DEBUG - CACHEDIR=C:\Users\nilak\.matplotlib
+2022-09-04 12:59:39,425 - matplotlib.font_manager - DEBUG - Using fontManager instance from C:\Users\nilak\.matplotlib\fontlist-v330.json
+2022-09-04 12:59:40,783 - tensorflow - DEBUG - Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2022-09-04 12:59:40,957 - h5py._conv - DEBUG - Creating converter from 7 to 5
+2022-09-04 12:59:40,957 - h5py._conv - DEBUG - Creating converter from 5 to 7
+2022-09-04 12:59:40,958 - h5py._conv - DEBUG - Creating converter from 7 to 5
+2022-09-04 12:59:40,958 - h5py._conv - DEBUG - Creating converter from 5 to 7
+2022-09-04 12:59:42,532 - src.ml.handle_prediction - INFO - Creating new model instance <src.ml.handle_prediction.ProductionModels object at 0x00000253207C35E0>
+2022-09-04 12:59:42,532 - src.ml.handle_prediction - INFO - Loading model at path D:\Git\model\model.h5
+2022-09-04 12:59:42,534 - h5py._conv - DEBUG - Creating converter from 3 to 5
+2022-09-04 12:59:45,716 - root - INFO - Starting execution of webapp from __main__
+2022-09-04 12:59:45,717 - src.ml.handle_prediction - INFO - b" * Serving Flask app 'src.web.main' (lazy loading)"
+2022-09-04 12:59:45,717 - src.ml.handle_prediction - INFO - b' * Environment: production'
+2022-09-04 12:59:45,717 - src.ml.handle_prediction - INFO - b'   WARNING: This is a development server. Do not use it in a production deployment.'
+2022-09-04 12:59:45,717 - src.ml.handle_prediction - INFO - b'   Use a production WSGI server instead.'
+2022-09-04 12:59:45,717 - src.ml.handle_prediction - INFO - b' * Debug mode: off'
+2022-09-04 12:59:45,720 - werkzeug - INFO -  * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:8888
+ * Running on http://192.168.0.112:8888 (Press CTRL+C to quit)
+2022-09-04 15:31:12,618 - matplotlib - DEBUG - matplotlib data path: D:\Git\venv\lib\site-packages\matplotlib\mpl-data
+2022-09-04 15:31:12,623 - matplotlib - DEBUG - CONFIGDIR=C:\Users\nilak\.matplotlib
+2022-09-04 15:31:12,624 - matplotlib - DEBUG - interactive is False
+2022-09-04 15:31:12,624 - matplotlib - DEBUG - platform is win32
+2022-09-04 15:31:12,624 - matplotlib - DEBUG - loaded modules: ['sys', 'builtins', '_frozen_importlib', '_imp', '_thread', '_warnings', '_weakref', '_io', 'marshal', 'nt', 'winreg', '_frozen_importlib_external', 'time', 'zipimport', '_codecs', 'codecs', 'encodings.aliases', 'encodings', 'encodings.utf_8', '_signal', 'encodings.latin_1', '_abc', 'abc', 'io', '__main__', '_stat', 'stat', '_collections_abc', 'genericpath', 'ntpath', 'os.path', 'os', '_sitebuiltins', '_locale', '_bootlocale', 'encodings.cp1252', '_heapq', 'heapq', 'itertools', 'keyword', '_operator', 'operator', 'reprlib', '_collections', 'collections', 'types', '_functools', 'functools', 'importlib._bootstrap', 'importlib._bootstrap_external', 'warnings', 'importlib', 'importlib.machinery', 'collections.abc', 'contextlib', 'enum', '_sre', 'sre_constants', 'sre_parse', 'sre_compile', 'copyreg', 're', 'typing.io', 'typing.re', 'typing', 'importlib.abc', 'importlib.util', '_virtualenv', '_distutils_hack', 'google', 'mpl_toolkits', 'site', 'token', 'tokenize', 'linecache', 'traceback', '_weakrefset', 'weakref', '_string', 'string', 'threading', 'atexit', 'logging', 'posixpath', 'fnmatch', 'errno', 'urllib', 'urllib.parse', 'pathlib', 'src', 'src.web', 'src.web.main', 'matplotlib', '_ast', 'ast', '_opcode', 'opcode', 'dis', 'inspect', 'locale', 'pprint', 'zlib', '_compression', '_bz2', 'bz2', '_lzma', 'lzma', 'shutil', 'signal', 'msvcrt', '_winapi', 'subprocess', 'math', '_bisect', 'bisect', '_random', '_sha512', 'random', 'tempfile', 'numpy._globals', 'numpy.__config__', 'glob', '_ctypes', '_struct', 'struct', 'ctypes._endian', 'ctypes', 'numpy._distributor_init', '__future__', '_json', 'json.scanner', 'json.decoder', 'json.encoder', 'json', 'numpy._version', 'numpy.version', '_datetime', 'datetime', 'numpy.core._multiarray_umath', 'numpy.compat._inspect', 'numpy.compat._pep440', '_compat_pickle', '_pickle', 'pickle', 'numpy.compat.py3k', 'numpy.compat', 'numpy.core.overrides', 'numpy.core.multiarray', 'numpy.core.umath', 'numbers', 'numpy.core._string_helpers', 'numpy.core._dtype', 'numpy.core._type_aliases', 'numpy.core.numerictypes', 'numpy.core._exceptions', 'numpy.core._methods', 'numpy.core.fromnumeric', 'numpy.core.shape_base', 'numpy.core._ufunc_config', 'numpy.core.arrayprint', 'numpy.core._asarray', 'numpy.core.numeric', 'numpy.core.defchararray', 'numpy.core.records', 'numpy.core.memmap', 'numpy.core.function_base', 'numpy.core._machar', 'numpy.core.getlimits', 'numpy.core.einsumfunc', 'numpy.core._multiarray_tests', 'numpy.core._add_newdocs', 'platform', '_socket', 'select', 'selectors', 'socket', 'numpy.core._add_newdocs_scalars', 'numpy.core._dtype_ctypes', 'numpy.core._internal', 'numpy._pytesttester', 'numpy.core', 'numpy.lib.mixins', 'numpy.lib.ufunclike', 'numpy.lib.type_check', 'numpy.lib.scimath', 'numpy.lib.stride_tricks', 'numpy.lib.twodim_base', 'numpy.linalg._umath_linalg', 'numpy.linalg.linalg', 'numpy.linalg', 'numpy.matrixlib.defmatrix', 'numpy.matrixlib', 'numpy.lib.histograms', 'numpy.lib.function_base', 'numpy.lib.index_tricks', 'numpy.lib.nanfunctions', 'numpy.lib.shape_base', 'numpy.lib.polynomial', 'textwrap', 'numpy.lib.utils', 'numpy.lib.arraysetops', 'numpy.lib.format', 'numpy.lib._datasource', 'numpy.lib._iotools', 'numpy.lib.npyio', 'numpy.lib.arrayterator', 'numpy.lib.arraypad', 'numpy.lib._version', 'numpy.lib', 'numpy.fft._pocketfft_internal', 'numpy.fft._pocketfft', 'numpy.fft.helper', 'numpy.fft', 'numpy.polynomial.polyutils', 'numpy.polynomial._polybase', 'numpy.polynomial.polynomial', 'numpy.polynomial.chebyshev', 'numpy.polynomial.legendre', 'numpy.polynomial.hermite', 'numpy.polynomial.hermite_e', 'numpy.polynomial.laguerre', 'numpy.polynomial', 'cython_runtime', '_cython_0_29_32', 'numpy.random._common', 'binascii', 'base64', '_hashlib', '_blake2', 'hashlib', 'hmac', 'secrets', 'numpy.random.bit_generator', 'numpy.random._bounded_integers', 'numpy.random._mt19937', 'numpy.random.mtrand', 'numpy.random._philox', 'numpy.random._pcg64', 'numpy.random._sfc64', 'numpy.random._generator', 'numpy.random._pickle', 'numpy.random', 'numpy.ctypeslib', 'numpy.ma.core', 'numpy.ma.extras', 'numpy.ma', 'numpy', 'packaging.__about__', 'packaging', 'packaging._structures', 'packaging.version', 'matplotlib._api.deprecation', 'matplotlib._api', 'matplotlib._version', 'gzip', 'shlex', 'matplotlib._c_internal_utils', 'matplotlib.cbook', 'matplotlib.docstring', 'copy', 'PIL._version', 'PIL', 'PIL.ImageMode', 'PIL.TiffTags', 'PIL._binary', 'PIL._util', 'PIL._imaging', 'PIL.Image', 'PIL.ImageChops', 'PIL.ImageFile', 'array', 'PIL.GimpGradientFile', 'PIL.GimpPaletteFile', 'PIL.ImageColor', 'PIL.PaletteFile', 'PIL.ImagePalette', 'PIL.ImageSequence', 'PIL.PngImagePlugin', 'matplotlib._path', 'matplotlib.bezier', 'matplotlib.path', 'matplotlib.transforms', 'matplotlib.ticker', 'matplotlib.scale', 'matplotlib._color_data', 'matplotlib.colors', 'pyparsing.util', 'pyparsing.unicode', 'pyparsing.exceptions', 'pyparsing.actions', 'pyparsing.results', 'pyparsing.core', 'html.entities', 'html', 'pyparsing.helpers', 'pyparsing.testing', 'pyparsing.common', 'pyparsing', 'matplotlib.fontconfig_pattern', 'matplotlib._enums', 'cycler', 'matplotlib.rcsetup', 'matplotlib.ft2font', 'dateutil._version', 'dateutil', 'kiwisolver._cext', 'kiwisolver']
+2022-09-04 15:31:12,731 - matplotlib - DEBUG - CACHEDIR=C:\Users\nilak\.matplotlib
+2022-09-04 15:31:12,734 - matplotlib.font_manager - DEBUG - Using fontManager instance from C:\Users\nilak\.matplotlib\fontlist-v330.json
+2022-09-04 15:31:15,567 - tensorflow - DEBUG - Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2022-09-04 15:31:15,930 - h5py._conv - DEBUG - Creating converter from 7 to 5
+2022-09-04 15:31:15,930 - h5py._conv - DEBUG - Creating converter from 5 to 7
+2022-09-04 15:31:15,930 - h5py._conv - DEBUG - Creating converter from 7 to 5
+2022-09-04 15:31:15,930 - h5py._conv - DEBUG - Creating converter from 5 to 7
+2022-09-04 15:31:18,506 - src.ml.handle_prediction - INFO - Creating new model instance <src.ml.handle_prediction.ProductionModels object at 0x000001FD65A535E0>
+2022-09-04 15:31:18,506 - src.ml.handle_prediction - INFO - Loading model at path D:\Git\model\model.h5
+2022-09-04 15:31:18,514 - h5py._conv - DEBUG - Creating converter from 3 to 5
+2022-09-04 15:31:21,531 - root - INFO - Starting execution of webapp from __main__
+2022-09-04 15:31:21,531 - src.ml.handle_prediction - INFO - b" * Serving Flask app 'src.web.main' (lazy loading)"
+2022-09-04 15:31:21,531 - src.ml.handle_prediction - INFO - b' * Environment: production'
+2022-09-04 15:31:21,531 - src.ml.handle_prediction - INFO - b'   WARNING: This is a development server. Do not use it in a production deployment.'
+2022-09-04 15:31:21,531 - src.ml.handle_prediction - INFO - b'   Use a production WSGI server instead.'
+2022-09-04 15:31:21,531 - src.ml.handle_prediction - INFO - b' * Debug mode: off'
+2022-09-04 15:31:21,534 - werkzeug - INFO -  * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:8888
+ * Running on http://192.168.0.112:8888 (Press CTRL+C to quit)
+2022-09-04 19:18:56,616 - matplotlib - DEBUG - matplotlib data path: D:\Git\venv\lib\site-packages\matplotlib\mpl-data
+2022-09-04 19:18:56,619 - matplotlib - DEBUG - CONFIGDIR=C:\Users\nilak\.matplotlib
+2022-09-04 19:18:56,621 - matplotlib - DEBUG - interactive is False
+2022-09-04 19:18:56,621 - matplotlib - DEBUG - platform is win32
+2022-09-04 19:18:56,621 - matplotlib - DEBUG - loaded modules: ['sys', 'builtins', '_frozen_importlib', '_imp', '_thread', '_warnings', '_weakref', '_io', 'marshal', 'nt', 'winreg', '_frozen_importlib_external', 'time', 'zipimport', '_codecs', 'codecs', 'encodings.aliases', 'encodings', 'encodings.utf_8', '_signal', 'encodings.latin_1', '_abc', 'abc', 'io', '__main__', '_stat', 'stat', '_collections_abc', 'genericpath', 'ntpath', 'os.path', 'os', '_sitebuiltins', '_locale', '_bootlocale', 'encodings.cp1252', '_heapq', 'heapq', 'itertools', 'keyword', '_operator', 'operator', 'reprlib', '_collections', 'collections', 'types', '_functools', 'functools', 'importlib._bootstrap', 'importlib._bootstrap_external', 'warnings', 'importlib', 'importlib.machinery', 'collections.abc', 'contextlib', 'enum', '_sre', 'sre_constants', 'sre_parse', 'sre_compile', 'copyreg', 're', 'typing.io', 'typing.re', 'typing', 'importlib.abc', 'importlib.util', '_virtualenv', '_distutils_hack', 'google', 'mpl_toolkits', 'site', 'token', 'tokenize', 'linecache', 'traceback', '_weakrefset', 'weakref', '_string', 'string', 'threading', 'atexit', 'logging', 'posixpath', 'fnmatch', 'errno', 'urllib', 'urllib.parse', 'pathlib', 'src', 'src.web', 'src.web.main', 'matplotlib', '_ast', 'ast', '_opcode', 'opcode', 'dis', 'inspect', 'locale', 'pprint', 'zlib', '_compression', '_bz2', 'bz2', '_lzma', 'lzma', 'shutil', 'signal', 'msvcrt', '_winapi', 'subprocess', 'math', '_bisect', 'bisect', '_random', '_sha512', 'random', 'tempfile', 'numpy._globals', 'numpy.__config__', 'glob', '_ctypes', '_struct', 'struct', 'ctypes._endian', 'ctypes', 'numpy._distributor_init', '__future__', '_json', 'json.scanner', 'json.decoder', 'json.encoder', 'json', 'numpy._version', 'numpy.version', '_datetime', 'datetime', 'numpy.core._multiarray_umath', 'numpy.compat._inspect', 'numpy.compat._pep440', '_compat_pickle', '_pickle', 'pickle', 'numpy.compat.py3k', 'numpy.compat', 'numpy.core.overrides', 'numpy.core.multiarray', 'numpy.core.umath', 'numbers', 'numpy.core._string_helpers', 'numpy.core._dtype', 'numpy.core._type_aliases', 'numpy.core.numerictypes', 'numpy.core._exceptions', 'numpy.core._methods', 'numpy.core.fromnumeric', 'numpy.core.shape_base', 'numpy.core._ufunc_config', 'numpy.core.arrayprint', 'numpy.core._asarray', 'numpy.core.numeric', 'numpy.core.defchararray', 'numpy.core.records', 'numpy.core.memmap', 'numpy.core.function_base', 'numpy.core._machar', 'numpy.core.getlimits', 'numpy.core.einsumfunc', 'numpy.core._multiarray_tests', 'numpy.core._add_newdocs', 'platform', '_socket', 'select', 'selectors', 'socket', 'numpy.core._add_newdocs_scalars', 'numpy.core._dtype_ctypes', 'numpy.core._internal', 'numpy._pytesttester', 'numpy.core', 'numpy.lib.mixins', 'numpy.lib.ufunclike', 'numpy.lib.type_check', 'numpy.lib.scimath', 'numpy.lib.stride_tricks', 'numpy.lib.twodim_base', 'numpy.linalg._umath_linalg', 'numpy.linalg.linalg', 'numpy.linalg', 'numpy.matrixlib.defmatrix', 'numpy.matrixlib', 'numpy.lib.histograms', 'numpy.lib.function_base', 'numpy.lib.index_tricks', 'numpy.lib.nanfunctions', 'numpy.lib.shape_base', 'numpy.lib.polynomial', 'textwrap', 'numpy.lib.utils', 'numpy.lib.arraysetops', 'numpy.lib.format', 'numpy.lib._datasource', 'numpy.lib._iotools', 'numpy.lib.npyio', 'numpy.lib.arrayterator', 'numpy.lib.arraypad', 'numpy.lib._version', 'numpy.lib', 'numpy.fft._pocketfft_internal', 'numpy.fft._pocketfft', 'numpy.fft.helper', 'numpy.fft', 'numpy.polynomial.polyutils', 'numpy.polynomial._polybase', 'numpy.polynomial.polynomial', 'numpy.polynomial.chebyshev', 'numpy.polynomial.legendre', 'numpy.polynomial.hermite', 'numpy.polynomial.hermite_e', 'numpy.polynomial.laguerre', 'numpy.polynomial', 'cython_runtime', '_cython_0_29_32', 'numpy.random._common', 'binascii', 'base64', '_hashlib', '_blake2', 'hashlib', 'hmac', 'secrets', 'numpy.random.bit_generator', 'numpy.random._bounded_integers', 'numpy.random._mt19937', 'numpy.random.mtrand', 'numpy.random._philox', 'numpy.random._pcg64', 'numpy.random._sfc64', 'numpy.random._generator', 'numpy.random._pickle', 'numpy.random', 'numpy.ctypeslib', 'numpy.ma.core', 'numpy.ma.extras', 'numpy.ma', 'numpy', 'packaging.__about__', 'packaging', 'packaging._structures', 'packaging.version', 'matplotlib._api.deprecation', 'matplotlib._api', 'matplotlib._version', 'gzip', 'shlex', 'matplotlib._c_internal_utils', 'matplotlib.cbook', 'matplotlib.docstring', 'copy', 'PIL._version', 'PIL', 'PIL.ImageMode', 'PIL.TiffTags', 'PIL._binary', 'PIL._util', 'PIL._imaging', 'PIL.Image', 'PIL.ImageChops', 'PIL.ImageFile', 'array', 'PIL.GimpGradientFile', 'PIL.GimpPaletteFile', 'PIL.ImageColor', 'PIL.PaletteFile', 'PIL.ImagePalette', 'PIL.ImageSequence', 'PIL.PngImagePlugin', 'matplotlib._path', 'matplotlib.bezier', 'matplotlib.path', 'matplotlib.transforms', 'matplotlib.ticker', 'matplotlib.scale', 'matplotlib._color_data', 'matplotlib.colors', 'pyparsing.util', 'pyparsing.unicode', 'pyparsing.exceptions', 'pyparsing.actions', 'pyparsing.results', 'pyparsing.core', 'html.entities', 'html', 'pyparsing.helpers', 'pyparsing.testing', 'pyparsing.common', 'pyparsing', 'matplotlib.fontconfig_pattern', 'matplotlib._enums', 'cycler', 'matplotlib.rcsetup', 'matplotlib.ft2font', 'dateutil._version', 'dateutil', 'kiwisolver._cext', 'kiwisolver']
+2022-09-04 19:18:56,705 - matplotlib - DEBUG - CACHEDIR=C:\Users\nilak\.matplotlib
+2022-09-04 19:18:56,712 - matplotlib.font_manager - DEBUG - Using fontManager instance from C:\Users\nilak\.matplotlib\fontlist-v330.json
+2022-09-04 19:18:58,873 - tensorflow - DEBUG - Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2022-09-04 19:18:59,107 - h5py._conv - DEBUG - Creating converter from 7 to 5
+2022-09-04 19:18:59,107 - h5py._conv - DEBUG - Creating converter from 5 to 7
+2022-09-04 19:18:59,107 - h5py._conv - DEBUG - Creating converter from 7 to 5
+2022-09-04 19:18:59,107 - h5py._conv - DEBUG - Creating converter from 5 to 7
+2022-09-04 19:19:00,930 - src.ml.handle_prediction - INFO - Creating new model instance <src.ml.handle_prediction.ProductionModels object at 0x0000025E199B35E0>
+2022-09-04 19:19:00,930 - src.ml.handle_prediction - INFO - Loading model at path D:\Git\model\model.h5
+2022-09-04 19:19:00,933 - h5py._conv - DEBUG - Creating converter from 3 to 5
+2022-09-04 19:19:04,279 - root - INFO - Starting execution of webapp from __main__
+2022-09-04 19:19:04,280 - src.ml.handle_prediction - INFO - b" * Serving Flask app 'src.web.main' (lazy loading)"
+2022-09-04 19:19:04,281 - src.ml.handle_prediction - INFO - b' * Environment: production'
+2022-09-04 19:19:04,281 - src.ml.handle_prediction - INFO - b'   WARNING: This is a development server. Do not use it in a production deployment.'
+2022-09-04 19:19:04,281 - src.ml.handle_prediction - INFO - b'   Use a production WSGI server instead.'
+2022-09-04 19:19:04,281 - src.ml.handle_prediction - INFO - b' * Debug mode: off'
+2022-09-04 19:19:04,283 - werkzeug - INFO -  * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:8888
+ * Running on http://192.168.0.112:8888 (Press CTRL+C to quit)

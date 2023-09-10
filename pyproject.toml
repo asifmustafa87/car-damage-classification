@@ -1,0 +1,10 @@
+[tool.black]
+line-length = 79
+include = '\.pyi?$'
+line-ending = "CRLF"
+
+[tool.isort]
+profile = "black"
+
+[tool.pytest.ini_options]
+filterwarnings = ["ignore::DeprecationWarning"]

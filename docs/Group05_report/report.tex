@@ -1,0 +1,432 @@
+%================================================================================
+%=============================== DOCUMENT SETUP =================================
+%================================================================================
+
+\documentclass[lang=english,inputenc=utf8,fontsize=10pt]{ldvarticle}
+%PACKAGES
+\usepackage{tikz}
+\usetikzlibrary{shapes.geometric}
+\usepackage{import}   % Pictures
+%\usepackage{subfigure}
+\usepackage{verbatim}
+%\usepackage{pgf-pie} 
+\usepackage[export]{adjustbox}
+\usepackage{subcaption}
+\usepackage{parskip}
+%\usepackage{subfigure}
+\usepackage{ifthen}
+\usepackage{comment}
+\usepackage{color}
+\usepackage{colortbl}
+\usepackage{soul}
+\usepackage{tikz}
+\usetikzlibrary{shapes,arrows}
+\usepackage{tabularx}
+\usepackage{lipsum}
+\usepackage{listings}
+\usepackage{xcolor}
+\usepackage{bera}
+
+\definecolor{lightgray}{rgb}{0.75,0.75,0.75}
+
+
+%================================================================================
+%================================= TITLE PAGE ===================================
+%================================================================================
+
+\title{Machine Intelligence model for damage classification}
+\subtitle{Project report}
+\author{Johanna Daten\\
+00112233
+\and
+Malek Ben Alaya\\
+03712504
+\and
+Maximiliane Musterstudi\\
+22334455
+\and
+Max Musterstudi\\
+33445566
+\and
+Matia Pixel\\
+55667788
+\and
+Matthias Pixel\\
+66778899
+\and
+Josefine Voxel\\
+77889900
+\and
+Josef Voxel\\
+88990011
+\and
+Giorgia Randomo\\
+99001122
+\and
+Giorgio Randomo\\
+01234567
+}
+
+\date{\today}
+
+\begin{document}
+
+
+\maketitle
+\thispagestyle{empty}
+
+\hrule
+
+\section*{Motivation}
+
+[This section is about introduction, motivation and context. Draw a picture of the context within which your work is embedded. Describe what would be the ultimate long-term goal that you try to reach eventually] \newline
+
+Automobiles play a major role in the society. There are companies that rely on automobiles, and some of them specialize in handling car collisions and damage specially for the insurance company. Commonly 6 issues of cars are covered by the insurance company: auto liability coverage, uninsured and under-insured motorist coverage, comprehensive coverage, collision coverage, medical payments coverage and personal injury protection. [https://www.allstate.com/resources/car-insurance/types-of-car-insurance-coverage]. So, from buying a new coverage to any kind of damage is surveyed by the insurance company and this is done by sampling. The main reason behind is the expense of hiring a skilled person to check the damage type. Additionally, it prolongs the time between businesses and clients specially when a car insurance is purchased from the internet.If the car had been assessed by the insurance companies despite buying the insurance online, there is no point of selling the insurance online. The consumer would be deprived of the benefits of quick insurance since he/she would have to stand by for the processings of the insurance companies. On the other hand, the insurance companies would also loose the benefits of selling the insurances at a low cost online. So, one of the solution might be, the customer could upload the photos of the cars to a car damage detection websites and the websites automatically detected if there had some damages or not. In this way, the insurance companies save a lot of time and cost. Though, there might be some mistakes in this automated system, but it enables to inspect a lot of cars whereas an expert can inspect a few.
+
+There are several machine learning algorithms that can be useful to detect the car damage and classify them. Estimating the repair cost cal be solved by Regression or Classification. These activities are not yet computerised and therefore vulnerable to corruption. 
+
+The problems of cars have not taken into consideration that much in the Computer Vision Community and it is very tough to deal with them as there are many variations in cars shape, color and size etc. So, it is very difficult to deal with the car damage because of having highly reflective metal bodies. This results into some problems that small damages are easily misidentified as reflections.
+
+To detect the damage of car with the help of image, some research works have been carried out. [] This includes what the image should ave ideally and what not. Nevertheless, a wide area in the research is done in the field of "image classification". At present we have some amazing and almost perfect image classification tools that can perform the image classification so neatly within a moment that takes a human a long time. 
+
+So, dealing with car damage with images is a hot cake in the research area now-a-days as there are few research works available and the new innovative cutting-edge techniques might enhance the performance at another level. In this report, we will develop a prototype model that will successfully identify the car damage detection and the customer can correct any mis-classified images that the model failed.
+
+\vspace*{1cm}
+\hrule
+
+\newpage
+
+\section{Project Description}
+In cooperation with the company WENN, we are offered the chance  to work with a real-world image dataset of different cars, which are photographed from different viewing angles and illumination conditions. The company claims that given several images of a whole car, it has the means to successfully detect regions that show possible damages. Therefore, what still needs to be done is to classify these regions into several damage categories.\\
+So over the course of this project, our task is to build a classification model that distinguishes the cropped damage patches in four different classes: 'dent', 'scratch', 'rim' and 'other'. The main challenge that we face is the lack of availability of labelled data, as the provided dataset is not annotated at all. This suggests that we should develop algorithms which train efficiently in terms of the size of the training dataset.
+\\
+\begin{comment} 
+-------------------------------------------------
+WENN being a renowned company, from Netherlands, tackles different types of car related problems by offering us 4 different products. Among the four products - CarEye® Claim works with the images of car and detects the car damage. Having very few labelled data, they classify the car damage type with a machine learning model.
+They make a video of coming cars from different angles and then from the video, they extract 60 images/sec. Thus they have a lot of images of the same car from different angles. After that they detect the region where some damage might be found. Later, they classify the damages into four classes (e.g. dent, scratch, rim damage or others). \newline
+
+So our project is to develop a machine learning model which successfully classifies the damage type from the cropped images. The image format is 'jpeg' and 'webp'. We now have a data set from WENN that includes pictures of damage of four categories. But one of the challenging parts is that we don't have any labelled data and so at the end, we need to build an active learning model. 
+\end{comment}
+
+\section*{Goals}
+The first aim is to create an efficient training data-set for our model by making a consistent labelling process of the given data-set. This process should include several team members to ensure that clean and well formatted training data is produced.\\
+
+Additionally, we aim to use Active Learning in order to make the training process as efficient as possible in terms of the size of the training dataset; by means of different sampling strategies, the user is queried to annotate more data and feed it to the model for further training. This should be done until a pre-defined performance measure is reached. \\
+
+Furthermore, we aim to make an intuitive, easy-to-use web-interface that has three main functionalities:
+\begin{itemize}
+	\item \textbf{Labeling:} user can upload single or multiple damage images and label them.
+	\item \textbf{Prediction:} user can upload single or multiple damage images to get a prediction for the damage.
+	\item \textbf{Correction:} user can correct wrong predictions or verify/correct predictions where the model is uncertain. The model should use this input to further refine its training.
+\end{itemize}
+
+
+
+\begin{comment} 
+-------------------------------------------------------------------
+We have to finally fulfill three main features with front end. They are as follows:
+\begin{itemize}
+	
+	\item \textbf{Labeling:} We are to build an user interface that allows users to upload single or multiple images for labeling. Also the label information can be downloaded which is in JSON format. For example, if a user uploads 3 images “xyz.jpeg”, “erw.webp” and “asl.jpeg”, the export (i.e JSON) should look like this:
+	
+	\begin{lstlisting}
+		{
+			"annotations":
+			[
+			{
+				"file_name": "xyz.jpeg",
+				"label": "dent"
+			},
+			{
+				"file_name": "erw.webp",
+				"label": "scratch"
+			},
+			{
+				"file_name": "asl.jpeg",
+				"label": "scratch"
+			}
+			]
+		}
+	\end{lstlisting}
+	
+	\item \textbf{Prediction:} We also need a portal where the users can upload single/multiple images and the built machine learning model gives us a prediction for the damage.
+	
+	\item \textbf{Correction:} An interface with the correction options must be available when the model prediction is wrong or uncertain. Then the user can manually correct the mislabelled data and the model uses this for the further improvement of its performance matrix.
+	
+\end{itemize}
+
+Additional features that might be added:
+
+\begin{itemize}
+	
+	\item Being creative! Provide nice visualizations, interpretations, ...
+	
+	\item Testing different approaches and models using a sophisticated validation scheme
+	
+	\item Finding interesting patterns in the data
+	
+	\item Benchmarking fancy machine learning models against traditional / standard / boring techniques such as linear regression
+	
+\end{itemize}
+\end{comment}
+\section*{Research Question}
+To achieve a good damage classifier, the following questions must be answered:
+\begin{enumerate}
+	\item Which machine learning algorithms are best suited for image classification?
+	\item How much training data is needed to reach a desired performance measure ( Accuracy/ F-1 score)?
+	\item Which performance metric is the most reasonable for our problem? 
+	\item Which sampling strategies are the most efficient when using Active Learning for our specific problem?
+
+	
+\end{enumerate}
+
+\newpage
+
+\section{Data basis}
+
+In this section, the structure of the collected dataset is presented and the used data preprocessing methods are explained. The cleaned data is investigated so that only images that do contain cars and eventually damages are incorporated in the model fitting phase.
+
+\section*{Sources}
+
+The images contained in the provided dataset are captured with the help of 'CarEye® Capture', which is a product of the company WENN. It is a fixed tool with photo technology and structured light that is mounted on the sides and thus only enables taking side-views of the cars that are to be inspected. Fig.~\ref{fig:whole_cars} shows 3 different images of the same car, which are taken from different viewing angles.\\
+\begin{figure}
+    \centering
+    \begin{subfigure}{0.32\textwidth}
+        \includegraphics[width=1\linewidth]{img/view_angle_1.png}
+        \caption{\label{fig:reflective}}
+        
+    \end{subfigure} 
+    \begin{subfigure}{0.32\textwidth}
+            \includegraphics[width=1\linewidth]{img/view_angle_2.png}
+            \caption{\label{fig:non_reflective}}
+            
+    \end{subfigure}
+    \begin{subfigure}{0.32\textwidth}
+            \includegraphics[width=1\linewidth]{img/view_angle_3.png}
+            \caption{\label{fig:non_reflective}}
+            
+    \end{subfigure}
+
+\caption[]{Images from different viewing angles of the same car, taken by CarEye® Capture tool.}
+\label{fig:whole_cars}
+\end{figure}
+
+\section*{Data collection}
+
+For the start up of the project, our main focus was to understand the structure of the given dataset. By automated as well as manual examination of the dataset, we could figure out that it contains a total of 51259  images, where many of them do not contain cars. In the images that contain cars, 9585 of them contain damaged cars and 897 of them have a bounding box of the damage. These are the easiest to annotate. So in a subsequent step, the images that contain bounding boxes were equally distributed between all team members to annotate them into the four categories (Dent, Rim, Scratch and other). The challenging part of the annotation process was that a relatively high amount of damages (153 images) could not be identified correctly and therefore, in a first step, we decided to annotate these damages in a later step. A Pie Chart of the given dataset is shown in Fig.~\ref{fig:Data_chart}.\\
+
+\begin{figure}[htb]
+\centering
+  \includegraphics[height=10cm]{img/Data_chart.png}
+  \caption[]{Pie Chart that represents the structure of the given dataset. The percentages are with respect to the whole dataset, which contains a total of 51259 Images.}
+  \label{fig:Data_chart}
+\end{figure}
+
+
+
+
+\section*{Preprocessing}
+The next step we do after annotating the images that contain bounding boxes of damages (a total of 897 image), we start preprocessing these images. The preprocessing methods that we use are explained in the following subsections.
+
+\subsection*{Cropping patches}
+As we intend to build models that mainly work with damage patches, the first preprocessing step that we do is to crop the damage patches out of the images that contain whole cars. We also note here that all the next preprocessing steps are applied only to damage patches and not to images of whole cars. Fig.~\ref{fig:cropped_patches} shows examples of cropped patches of the 4 considered damage categories.
+
+\begin{figure}
+    \centering
+    \begin{subfigure}{0.24\textwidth}
+        \includegraphics[width=1\linewidth]{img/dent_damage.jpeg}
+        \caption{Dent\label{fig:dent}}
+        
+    \end{subfigure} 
+    \begin{subfigure}{0.24\textwidth}
+            \includegraphics[width=1\linewidth]{img/rim_damage.jpeg}
+            \caption{Rim\label{fig:rim}}
+            
+    \end{subfigure}
+    \begin{subfigure}{0.24\textwidth}
+            \includegraphics[width=1\linewidth]{img/scratch_damage.jpeg}
+            \caption{Scratch\label{fig:scratch}}
+            
+    \end{subfigure}
+    \begin{subfigure}{0.24\textwidth}
+            \includegraphics[width=1\linewidth]{img/other_damage.jpeg}
+            \caption{Other\label{fig:other}}
+            
+    \end{subfigure}
+
+\caption[]{Examples of cropped patches of the 4 damage categories : Dent, Rim, Scratch and Other.}
+\label{fig:cropped_patches}
+\end{figure}
+
+\subsection*{Discarding }
+-we chose to discard patches that contain 2 damages at the same time. why ? --> it serves for confusion when training the model to learn features.
+
+\subsection*{Normalization}
+As a next preprocessing step, we normalize the dataset after discarding the undesired samples. Many machine learning algorithms perform better or converge faster when features are on a relatively similar scale and/or close to normally distributed features. Scaling and standardizing can help features arrive in a more digestible form for these algorithms.\\
+In our context, we subtract the per-channel mean and divide by the per-channel standard deviation calculated over all training images. Note that the per-channel mean and standard deviation that we use here are based on the Imagenet dataset since we are using models that were pre-trained on that dataset. More specifically, for each image and for each pixel, the following formula is used:
+$$x^{'}\ = \frac{x - \mu}{s}$$, where $\mu =[0.485 \: 0.456  \: 0.406]^T$ and $s=[0.229 \: 0.224  \: 0.225]^T$ are vectors containing the per-channel mean and standard deviation, respectively, of Imagenet dataset.
+
+\subsection*{Splitting}
+Before starting building models, we split the given dataset into a training set and a test set. The training set is used for training and validation purposes whereas the test set is only used to test the performance of the model before the final deployment. To this end, we use a stratified splitting strategy in order to preserve the same proportions of examples in each class as observed in the original dataset. Fig.~\ref{fig:balance_chart} shows a Pie Chart of the proportions of each class in the given dataset after discarding undesired samples ( Percentages are therefore drawn with respect to 744 samples). Knowing the balance of the dataset is crucial as it can serves to choose a reasonable performance metric for our models. As we can see from Fig.~\ref{fig:balance_chart}, the dataset is imbalanced with respect to the class 'Other' as it represents only 6.7\% of the dataset. This suggests that accuracy would not be the most reasonable metric to assess the performance of our models. 
+
+\begin{figure}[htb]
+\centering
+  \includegraphics[height=10cm]{img/balance_chart.png}
+  \caption[]{Pie Chart of the proportions of each class in the given dataset after discarding undesired samples ( Percentages are therefore drawn with respect to 744 samples.}
+  \label{fig:balance_chart}
+\end{figure}
+
+\subsection*{Encoding}
+
+-converting damage types to encoded categorical data.\\
+\subsection*{Augmentation}
+-Augment Images for Training with Random Geometric Transformations.\\
+\subsection*{Resizing}
+-Resize Images Using Rescaling and Cropping\\
+
+
+\newpage
+
+\section{Data Model}
+
+%\lipsum[9]
+Malek change:\\
+For the start up of the project, our main focus was to understand the structure of the dataset. From the first view of the dataset we figured out that there are 9000 images of cars. It contains cars with damage and no damage. Also there are images that have no car image with it. Among the 9000 images we have 900 images that have the bounding box with car damage clearly visible. So these images were distributed to each of the members equally and then classified into the four categories (Dent, Rim, Scartch and others). The toughest part of the annotation was that some damage could not be identified correctly and they were identified as marked for review (156 images).\\
+Also to do:\\
+-Get the balance of the initial 900 images: \% of dents, \% scratches, \% rims, \% other defect
+
+-Balance of 744 initial images ( approx 156 marked for review are still not labelled) :\\
+Dent: 27.15 \% (202)\\
+Rim: 29.7 \% (221)\\
+Scratch: 36.42 \% (271)\\
+Other: 6.7 \% (50)\\
+\begin{tabularx}{0.8\textwidth} {
+  | >{\raggedright\arraybackslash}X 
+  | >{\centering\arraybackslash}X 
+  | >{\raggedleft\arraybackslash}X | }
+ \hline
+ Damage Type & No of images & Percentages \\
+ \hline
+ Dent  & 202  & 27.15\%  \\
+ \hline
+ Rim  & 221  & 29.71\%  \\
+ \hline
+ Scratch  & 271  & 36.43\%  \\
+ \hline
+ Other  & 50  & 6.71\%  \\
+ \hline
+ Total  & 744  & 100\%  \\
+ \hline
+\end{tabularx}
+
+\section*{Approach}
+Malek change:\\
+- How to deal with imbalanced dataset (that contains 900 images) ?\\
+--> what about adding more labelled images to balance the dataset ?\\
+- Yes we can! ( because we labelled more data using our own Cropper-Annotator ). So before using the new labelled set for Active Learning first use it for data balancing.
+
+
+
+- Help the model see multiple brightness levels for the same image.
+
+AnsweR: We have unbalanced dataset of the four classes of 744 images. So to get around the problems of this, we built another annotator. To make the annotator efficient, we also added the functionality to increase/decrease the brightness of the images so that the damage is clearly visible.
+
+- Cross validation?
+
+
+
+
+- COntainer to host model - Tensorflow
+
+-- From the initial 900 images, we used only or 744(202 dents, 221 rim, 271 scratch, 50 other)  of them to train/test models, Why is that ? --> add explanation ( Melvin/ Sagor).
+
+reponse:
+We have splited our data into train, validation and test set. One method we can incorporate is Cross Validation. Without cross validation our model may perform better on the training set but it may not perform well on the unseen test set. So, having a small dataset, cross validation can be done to improve the model accuracy. 
+
+-Up until now, we have frozen many layers and only post-trained a small amount of weights of the neural net models (Resnet, VGG etc..) . What about post-training all the weights ?
+
+Response: By freezing some layers in the neural network helps us reducing the computation time while losing not much on the performance. Before unfreezing the layers of the Resnet 50 model the performance was really poor and after some trials we found best accuracy around 87\% till now after freezing the layers and using small number of weights.
+
+- Which metric is most reasonable for our problem ? if dent is the worst damage, Then if you classifiy a simple scratch as a dent then thats bad for the insurance company because it will overpay for it ? ( just a thought)
+
+Why accuracy is poor in imbalanced data?
+
+Consider, When Landed Safely (1) is of 90 and crashed is of 10 in Target variable. Even when model fails to predict any Crashes its accuracy is still 90. As data contain 90 Landed Safely. So, accuracy does not holds good for imbalanced data.
+
+-Idea: add visualizations of some convolution layers to see the features learned by the neural nets. ( Remember: more complex features correspond to deeper layers and vice versa)
+
+\section*{Training}
+
+\lipsum[11]
+
+\section*{Evaluation}
+
+-Show confusion matrix, ROC curve, classification report.
+
+\newpage
+
+\section{Results}
+
+\lipsum[13]
+
+\section*{Observations}
+
+\lipsum[14]
+
+\section*{Trends}
+
+- more scratches than dents: litlle amount of dents
+- more rims than anythings else
+
+- model scores very good metrics on the rims images.
+
+-data set is duplicated a lot: different viewing angles of same car/damage.
+
+- which damages are better classified ?
+1- damages taken in daylight ?
+2- or damages taken in night time ?
+
+- Dent and scratches are poorly classified due to wide ranges of aspect ratios and sizes also.
+\newpage
+
+\section{Discussion}
+
+\lipsum[16]
+
+\section*{Interpretation of the results}
+
+\lipsum[8]
+
+\section*{Critical assessment of the results and assumptions}
+
+-We suspect that our model will predict any picture of a rim as a damaged rim, whether it is in reality damaged or not. That is because we only feed the model images of damaged rims and these, in most cases in the provided dataset, look very alike to undamaged rims.
+
+
+
+\section*{Proposed Answer to the Research Question}
+
+\lipsum[18]
+
+\newpage
+
+\section{Conclusion}
+
+\lipsum[19]
+
+\section*{Summary of the Results}
+
+\lipsum[20]
+
+\section*{Future Work}
+
+
+
+\lipsum[21]
+
+\newpage
+
+\section{Comments to the Group Work Experience}
+
+\lipsum[22]
+
+\end{document}
