@@ -40,6 +40,10 @@ kubectl apply -f deploy_project.yml --kubeconfig=<directory/of/kube/folder>
 ```
  :fireworks: A Pod that runs our docker image should be now running on the Kubernetes cluster.
 
+## Visualization & Demo
+
+https://github.com/asifmustafa87/car-damage-classification/assets/91586571/23068776-3538-46e9-967d-f19e615f3e33
+
 
 ## Contributing
 Pull requests are welcome.
